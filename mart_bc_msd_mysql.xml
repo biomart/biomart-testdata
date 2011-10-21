@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<martregistry name="martregistry" internalname="martregistry" displayname="martregistry" description="martregistry" version="0.8">
+  <portal name="portal" internalname="portal" displayname="portal" description="portal">
+    <users>
+      <group name="anonymous" internalname="anonymous" displayname="anonymous" description="anonymous" password="" hide="false" location="" config="">
+        <user name="anonymous" internalname="anonymous" displayname="anonymous" description="anonymous" password="" hide="false" openid="" />
+      </group>
+    </users>
+    <linkindices />
+    <guicontainer name="root" internalname="root" displayname="root" description="" hide="false" inusers="">
+      <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
+        <guiaccesspoint group="" name="msd_msd_ap" internalname="msd_ap" displayname="msd_ap" description="msd_ap" mart="msd" accesspoint="msd_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+      </guicontainer>
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
+    </guicontainer>
+  </portal>
+  <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
+    <sourcecontainer name="default" internalname="default" displayname="default" description="default" hide="false" group="false" />
+  </sourcecontainers>
+  <mart sourcecontainer="default" name="msd" internalname="msd" displayname="msd" description="msd" hide="false" id="" optimiser="NONE" indexoptimised="false" virtual="" searchfromtarget="">
+    <schema name="msd">
+      <tables>
+        <table name="(p0c0)__assembly__main" hide="false" type="MAIN_SUBCLASS" inpartitions="msd" subpartition="">
+          <column name="assembly_class" inpartitions="msd" />
+          <column name="assembly_code" inpartitions="msd" />
+          <column name="assembly_form" inpartitions="msd" />
+          <column name="assembly_id_key" inpartitions="msd" />
+          <column name="assembly_type" inpartitions="msd" />
+          <column name="authors" inpartitions="msd" />
+          <column name="ec_concat" inpartitions="msd" />
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="experiment_type" inpartitions="msd" />
+          <column name="go_concat" inpartitions="msd" />
+          <column name="has_ec_info_bool" inpartitions="msd" />
+          <column name="has_go_info_bool" inpartitions="msd" />
+          <column name="has_interpro_info_bool" inpartitions="msd" />
+          <column name="has_pfam_info_bool" inpartitions="msd" />
+          <column name="header" inpartitions="msd" />
+          <column name="interpro_concat" inpartitions="msd" />
+          <column name="is_obsolete" inpartitions="msd" />
+          <column name="keywords_concat" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="pfam_concat" inpartitions="msd" />
+          <column name="r_work" inpartitions="msd" />
+          <column name="release_date" inpartitions="msd" />
+          <column name="resolution" inpartitions="msd" />
+          <column name="short_experiment_type" inpartitions="msd" />
+          <column name="space_group" inpartitions="msd" />
+          <column name="submission_date" inpartitions="msd" />
+          <column name="title" inpartitions="msd" />
+          <primarykey name="assembly_id_key_pk" internalname="assembly_id_key_pk" displayname="assembly_id_key_pk" description="assembly_id_key_pk" column="assembly_id_key" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__cath__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="cath_code" inpartitions="msd" />
+          <column name="chain_id_key" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <foreignkey name="chain_id_key_fk" internalname="chain_id_key_fk" displayname="chain_id_key_fk" description="chain_id_key_fk" column="chain_id_key" />
+        </table>
+        <table name="(p0c0)__chain__main" hide="false" type="MAIN_SUBCLASS" inpartitions="msd" subpartition="">
+          <column name="assembly_class" inpartitions="msd" />
+          <column name="assembly_code" inpartitions="msd" />
+          <column name="assembly_form" inpartitions="msd" />
+          <column name="assembly_id_key" inpartitions="msd" />
+          <column name="assembly_type" inpartitions="msd" />
+          <column name="authors" inpartitions="msd" />
+          <column name="cath_concat" inpartitions="msd" />
+          <column name="chain_code" inpartitions="msd" />
+          <column name="chain_ebi_code_1_letter" inpartitions="msd" />
+          <column name="chain_id_key" inpartitions="msd" />
+          <column name="chain_length" inpartitions="msd" />
+          <column name="ec_concat" inpartitions="msd" />
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="experiment_type" inpartitions="msd" />
+          <column name="go_concat" inpartitions="msd" />
+          <column name="has_cath_bool" inpartitions="msd" />
+          <column name="has_ec_info_bool" inpartitions="msd" />
+          <column name="has_go_info_bool" inpartitions="msd" />
+          <column name="has_interpro_info_bool" inpartitions="msd" />
+          <column name="has_pfam_info_bool" inpartitions="msd" />
+          <column name="has_scop_bool" inpartitions="msd" />
+          <column name="header" inpartitions="msd" />
+          <column name="interpro_concat" inpartitions="msd" />
+          <column name="is_obsolete" inpartitions="msd" />
+          <column name="keywords_concat" inpartitions="msd" />
+          <column name="molecule_code" inpartitions="msd" />
+          <column name="molecule_id" inpartitions="msd" />
+          <column name="molecule_name" inpartitions="msd" />
+          <column name="molecule_src_method" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="pfam_concat" inpartitions="msd" />
+          <column name="r_work" inpartitions="msd" />
+          <column name="release_date" inpartitions="msd" />
+          <column name="resolution" inpartitions="msd" />
+          <column name="scop_concat" inpartitions="msd" />
+          <column name="short_experiment_type" inpartitions="msd" />
+          <column name="space_group" inpartitions="msd" />
+          <column name="submission_date" inpartitions="msd" />
+          <column name="sws_concat" inpartitions="msd" />
+          <column name="tax_concat" inpartitions="msd" />
+          <column name="title" inpartitions="msd" />
+          <primarykey name="chain_id_key_pk" internalname="chain_id_key_pk" displayname="chain_id_key_pk" description="chain_id_key_pk" column="chain_id_key" />
+          <foreignkey name="assembly_id_key_fk" internalname="assembly_id_key_fk" displayname="assembly_id_key_fk" description="assembly_id_key_fk" column="assembly_id_key" />
+        </table>
+        <table name="(p0c0)__ec__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="ec_number" inpartitions="msd" />
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="sws_primary_id" inpartitions="msd" />
+          <column name="sws_secondary_id" inpartitions="msd" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__entry__main" hide="false" type="MAIN" inpartitions="msd" subpartition="">
+          <column name="authors" inpartitions="msd" />
+          <column name="ec_concat" inpartitions="msd" />
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="experiment_type" inpartitions="msd" />
+          <column name="go_concat" inpartitions="msd" />
+          <column name="has_ec_info_bool" inpartitions="msd" />
+          <column name="has_go_info_bool" inpartitions="msd" />
+          <column name="has_interpro_info_bool" inpartitions="msd" />
+          <column name="has_pfam_info_bool" inpartitions="msd" />
+          <column name="header" inpartitions="msd" />
+          <column name="interpro_concat" inpartitions="msd" />
+          <column name="is_obsolete" inpartitions="msd" />
+          <column name="keywords_concat" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="pfam_concat" inpartitions="msd" />
+          <column name="r_work" inpartitions="msd" />
+          <column name="release_date" inpartitions="msd" />
+          <column name="resolution" inpartitions="msd" />
+          <column name="short_experiment_type" inpartitions="msd" />
+          <column name="space_group" inpartitions="msd" />
+          <column name="submission_date" inpartitions="msd" />
+          <column name="title" inpartitions="msd" />
+          <primarykey name="entry_id_key_pk" internalname="entry_id_key_pk" displayname="entry_id_key_pk" description="entry_id_key_pk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__hetgroup__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="hetgroup_formula" inpartitions="msd" />
+          <column name="hetgroup_id" inpartitions="msd" />
+          <column name="hetgroup_name" inpartitions="msd" />
+          <column name="hetgroup_weight" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__interpro__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="interpro_id" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="sws_primary_id" inpartitions="msd" />
+          <column name="sws_secondary_id" inpartitions="msd" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__journal__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="author_list" inpartitions="msd" />
+          <column name="ebi_journal_month" inpartitions="msd" />
+          <column name="ebi_mesh_terms" inpartitions="msd" />
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="id" inpartitions="msd" />
+          <column name="journal_full" inpartitions="msd" />
+          <column name="journal_id_issn" inpartitions="msd" />
+          <column name="journal_issue" inpartitions="msd" />
+          <column name="journal_volume" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="pubmed_id" inpartitions="msd" />
+          <column name="range_pages" inpartitions="msd" />
+          <column name="title" inpartitions="msd" />
+          <column name="year" inpartitions="msd" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__keyword__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="keyword" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__pfam__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="entry_id_key" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="pfam_id" inpartitions="msd" />
+          <column name="sws_primary_id" inpartitions="msd" />
+          <column name="sws_secondary_id" inpartitions="msd" />
+          <foreignkey name="entry_id_key_fk" internalname="entry_id_key_fk" displayname="entry_id_key_fk" description="entry_id_key_fk" column="entry_id_key" />
+        </table>
+        <table name="(p0c0)__scop__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="chain_id_key" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="sun_id" inpartitions="msd" />
+          <foreignkey name="chain_id_key_fk" internalname="chain_id_key_fk" displayname="chain_id_key_fk" description="chain_id_key_fk" column="chain_id_key" />
+        </table>
+        <table name="(p0c0)__sws__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="chain_id_key" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="primary_id" inpartitions="msd" />
+          <column name="secondary_id" inpartitions="msd" />
+          <foreignkey name="chain_id_key_fk" internalname="chain_id_key_fk" displayname="chain_id_key_fk" description="chain_id_key_fk" column="chain_id_key" />
+        </table>
+        <table name="(p0c0)__taxonomy__dm" hide="false" type="DIMENSION" inpartitions="msd" subpartition="">
+          <column name="chain_id_key" inpartitions="msd" />
+          <column name="ncbi_tax_id" inpartitions="msd" />
+          <column name="pdb_id" inpartitions="msd" />
+          <column name="scientific_name" inpartitions="msd" />
+          <foreignkey name="chain_id_key_fk" internalname="chain_id_key_fk" displayname="chain_id_key_fk" description="chain_id_key_fk" column="chain_id_key" />
+        </table>
+      </tables>
+      <relations>
+        <relation name="(p0c0)__assembly__main__(p0c0)__chain__main" firsttable="(p0c0)__assembly__main" secondtable="(p0c0)__chain__main" firstkey="assembly_id_key_pk" secondkey="assembly_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__chain__main__(p0c0)__cath__dm" firsttable="(p0c0)__chain__main" secondtable="(p0c0)__cath__dm" firstkey="chain_id_key_pk" secondkey="chain_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__chain__main__(p0c0)__scop__dm" firsttable="(p0c0)__chain__main" secondtable="(p0c0)__scop__dm" firstkey="chain_id_key_pk" secondkey="chain_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__chain__main__(p0c0)__sws__dm" firsttable="(p0c0)__chain__main" secondtable="(p0c0)__sws__dm" firstkey="chain_id_key_pk" secondkey="chain_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__chain__main__(p0c0)__taxonomy__dm" firsttable="(p0c0)__chain__main" secondtable="(p0c0)__taxonomy__dm" firstkey="chain_id_key_pk" secondkey="chain_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__assembly__main" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__assembly__main" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__ec__dm" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__ec__dm" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__hetgroup__dm" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__hetgroup__dm" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__interpro__dm" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__interpro__dm" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__journal__dm" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__journal__dm" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__keyword__dm" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__keyword__dm" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+        <relation name="(p0c0)__entry__main__(p0c0)__pfam__dm" firsttable="(p0c0)__entry__main" secondtable="(p0c0)__pfam__dm" firstkey="entry_id_key_pk" secondkey="entry_id_key_fk" type="1:M" />
+      </relations>
+    </schema>
+    <dataset>
+      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="cbe4f438d14377ea7f447c800092bee2" displayname="MSD Protein Structures" hide="false" version="0.7" key="0e5ceac8ffa32b415fe16811499ac028" mdatabase="" mschema="" musername="" mpassword="" />
+    </dataset>
+    <partitiontable>
+      <row id="msd">msd</row>
+    </partitiontable>
+    <config processor="" name="msd" internalname="msd" displayname="msd" description="msd" hide="false" default="" metainfo="" datasethidevalue="(#dataset_hide_value#)" datasetdisplayname="(#dataset_display_name#)" master="true" readonly="" password="">
+      <annotations>
+        <importable />
+        <exportable />
+      </annotations>
+      <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="attributes_root" displayname="Attributes" internalname="attributes_root" description="attributes_root" hide="false" maxcontainers="1" maxattributes="" independentquerying="">
+          <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+            <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+              <container enableselectall="" name="entry__features__naive_attributes" displayname="MSD ENTRY DATA:" internalname="entry__features__naive_attributes" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="pdb_id" internalname="pdb_id" displayname="PDB ID(s)" description="" hide="false" defaultselected="" column="pdb_id" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="title" internalname="title" displayname="Title" description="" hide="false" defaultselected="" column="title" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="experiment_type" internalname="experiment_type" displayname="Experiment Type" description="" hide="false" defaultselected="" column="experiment_type" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="header" internalname="header" displayname="Header" description="" hide="false" defaultselected="" column="header" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="authors" internalname="authors" displayname="Authors" description="" hide="false" defaultselected="" column="authors" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="keywords_concat" internalname="keywords_concat" displayname="Keywords" description="" hide="false" defaultselected="" column="keywords_concat" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="submission_date" internalname="submission_date" displayname="Submission Date" description="" hide="false" defaultselected="" column="submission_date" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="release_date" internalname="release_date" displayname="Release Date" description="" hide="false" defaultselected="" column="release_date" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="resolution" internalname="resolution" displayname="Resolution" description="" hide="false" defaultselected="" column="resolution" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="space_group" internalname="space_group" displayname="Space Group" description="" hide="false" defaultselected="" column="space_group" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="r_work" internalname="r_work" displayname="R Work" description="" hide="false" defaultselected="" column="r_work" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+              </container>
+              <container enableselectall="" name="assembly__features__naive_attributes" displayname="MSD ASSEMBLY DATA:" internalname="assembly__features__naive_attributes" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="assembly_code" internalname="assembly_code" displayname="Assembly code" description="" hide="false" defaultselected="" column="assembly_code" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="assembly_class" internalname="assembly_class" displayname="Assembly class" description="" hide="false" defaultselected="" column="assembly_class" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="assembly_type" internalname="assembly_type" displayname="Assembly type" description="" hide="false" defaultselected="" column="assembly_type" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="assembly_form" internalname="assembly_form" displayname="Assembly form" description="" hide="false" defaultselected="" column="assembly_form" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+              </container>
+              <container enableselectall="" name="chain__features__naive_attributes" displayname="MSD CHAIN DATA:" internalname="chain__features__naive_attributes" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="uniprot_id" internalname="uniprot_id" displayname="UniProt ID(s)" description="" hide="false" defaultselected="" column="secondary_id" table="(p0c0)__sws__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="chain_code" internalname="chain_code" displayname="Chain code" description="" hide="false" defaultselected="" column="chain_code" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="chain_length" internalname="chain_length" displayname="Chain length" description="" hide="false" defaultselected="" column="chain_length" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="chain_ebi_code_1_letter" internalname="chain_ebi_code_1_letter" displayname="EBI Chain Code" description="" hide="false" defaultselected="" column="chain_ebi_code_1_letter" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="molecule_code" internalname="molecule_code" displayname="Molecule code" description="" hide="false" defaultselected="" column="molecule_code" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="molecule_name" internalname="molecule_name" displayname="Molecule name" description="" hide="false" defaultselected="" column="molecule_name" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="molecule_id" internalname="molecule_id" displayname="Molecule ID" description="" hide="false" defaultselected="" column="molecule_id" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="molecule_src_method" internalname="molecule_src_method" displayname="Molecule src method" description="" hide="false" defaultselected="" column="molecule_src_method" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="tax_concat" internalname="tax_concat" displayname="Tax concat" description="" hide="false" defaultselected="" column="tax_concat" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="scop_concat" internalname="scop_concat" displayname="Scop concat" description="" hide="false" defaultselected="" column="scop_concat" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="cath_concat" internalname="cath_concat" displayname="Cath concat" description="" hide="false" defaultselected="" column="cath_concat" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="uniprot_ac" internalname="uniprot_ac" displayname="UniProt Accession ID(s)" description="" hide="false" defaultselected="" column="primary_id" table="(p0c0)__sws__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="sws_concat" internalname="sws_concat" displayname="Sws concat" description="" hide="false" defaultselected="" column="sws_concat" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+              </container>
+              <container enableselectall="" name="journal__features__naive_attributes" displayname="JOURNAL:" internalname="journal__features__naive_attributes" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="id" internalname="id" displayname="Id" description="" hide="false" defaultselected="" column="id" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="year" internalname="year" displayname="Year" description="" hide="false" defaultselected="" column="year" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="journal__dm_title" internalname="journal__dm_title" displayname="Title" description="" hide="false" defaultselected="" column="title" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="journal_full" internalname="journal_full" displayname="Journal full" description="" hide="false" defaultselected="" column="journal_full" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="journal_volume" internalname="journal_volume" displayname="Journal volume" description="" hide="false" defaultselected="" column="journal_volume" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="journal_issue" internalname="journal_issue" displayname="Journal issue" description="" hide="false" defaultselected="" column="journal_issue" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="ebi_journal_month" internalname="ebi_journal_month" displayname="Month" description="" hide="false" defaultselected="" column="ebi_journal_month" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="journal_id_issn" internalname="journal_id_issn" displayname="ISSN" description="" hide="false" defaultselected="" column="journal_id_issn" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="ebi_mesh_terms" internalname="ebi_mesh_terms" displayname="Mesh terms" description="" hide="false" defaultselected="" column="ebi_mesh_terms" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="range_pages" internalname="range_pages" displayname="Range pages" description="" hide="false" defaultselected="" column="range_pages" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="pubmed_id" internalname="pubmed_id" displayname="Pubmed id" description="" hide="false" defaultselected="" column="pubmed_id" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+                <attribute name="author_list" internalname="author_list" displayname="Authors" description="" hide="false" defaultselected="" column="author_list" table="(p0c0)__journal__dm" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+              </container>
+            </container>
+          </container>
+        </container>
+        <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
+          <container enableselectall="" name="filters__filters" displayname="FILTERS" internalname="filters__filters" description="" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+            <filter required="" pointerinsource="" name="pdb_id" displayname="PDB ID" internalname="pdb_id" mart="msd" config="msd" pointer="false" hide="false" type="text" attribute="pdb_id" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="uniprot_ac" displayname="UniProt Accession ID(s)" internalname="uniprot_ac" mart="msd" config="msd" pointer="false" hide="false" type="text" attribute="uniprot_ac" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="experiment_type" displayname="Experiment type" internalname="experiment_type" mart="msd" config="msd" pointer="false" hide="false" type="singleSelect" attribute="experiment_type" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="assembly_code" displayname="Assembly code" internalname="assembly_code" mart="msd" config="msd" pointer="false" hide="false" type="singleSelect" attribute="assembly_code" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="assembly_class" displayname="Assembly class" internalname="assembly_class" mart="msd" config="msd" pointer="false" hide="false" type="singleSelect" attribute="assembly_class" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="assembly_type" displayname="Assembly type" internalname="assembly_type" mart="msd" config="msd" pointer="false" hide="false" type="singleSelect" attribute="assembly_type" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="assembly_form" displayname="Assembly form" internalname="assembly_form" mart="msd" config="msd" pointer="false" hide="false" type="singleSelect" attribute="assembly_form" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+            <filter required="" pointerinsource="" name="naive_id_list_filters" displayname="ID LIST" internalname="naive_id_list_filters" description="naive_id_list_filters" mart="msd" config="msd" pointer="false" hide="false" type="singleSelectBoolean" attribute="" spliton="" operation="" datafile="" filterlist="with_has_ec_info,with_has_interpro_info,with_has_go_info,with_has_pfam_info,with_has_cath,with_has_scop" qualifier="=" refcontainer="" inusers="" dependson="" rdf="" />
+          </container>
+        </container>
+        <container enableselectall="" name="naive_id_list_filters_list_container" displayname="naive_id_list_filters_list_container" internalname="naive_id_list_filters_list_container" description="naive_id_list_filters_list_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+          <filter required="" pointerinsource="" name="with_has_ec_info" displayname="with Has ec info ID(s)" internalname="with_has_ec_info" mart="msd" config="msd" pointer="false" hide="false" type="boolean" attribute="with_has_ec_info" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" only="" excluded="" inusers="" dependson="" rdf="" />
+          <filter required="" pointerinsource="" name="with_has_interpro_info" displayname="with Has interpro info ID(s)" internalname="with_has_interpro_info" mart="msd" config="msd" pointer="false" hide="false" type="boolean" attribute="with_has_interpro_info" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" only="" excluded="" inusers="" dependson="" rdf="" />
+          <filter required="" pointerinsource="" name="with_has_go_info" displayname="with Has go info ID(s)" internalname="with_has_go_info" mart="msd" config="msd" pointer="false" hide="false" type="boolean" attribute="with_has_go_info" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" only="" excluded="" inusers="" dependson="" rdf="" />
+          <filter required="" pointerinsource="" name="with_has_pfam_info" displayname="with Has pfam info ID(s)" internalname="with_has_pfam_info" mart="msd" config="msd" pointer="false" hide="false" type="boolean" attribute="with_has_pfam_info" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" only="" excluded="" inusers="" dependson="" rdf="" />
+          <filter required="" pointerinsource="" name="with_has_cath" displayname="with Has cath ID(s)" internalname="with_has_cath" mart="msd" config="msd" pointer="false" hide="false" type="boolean" attribute="with_has_cath" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" only="" excluded="" inusers="" dependson="" rdf="" />
+          <filter required="" pointerinsource="" name="with_has_scop" displayname="with Has scop ID(s)" internalname="with_has_scop" mart="msd" config="msd" pointer="false" hide="false" type="boolean" attribute="with_has_scop" spliton="" operation="" datafile="" filterlist="" qualifier="=" refcontainer="" only="" excluded="" inusers="" dependson="" rdf="" />
+        </container>
+        <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+          <attribute name="with_has_ec_info" internalname="with_has_ec_info" displayname="with Has ec info ID(s)" description="" hide="true" defaultselected="" column="has_ec_info_bool" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+          <attribute name="with_has_interpro_info" internalname="with_has_interpro_info" displayname="with Has interpro info ID(s)" description="" hide="true" defaultselected="" column="has_interpro_info_bool" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+          <attribute name="with_has_go_info" internalname="with_has_go_info" displayname="with Has go info ID(s)" description="" hide="true" defaultselected="" column="has_go_info_bool" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+          <attribute name="with_has_pfam_info" internalname="with_has_pfam_info" displayname="with Has pfam info ID(s)" description="" hide="true" defaultselected="" column="has_pfam_info_bool" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+          <attribute name="with_has_cath" internalname="with_has_cath" displayname="with Has cath ID(s)" description="" hide="true" defaultselected="" column="has_cath_bool" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+          <attribute name="with_has_scop" internalname="with_has_scop" displayname="with Has scop ID(s)" description="" hide="true" defaultselected="" column="has_scop_bool" table="(p0c0)__chain__main" attributelist="" linkouturl="" value="" inusers="" datatype="" pointerinsource="" mart="msd" config="msd" pointer="false" />
+        </container>
+      </container>
+    </config>
+    <accesspoint rdf="" processor="" name="msd_ap" internalname="msd_ap" displayname="msd_ap" description="msd_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
+      <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="attributes_root" displayname="Attributes" internalname="attributes_root" description="attributes_root" hide="false" maxcontainers="1" maxattributes="" independentquerying="">
+          <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+            <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+              <container enableselectall="" name="entry__features__naive_attributes" displayname="MSD ENTRY DATA:" internalname="entry__features__naive_attributes" description="entry__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="pdb_id" internalname="PDB ID(s)" displayname="PDB ID(s)" description="PDB ID(s)" linkouturl="" />
+                <attribute name="title" internalname="Title" displayname="Title" description="Title" linkouturl="" />
+                <attribute name="experiment_type" internalname="Experiment Type" displayname="Experiment Type" description="Experiment Type" linkouturl="" />
+                <attribute name="header" internalname="Header" displayname="Header" description="Header" linkouturl="" />
+                <attribute name="authors" internalname="Authors" displayname="Authors" description="Authors" linkouturl="" />
+                <attribute name="keywords_concat" internalname="Keywords" displayname="Keywords" description="Keywords" linkouturl="" />
+                <attribute name="submission_date" internalname="Submission Date" displayname="Submission Date" description="Submission Date" linkouturl="" />
+                <attribute name="release_date" internalname="Release Date" displayname="Release Date" description="Release Date" linkouturl="" />
+                <attribute name="resolution" internalname="Resolution" displayname="Resolution" description="Resolution" linkouturl="" />
+                <attribute name="space_group" internalname="Space Group" displayname="Space Group" description="Space Group" linkouturl="" />
+                <attribute name="r_work" internalname="R Work" displayname="R Work" description="R Work" linkouturl="" />
+              </container>
+              <container enableselectall="" name="assembly__features__naive_attributes" displayname="MSD ASSEMBLY DATA:" internalname="assembly__features__naive_attributes" description="assembly__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="assembly_code" internalname="Assembly code" displayname="Assembly code" description="Assembly code" linkouturl="" />
+                <attribute name="assembly_class" internalname="Assembly class" displayname="Assembly class" description="Assembly class" linkouturl="" />
+                <attribute name="assembly_type" internalname="Assembly type" displayname="Assembly type" description="Assembly type" linkouturl="" />
+                <attribute name="assembly_form" internalname="Assembly form" displayname="Assembly form" description="Assembly form" linkouturl="" />
+              </container>
+              <container enableselectall="" name="chain__features__naive_attributes" displayname="MSD CHAIN DATA:" internalname="chain__features__naive_attributes" description="chain__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="uniprot_id" internalname="UniProt ID(s)" displayname="UniProt ID(s)" description="UniProt ID(s)" linkouturl="" />
+                <attribute name="chain_code" internalname="Chain code" displayname="Chain code" description="Chain code" linkouturl="" />
+                <attribute name="chain_length" internalname="Chain length" displayname="Chain length" description="Chain length" linkouturl="" />
+                <attribute name="chain_ebi_code_1_letter" internalname="EBI Chain Code" displayname="EBI Chain Code" description="EBI Chain Code" linkouturl="" />
+                <attribute name="molecule_code" internalname="Molecule code" displayname="Molecule code" description="Molecule code" linkouturl="" />
+                <attribute name="molecule_name" internalname="Molecule name" displayname="Molecule name" description="Molecule name" linkouturl="" />
+                <attribute name="molecule_id" internalname="Molecule ID" displayname="Molecule ID" description="Molecule ID" linkouturl="" />
+                <attribute name="molecule_src_method" internalname="Molecule src method" displayname="Molecule src method" description="Molecule src method" linkouturl="" />
+                <attribute name="tax_concat" internalname="Tax concat" displayname="Tax concat" description="Tax concat" linkouturl="" />
+                <attribute name="scop_concat" internalname="Scop concat" displayname="Scop concat" description="Scop concat" linkouturl="" />
+                <attribute name="cath_concat" internalname="Cath concat" displayname="Cath concat" description="Cath concat" linkouturl="" />
+                <attribute name="uniprot_ac" internalname="UniProt Accession ID(s)" displayname="UniProt Accession ID(s)" description="UniProt Accession ID(s)" linkouturl="" />
+                <attribute name="sws_concat" internalname="Sws concat" displayname="Sws concat" description="Sws concat" linkouturl="" />
+              </container>
+              <container enableselectall="" name="journal__features__naive_attributes" displayname="JOURNAL:" internalname="journal__features__naive_attributes" description="journal__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+                <attribute name="id" internalname="Id" displayname="Id" description="Id" linkouturl="" />
+                <attribute name="year" internalname="Year" displayname="Year" description="Year" linkouturl="" />
+                <attribute name="journal__dm_title" internalname="Title" displayname="Title" description="Title" linkouturl="" />
+                <attribute name="journal_full" internalname="Journal full" displayname="Journal full" description="Journal full" linkouturl="" />
+                <attribute name="journal_volume" internalname="Journal volume" displayname="Journal volume" description="Journal volume" linkouturl="" />
+                <attribute name="journal_issue" internalname="Journal issue" displayname="Journal issue" description="Journal issue" linkouturl="" />
+                <attribute name="ebi_journal_month" internalname="Month" displayname="Month" description="Month" linkouturl="" />
+                <attribute name="journal_id_issn" internalname="ISSN" displayname="ISSN" description="ISSN" linkouturl="" />
+                <attribute name="ebi_mesh_terms" internalname="Mesh terms" displayname="Mesh terms" description="Mesh terms" linkouturl="" />
+                <attribute name="range_pages" internalname="Range pages" displayname="Range pages" description="Range pages" linkouturl="" />
+                <attribute name="pubmed_id" internalname="Pubmed id" displayname="Pubmed id" description="Pubmed id" linkouturl="" />
+                <attribute name="author_list" internalname="Authors" displayname="Authors" description="Authors" linkouturl="" />
+              </container>
+            </container>
+          </container>
+        </container>
+        <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
+          <container enableselectall="" name="filters__filters" displayname="FILTERS" internalname="filters__filters" description="filters__filters" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
+            <filter name="pdb_id" internalname="pdb_id" displayname="PDB ID" description="pdb_id" />
+            <filter name="uniprot_ac" internalname="uniprot_ac" displayname="UniProt Accession ID(s)" description="uniprot_ac" />
+            <filter name="experiment_type" internalname="experiment_type" displayname="Experiment type" description="experiment_type" />
+            <filter name="assembly_code" internalname="assembly_code" displayname="Assembly code" description="assembly_code" />
+            <filter name="assembly_class" internalname="assembly_class" displayname="Assembly class" description="assembly_class" />
+            <filter name="assembly_type" internalname="assembly_type" displayname="Assembly type" description="assembly_type" />
+            <filter name="assembly_form" internalname="assembly_form" displayname="Assembly form" description="assembly_form" />
+            <filter name="naive_id_list_filters" internalname="naive_id_list_filters" displayname="ID LIST" description="naive_id_list_filters" />
+          </container>
+        </container>
+        <container enableselectall="" name="naive_id_list_filters_list_container" displayname="naive_id_list_filters_list_container" internalname="naive_id_list_filters_list_container" description="naive_id_list_filters_list_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+          <filter name="with_has_ec_info" internalname="with_has_ec_info" displayname="with Has ec info ID(s)" description="with_has_ec_info" />
+          <filter name="with_has_interpro_info" internalname="with_has_interpro_info" displayname="with Has interpro info ID(s)" description="with_has_interpro_info" />
+          <filter name="with_has_go_info" internalname="with_has_go_info" displayname="with Has go info ID(s)" description="with_has_go_info" />
+          <filter name="with_has_pfam_info" internalname="with_has_pfam_info" displayname="with Has pfam info ID(s)" description="with_has_pfam_info" />
+          <filter name="with_has_cath" internalname="with_has_cath" displayname="with Has cath ID(s)" description="with_has_cath" />
+          <filter name="with_has_scop" internalname="with_has_scop" displayname="with Has scop ID(s)" description="with_has_scop" />
+        </container>
+        <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+          <attribute name="with_has_ec_info" internalname="with Has ec info ID(s)" displayname="with Has ec info ID(s)" description="with Has ec info ID(s)" linkouturl="" />
+          <attribute name="with_has_interpro_info" internalname="with Has interpro info ID(s)" displayname="with Has interpro info ID(s)" description="with Has interpro info ID(s)" linkouturl="" />
+          <attribute name="with_has_go_info" internalname="with Has go info ID(s)" displayname="with Has go info ID(s)" description="with Has go info ID(s)" linkouturl="" />
+          <attribute name="with_has_pfam_info" internalname="with Has pfam info ID(s)" displayname="with Has pfam info ID(s)" description="with Has pfam info ID(s)" linkouturl="" />
+          <attribute name="with_has_cath" internalname="with Has cath ID(s)" displayname="with Has cath ID(s)" description="with Has cath ID(s)" linkouturl="" />
+          <attribute name="with_has_scop" internalname="with Has scop ID(s)" displayname="with Has scop ID(s)" description="with Has scop ID(s)" linkouturl="" />
+        </container>
+      </container>
+    </accesspoint>
+  </mart>
+  <links />
+  <options>
+    <mart name="msd" version="0.8">
+      <config name="msd">
+        <filter name="experiment_type">
+          <dataset name="msd">
+            <row value="Electron diffraction" displayname="Electron diffraction" default="true" />
+            <row value="Electron microscopy" displayname="Electron microscopy" default="true" />
+            <row value="Electron tomography" displayname="Electron tomography" default="true" />
+            <row value="Fibre diffraction (electron)" displayname="Fibre diffraction (electron)" default="true" />
+            <row value="Fibre diffraction (X-ray)" displayname="Fibre diffraction (X-ray)" default="true" />
+            <row value="Fluorescence transfer" displayname="Fluorescence transfer" default="true" />
+            <row value="Infrared spectroscopy" displayname="Infrared spectroscopy" default="true" />
+            <row value="Neutron Diffraction" displayname="Neutron Diffraction" default="true" />
+            <row value="NMR" displayname="NMR" default="true" />
+            <row value="Powder diffraction (X-ray)" displayname="Powder diffraction (X-ray)" default="true" />
+            <row value="Single crystal X-ray diffraction" displayname="Single crystal X-ray diffraction" default="true" />
+            <row value="Solid state NMR" displayname="Solid state NMR" default="true" />
+            <row value="Theoretical model" displayname="Theoretical model" default="true" />
+            <row value="Unspecified" displayname="Unspecified" default="true" />
+          </dataset>
+        </filter>
+        <filter name="assembly_code">
+          <dataset name="msd">
+            <row value="0" displayname="0" default="true" />
+            <row value="1" displayname="1" default="true" />
+            <row value="2" displayname="2" default="true" />
+            <row value="3" displayname="3" default="true" />
+            <row value="4" displayname="4" default="true" />
+            <row value="5" displayname="5" default="true" />
+            <row value="6" displayname="6" default="true" />
+            <row value="7" displayname="7" default="true" />
+            <row value="8" displayname="8" default="true" />
+            <row value="9" displayname="9" default="true" />
+            <row value="10" displayname="10" default="true" />
+            <row value="11" displayname="11" default="true" />
+            <row value="12" displayname="12" default="true" />
+          </dataset>
+        </filter>
+        <filter name="assembly_class">
+          <dataset name="msd">
+            <row value="HETERO" displayname="HETERO" default="true" />
+            <row value="HOMO" displayname="HOMO" default="true" />
+            <row value="HV" displayname="HV" default="true" />
+            <row value="IV" displayname="IV" default="true" />
+          </dataset>
+        </filter>
+        <filter name="assembly_type">
+          <dataset name="msd">
+            <row value="21MERIC" displayname="21MERIC" default="true" />
+            <row value="22MERIC" displayname="22MERIC" default="true" />
+            <row value="23MERIC" displayname="23MERIC" default="true" />
+            <row value="24MERIC" displayname="24MERIC" default="true" />
+            <row value="26MERIC" displayname="26MERIC" default="true" />
+            <row value="27MERIC" displayname="27MERIC" default="true" />
+            <row value="28MERIC" displayname="28MERIC" default="true" />
+            <row value="29MERIC" displayname="29MERIC" default="true" />
+            <row value="30MERIC" displayname="30MERIC" default="true" />
+            <row value="31MERIC" displayname="31MERIC" default="true" />
+            <row value="32MERIC" displayname="32MERIC" default="true" />
+            <row value="33MERIC" displayname="33MERIC" default="true" />
+            <row value="36MERIC" displayname="36MERIC" default="true" />
+            <row value="42MERIC" displayname="42MERIC" default="true" />
+            <row value="60MERIC" displayname="60MERIC" default="true" />
+            <row value="DECAMERIC" displayname="DECAMERIC" default="true" />
+            <row value="DIMERIC" displayname="DIMERIC" default="true" />
+            <row value="DODECAMERIC" displayname="DODECAMERIC" default="true" />
+            <row value="EICOSAMERIC" displayname="EICOSAMERIC" default="true" />
+            <row value="HEPTADECAMERIC" displayname="HEPTADECAMERIC" default="true" />
+            <row value="HEPTAMERIC" displayname="HEPTAMERIC" default="true" />
+            <row value="HEXADECAMERIC" displayname="HEXADECAMERIC" default="true" />
+            <row value="HEXAMERIC" displayname="HEXAMERIC" default="true" />
+            <row value="MONOMERIC" displayname="MONOMERIC" default="true" />
+            <row value="NONADECAMERIC" displayname="NONADECAMERIC" default="true" />
+            <row value="NONAMERIC" displayname="NONAMERIC" default="true" />
+            <row value="OCTADECAMERIC" displayname="OCTADECAMERIC" default="true" />
+            <row value="OCTAMERIC" displayname="OCTAMERIC" default="true" />
+            <row value="PENTADECAMERIC" displayname="PENTADECAMERIC" default="true" />
+            <row value="PENTAMERIC" displayname="PENTAMERIC" default="true" />
+            <row value="TETRADECAMERIC" displayname="TETRADECAMERIC" default="true" />
+            <row value="TETRAMERIC" displayname="TETRAMERIC" default="true" />
+            <row value="TRIDECAMERIC" displayname="TRIDECAMERIC" default="true" />
+            <row value="TRIMERIC" displayname="TRIMERIC" default="true" />
+            <row value="UNDECAMERIC" displayname="UNDECAMERIC" default="true" />
+          </dataset>
+        </filter>
+        <filter name="assembly_form">
+          <dataset name="msd">
+            <row value="5-FOLD_CHAINS" displayname="5-FOLD_CHAINS" default="true" />
+            <row value="COMPLETE_PARTICLE" displayname="COMPLETE_PARTICLE" default="true" />
+            <row value="P" displayname="P" default="true" />
+            <row value="REPRESENTATIVE_PARTICLE" displayname="REPRESENTATIVE_PARTICLE" default="true" />
+            <row value="UNIQUE_CHAINS" displayname="UNIQUE_CHAINS" default="true" />
+            <row value="[A10B10]" displayname="[A10B10]" default="true" />
+            <row value="[A10B1C1D1E1F1G1]" displayname="[A10B1C1D1E1F1G1]" default="true" />
+            <row value="[A10]" displayname="[A10]" default="true" />
+            <row value="[A11B1C1]" displayname="[A11B1C1]" default="true" />
+            <row value="[A11B1]" displayname="[A11B1]" default="true" />
+            <row value="[A11]" displayname="[A11]" default="true" />
+            <row value="[A12B12]" displayname="[A12B12]" default="true" />
+            <row value="[A12B1C1]" displayname="[A12B1C1]" default="true" />
+            <row value="[A12B2]" displayname="[A12B2]" default="true" />
+            <row value="[A12B6]" displayname="[A12B6]" default="true" />
+            <row value="[A12]" displayname="[A12]" default="true" />
+            <row value="[A13]" displayname="[A13]" default="true" />
+            <row value="[A14B14]" displayname="[A14B14]" default="true" />
+            <row value="[A14]" displayname="[A14]" default="true" />
+            <row value="[A16B8]" displayname="[A16B8]" default="true" />
+            <row value="[A16]" displayname="[A16]" default="true" />
+            <row value="[A18B18]" displayname="[A18B18]" default="true" />
+            <row value="[A20B1]" displayname="[A20B1]" default="true" />
+            <row value="[A20B4C4D1E1F1G1]" displayname="[A20B4C4D1E1F1G1]" default="true" />
+            <row value="[A20]" displayname="[A20]" default="true" />
+            <row value="[A24]" displayname="[A24]" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1" displayname="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1]" displayname="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1]" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1]" displayname="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1]" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1]" displayname="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1]" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1]" displayname="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1O1]" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1]" displayname="[A2B1C1D1E1F1G1H1I1J1K1L1M1N1]" default="true" />
+            <row value="[A2B1C1D1E1F1G1H1I1]" displayname="[A2B1C1D1E1F1G1H1I1]" default="true" />
+            <row value="[A2B1C1D1E1F1G1]" displayname="[A2B1C1D1E1F1G1]" default="true" />
+            <row value="[A2B1C1D1E1]" displayname="[A2B1C1D1E1]" default="true" />
+            <row value="[A2B1C1D1]" displayname="[A2B1C1D1]" default="true" />
+            <row value="[A2B1C1]" displayname="[A2B1C1]" default="true" />
+            <row value="[A2B1]" displayname="[A2B1]" default="true" />
+            <row value="[A2B2C1D1E1]" displayname="[A2B2C1D1E1]" default="true" />
+            <row value="[A2B2C1D1]" displayname="[A2B2C1D1]" default="true" />
+            <row value="[A2B2C1]" displayname="[A2B2C1]" default="true" />
+            <row value="[A2B2C2D1E1]" displayname="[A2B2C2D1E1]" default="true" />
+            <row value="[A2B2C2D1]" displayname="[A2B2C2D1]" default="true" />
+            <row value="[A2B2C2D2E2F1G1]" displayname="[A2B2C2D2E2F1G1]" default="true" />
+            <row value="[A2B2C2D2E2F2G2H2I2J2K2L1]" displayname="[A2B2C2D2E2F2G2H2I2J2K2L1]" default="true" />
+            <row value="[A2B2C2D2E2F2G2H2I2J2K2L2M2N2O14]" displayname="[A2B2C2D2E2F2G2H2I2J2K2L2M2N2O14]" default="true" />
+            <row value="[A2B2C2D2E2F2G2H2I2J2K2L2M2N2]" displayname="[A2B2C2D2E2F2G2H2I2J2K2L2M2N2]" default="true" />
+            <row value="[A2B2C2D2E2F2G2H2I2J2K2L2M2]" displayname="[A2B2C2D2E2F2G2H2I2J2K2L2M2]" default="true" />
+            <row value="[A2B2C2D2E2F2G2H2I2J2K2L2]" displayname="[A2B2C2D2E2F2G2H2I2J2K2L2]" default="true" />
+            <row value="[A2B2C2D2E2F2G2H2I2J2K2]" displayname="[A2B2C2D2E2F2G2H2I2J2K2]" default="true" />
+            <row value="[A2B2C2D2E2]" displayname="[A2B2C2D2E2]" default="true" />
+            <row value="[A2B2C2D2]" displayname="[A2B2C2D2]" default="true" />
+            <row value="[A2B2C2D4]" displayname="[A2B2C2D4]" default="true" />
+            <row value="[A2B2C2]" displayname="[A2B2C2]" default="true" />
+            <row value="[A2B2C4]" displayname="[A2B2C4]" default="true" />
+            <row value="[A2B2]" displayname="[A2B2]" default="true" />
+            <row value="[A2B3C1]" displayname="[A2B3C1]" default="true" />
+            <row value="[A2B3]" displayname="[A2B3]" default="true" />
+            <row value="[A2B4C1D1]" displayname="[A2B4C1D1]" default="true" />
+            <row value="[A2B4]" displayname="[A2B4]" default="true" />
+            <row value="[A2B6C2]" displayname="[A2B6C2]" default="true" />
+            <row value="[A2B6]" displayname="[A2B6]" default="true" />
+            <row value="[A2B8]" displayname="[A2B8]" default="true" />
+            <row value="[A2nuc]" displayname="[A2nuc]" default="true" />
+            <row value="[A2]" displayname="[A2]" default="true" />
+            <row value="[A35B12C12D1]" displayname="[A35B12C12D1]" default="true" />
+            <row value="[A3B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1]" displayname="[A3B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1]" default="true" />
+            <row value="[A3B1C1D1E1F1G1H1I1J1K1L1M1N1]" displayname="[A3B1C1D1E1F1G1H1I1J1K1L1M1N1]" default="true" />
+            <row value="[A3B1C1D1E1F1]" displayname="[A3B1C1D1E1F1]" default="true" />
+            <row value="[A3B1C1D1E1]" displayname="[A3B1C1D1E1]" default="true" />
+            <row value="[A3B1C1D1]" displayname="[A3B1C1D1]" default="true" />
+            <row value="[A3B1C1]" displayname="[A3B1C1]" default="true" />
+            <row value="[A3B1]" displayname="[A3B1]" default="true" />
+            <row value="[A3B2C1D1]" displayname="[A3B2C1D1]" default="true" />
+            <row value="[A3B2C1]" displayname="[A3B2C1]" default="true" />
+            <row value="[A3B2C2D1]" displayname="[A3B2C2D1]" default="true" />
+            <row value="[A3B2]" displayname="[A3B2]" default="true" />
+            <row value="[A3B3C1D1E1]" displayname="[A3B3C1D1E1]" default="true" />
+            <row value="[A3B3C1]" displayname="[A3B3C1]" default="true" />
+            <row value="[A3B3C2D2]" displayname="[A3B3C2D2]" default="true" />
+            <row value="[A3B3C3D3]" displayname="[A3B3C3D3]" default="true" />
+            <row value="[A3B3C3]" displayname="[A3B3C3]" default="true" />
+            <row value="[A3B3]" displayname="[A3B3]" default="true" />
+            <row value="[A3B4C1]" displayname="[A3B4C1]" default="true" />
+            <row value="[A3B6C1D1E1]" displayname="[A3B6C1D1E1]" default="true" />
+            <row value="[A3B6]" displayname="[A3B6]" default="true" />
+            <row value="[A3]" displayname="[A3]" default="true" />
+            <row value="[A4B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1" displayname="[A4B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1" default="true" />
+            <row value="[A4B1C1D1E1]" displayname="[A4B1C1D1E1]" default="true" />
+            <row value="[A4B1C1]" displayname="[A4B1C1]" default="true" />
+            <row value="[A4B1]" displayname="[A4B1]" default="true" />
+            <row value="[A4B2C1D1]" displayname="[A4B2C1D1]" default="true" />
+            <row value="[A4B2C1]" displayname="[A4B2C1]" default="true" />
+            <row value="[A4B2C2D2E2]" displayname="[A4B2C2D2E2]" default="true" />
+            <row value="[A4B2C2]" displayname="[A4B2C2]" default="true" />
+            <row value="[A4B2C4]" displayname="[A4B2C4]" default="true" />
+            <row value="[A4B2]" displayname="[A4B2]" default="true" />
+            <row value="[A4B3C1]" displayname="[A4B3C1]" default="true" />
+            <row value="[A4B3C2D1]" displayname="[A4B3C2D1]" default="true" />
+            <row value="[A4B4C2]" displayname="[A4B4C2]" default="true" />
+            <row value="[A4B4C4D1E1F1G1]" displayname="[A4B4C4D1E1F1G1]" default="true" />
+            <row value="[A4B4C4D4E4F4G4H4I4]" displayname="[A4B4C4D4E4F4G4H4I4]" default="true" />
+            <row value="[A4B4C4D4E4F4]" displayname="[A4B4C4D4E4F4]" default="true" />
+            <row value="[A4B4C4D4]" displayname="[A4B4C4D4]" default="true" />
+            <row value="[A4B4C4]" displayname="[A4B4C4]" default="true" />
+            <row value="[A4B4]" displayname="[A4B4]" default="true" />
+            <row value="[A4B6]" displayname="[A4B6]" default="true" />
+            <row value="[A4B8]" displayname="[A4B8]" default="true" />
+            <row value="[A4]" displayname="[A4]" default="true" />
+            <row value="[A5B1C1]" displayname="[A5B1C1]" default="true" />
+            <row value="[A5B1]" displayname="[A5B1]" default="true" />
+            <row value="[A5B5]" displayname="[A5B5]" default="true" />
+            <row value="[A5]" displayname="[A5]" default="true" />
+            <row value="[A60]" displayname="[A60]" default="true" />
+            <row value="[A6B12]" displayname="[A6B12]" default="true" />
+            <row value="[A6B1C1D1E1F1G1]" displayname="[A6B1C1D1E1F1G1]" default="true" />
+            <row value="[A6B1C1]" displayname="[A6B1C1]" default="true" />
+            <row value="[A6B2C1D1E1F1]" displayname="[A6B2C1D1E1F1]" default="true" />
+            <row value="[A6B2C2]" displayname="[A6B2C2]" default="true" />
+            <row value="[A6B2]" displayname="[A6B2]" default="true" />
+            <row value="[A6B3C1D1E1]" displayname="[A6B3C1D1E1]" default="true" />
+            <row value="[A6B3C3]" displayname="[A6B3C3]" default="true" />
+            <row value="[A6B3]" displayname="[A6B3]" default="true" />
+            <row value="[A6B4]" displayname="[A6B4]" default="true" />
+            <row value="[A6B6C1D1E1F1G1H1]" displayname="[A6B6C1D1E1F1G1H1]" default="true" />
+            <row value="[A6B6C1D1E1]" displayname="[A6B6C1D1E1]" default="true" />
+            <row value="[A6B6C2]" displayname="[A6B6C2]" default="true" />
+            <row value="[A6B6C4D1E1]" displayname="[A6B6C4D1E1]" default="true" />
+            <row value="[A6B6C6D4E2]" displayname="[A6B6C6D4E2]" default="true" />
+            <row value="[A6B6C6D6]" displayname="[A6B6C6D6]" default="true" />
+            <row value="[A6B6]" displayname="[A6B6]" default="true" />
+            <row value="[A6B9C1D1E1]" displayname="[A6B9C1D1E1]" default="true" />
+            <row value="[A6]" displayname="[A6]" default="true" />
+            <row value="[A7B1C1D1E1F1G1H1]" displayname="[A7B1C1D1E1F1G1H1]" default="true" />
+            <row value="[A7B7C1D1E1F1G1H1I1]" displayname="[A7B7C1D1E1F1G1H1I1]" default="true" />
+            <row value="[A7B7]" displayname="[A7B7]" default="true" />
+            <row value="[A7]" displayname="[A7]" default="true" />
+            <row value="[A8B1C1D1E1F1G1H1I1]" displayname="[A8B1C1D1E1F1G1H1I1]" default="true" />
+            <row value="[A8B1C1D1E1]" displayname="[A8B1C1D1E1]" default="true" />
+            <row value="[A8B2C1D1E1F1G1H1]" displayname="[A8B2C1D1E1F1G1H1]" default="true" />
+            <row value="[A8B2]" displayname="[A8B2]" default="true" />
+            <row value="[A8B4]" displayname="[A8B4]" default="true" />
+            <row value="[A8B5C1D1E1]" displayname="[A8B5C1D1E1]" default="true" />
+            <row value="[A8B6C1D1]" displayname="[A8B6C1D1]" default="true" />
+            <row value="[A8B6]" displayname="[A8B6]" default="true" />
+            <row value="[A8B8]" displayname="[A8B8]" default="true" />
+            <row value="[A8]" displayname="[A8]" default="true" />
+            <row value="[A9B9]" displayname="[A9B9]" default="true" />
+            <row value="[A9]" displayname="[A9]" default="true" />
+            <row value="[ABCDEFGHIJKLMNOPQRSTUVWXYZ]" displayname="[ABCDEFGHIJKLMNOPQRSTUVWXYZ]" default="true" />
+            <row value="[ABCDEFGHIJKLMNOPQRSTUVW]" displayname="[ABCDEFGHIJKLMNOPQRSTUVW]" default="true" />
+            <row value="[ABCDEFGHIJKLMNOPQRSTUV]" displayname="[ABCDEFGHIJKLMNOPQRSTUV]" default="true" />
+            <row value="[ABCDEFGHIJKLMNOPQRSTU]" displayname="[ABCDEFGHIJKLMNOPQRSTU]" default="true" />
+            <row value="[ABCDEFGHIJKLMNOPQRS]" displayname="[ABCDEFGHIJKLMNOPQRS]" default="true" />
+            <row value="[ABCDEFGHIJKLM]" displayname="[ABCDEFGHIJKLM]" default="true" />
+            <row value="[ABCDEFGHIJKL]" displayname="[ABCDEFGHIJKL]" default="true" />
+            <row value="[ABCDEFGHIJK]" displayname="[ABCDEFGHIJK]" default="true" />
+            <row value="[ABCDEFGHIJ]" displayname="[ABCDEFGHIJ]" default="true" />
+            <row value="[ABCDEFGH]" displayname="[ABCDEFGH]" default="true" />
+            <row value="[ABCDEFG]" displayname="[ABCDEFG]" default="true" />
+            <row value="[ABCDEF]" displayname="[ABCDEF]" default="true" />
+            <row value="[ABCDE]" displayname="[ABCDE]" default="true" />
+            <row value="[ABCD]" displayname="[ABCD]" default="true" />
+            <row value="[ABC]" displayname="[ABC]" default="true" />
+            <row value="[AB]" displayname="[AB]" default="true" />
+            <row value="[Awater]" displayname="[Awater]" default="true" />
+            <row value="[HHHHHHHH]" displayname="[HHHHHHHH]" default="true" />
+            <row value="[HHHHH]" displayname="[HHHHH]" default="true" />
+            <row value="[HHHH]" displayname="[HHHH]" default="true" />
+            <row value="[HHH]" displayname="[HHH]" default="true" />
+            <row value="[HHNN]" displayname="[HHNN]" default="true" />
+            <row value="[HH]" displayname="[HH]" default="true" />
+            <row value="[HNN]" displayname="[HNN]" default="true" />
+            <row value="[HN]" displayname="[HN]" default="true" />
+            <row value="[HPNN]" displayname="[HPNN]" default="true" />
+            <row value="[HPPPNN]" displayname="[HPPPNN]" default="true" />
+            <row value="[HP]" displayname="[HP]" default="true" />
+            <row value="[H]" displayname="[H]" default="true" />
+            <row value="[NNPP]" displayname="[NNPP]" default="true" />
+            <row value="[NPNN]" displayname="[NPNN]" default="true" />
+            <row value="[NPN]" displayname="[NPN]" default="true" />
+            <row value="[NP]" displayname="[NP]" default="true" />
+            <row value="[N]" displayname="[N]" default="true" />
+            <row value="[PHH]" displayname="[PHH]" default="true" />
+            <row value="[PHNP]" displayname="[PHNP]" default="true" />
+            <row value="[PHPH]" displayname="[PHPH]" default="true" />
+            <row value="[PH]" displayname="[PH]" default="true" />
+            <row value="[PNN]" displayname="[PNN]" default="true" />
+            <row value="[PN]" displayname="[PN]" default="true" />
+            <row value="[PPHH]" displayname="[PPHH]" default="true" />
+            <row value="[PPNNNN]" displayname="[PPNNNN]" default="true" />
+            <row value="[PPPPPPH]" displayname="[PPPPPPH]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPPPP]" displayname="[PPPPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPPP]" displayname="[PPPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPPP]" displayname="[PPPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPPP]" displayname="[PPPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPPP]" displayname="[PPPPPPPPP]" default="true" />
+            <row value="[PPPPPPPP]" displayname="[PPPPPPPP]" default="true" />
+            <row value="[PPPPPPP]" displayname="[PPPPPPP]" default="true" />
+            <row value="[PPPPPP]" displayname="[PPPPPP]" default="true" />
+            <row value="[PPPP]" displayname="[PPPP]" default="true" />
+            <row value="[PPP]" displayname="[PPP]" default="true" />
+            <row value="[PP]" displayname="[PP]" default="true" />
+            <row value="[P]" displayname="[P]" default="true" />
+          </dataset>
+        </filter>
+        <filter name="with_has_ec_info">
+          <dataset name="msd">
+            <row value="only" displayname="Only" default="true" />
+            <row value="excluded" displayname="Excluded" default="true" />
+          </dataset>
+        </filter>
+        <filter name="with_has_interpro_info">
+          <dataset name="msd">
+            <row value="only" displayname="Only" default="true" />
+            <row value="excluded" displayname="Excluded" default="true" />
+          </dataset>
+        </filter>
+        <filter name="with_has_go_info">
+          <dataset name="msd">
+            <row value="only" displayname="Only" default="true" />
+            <row value="excluded" displayname="Excluded" default="true" />
+          </dataset>
+        </filter>
+        <filter name="with_has_pfam_info">
+          <dataset name="msd">
+            <row value="only" displayname="Only" default="true" />
+            <row value="excluded" displayname="Excluded" default="true" />
+          </dataset>
+        </filter>
+        <filter name="with_has_cath">
+          <dataset name="msd">
+            <row value="only" displayname="Only" default="true" />
+            <row value="excluded" displayname="Excluded" default="true" />
+          </dataset>
+        </filter>
+        <filter name="with_has_scop">
+          <dataset name="msd">
+            <row value="only" displayname="Only" default="true" />
+            <row value="excluded" displayname="Excluded" default="true" />
+          </dataset>
+        </filter>
+      </config>
+    </mart>
+  </options>
+</martregistry>
+
