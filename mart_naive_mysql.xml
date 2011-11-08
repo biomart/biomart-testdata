@@ -561,7 +561,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="103c0e7c899cd345d25cada8aa1b790b" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="7600135b936bebbe81e3be4ebce1124e" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="275459ac86952cbd386e8c3bc3241cf5" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="170beb154d4847eff2e6d142e91a688e" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>
@@ -1320,7 +1320,7 @@
         </container>
       </container>
     </config>
-    <accesspoint rdf="" processor="" name="vega_mart_58_ap" internalname="vega_mart_58_ap" displayname="vega_mart_58_ap" description="vega_mart_58_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
+    <accesspoint processor="" name="vega_mart_58_ap" internalname="vega_mart_58_ap" displayname="vega_mart_58_ap" description="vega_mart_58_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
         <container enableselectall="" name="attribute" displayname="attribute" internalname="attribute" description="attribute" hide="false" maxcontainers="" maxattributes="" independentquerying="">
           <container enableselectall="" name="translation__main_attribute" displayname="translation__main_attribute" internalname="translation__main_attribute" description="translation__main_attribute" hide="false" maxcontainers="" maxattributes="" independentquerying="">
