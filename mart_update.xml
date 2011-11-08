@@ -599,8 +599,8 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_60" schema="vega_mart_60" username="martadmin" password="b649253b99119285e13639fe55b7ca2b" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="1de9c4a79c4b05fd910cadee6eee3dcf" mdatabase="" mschema="" musername="" mpassword="" />
-      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_60" schema="vega_mart_60" username="martadmin" password="b649253b99119285e13639fe55b7ca2b" displayname="mmusculus_gene_vega" hide="false" version="0.8" key="1de9c4a79c4b05fd910cadee6eee3dcf" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_60" schema="vega_mart_60" username="martadmin" password="db4b2b59fd4431e2348b16337b1b96e3" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="585a3524b7038010e7990a303b084b7a" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_60" schema="vega_mart_60" username="martadmin" password="db4b2b59fd4431e2348b16337b1b96e3" displayname="mmusculus_gene_vega" hide="false" version="0.8" key="585a3524b7038010e7990a303b084b7a" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>
@@ -1420,7 +1420,7 @@
         </container>
       </container>
     </config>
-    <accesspoint rdf="" processor="" name="vega_mart_60_ap" internalname="vega_mart_60_ap" displayname="vega_mart_60_ap" description="vega_mart_60_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
+    <accesspoint processor="" name="vega_mart_60_ap" internalname="vega_mart_60_ap" displayname="vega_mart_60_ap" description="vega_mart_60_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
         <container enableselectall="" name="attribute" displayname="attribute" internalname="attribute" description="attribute" hide="false" maxcontainers="" maxattributes="" independentquerying="">
           <container enableselectall="" name="translation__main_attribute" displayname="translation__main_attribute" internalname="translation__main_attribute" description="translation__main_attribute" hide="false" maxcontainers="" maxattributes="" independentquerying="">
