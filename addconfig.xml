@@ -4174,8 +4174,8 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="36670464d1b702b1dc5be36f7d10389d" displayname="Homo sapiens genes (GRCh37)" hide="false" version="0.7" key="b4286a3eb1efebc6d908da1e3ae54a4c" mdatabase="" mschema="" musername="" mpassword="" />
-      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="36670464d1b702b1dc5be36f7d10389d" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="b4286a3eb1efebc6d908da1e3ae54a4c" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="5f579a9202139c5ddbfc8f8cc94e6647" displayname="Homo sapiens genes (GRCh37)" hide="false" version="0.7" key="52e78672d46d679a13a5062939e5a981" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="5f579a9202139c5ddbfc8f8cc94e6647" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="52e78672d46d679a13a5062939e5a981" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|true|hsap|Homo sapiens||hsapiens||Homo_sapiens||GRCh37|GRCh37</row>
@@ -4677,7 +4677,7 @@
         </container>
       </container>
     </config>
-    <accesspoint rdf="" processor="" name="gene_vega_ap" internalname="gene_vega_ap" displayname="gene_vega_ap" description="gene_vega_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
+    <accesspoint processor="" name="gene_vega_ap" internalname="gene_vega_ap" displayname="gene_vega_ap" description="gene_vega_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
         <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="aliases_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="default" internalname="default" displayname="default" description="default" linkouturl="" />
@@ -5079,7 +5079,7 @@
         </container>
       </container>
     </accesspoint>
-    <accesspoint rdf="" processor="" name="gene_vega_config_1" internalname="gene_vega_config_1" displayname="gene_vega_config_1" description="gene_vega_config_1" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
+    <accesspoint processor="" name="gene_vega_config_1" internalname="gene_vega_config_1" displayname="gene_vega_config_1" description="gene_vega_config_1" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
         <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="aliases_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="default" internalname="default" displayname="default" description="default" linkouturl="" />

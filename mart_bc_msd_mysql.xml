@@ -220,7 +220,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="cbe4f438d14377ea7f447c800092bee2" displayname="MSD Protein Structures" hide="false" version="0.7" key="0e5ceac8ffa32b415fe16811499ac028" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="3a4cb245c7a8ab7dcf17cca6993f13f6" displayname="MSD Protein Structures" hide="false" version="0.7" key="aa7f6704e17b1b0b3c584850d18787fd" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="msd">msd</row>
@@ -315,7 +315,7 @@
         </container>
       </container>
     </config>
-    <accesspoint rdf="" processor="" name="msd_ap" internalname="msd_ap" displayname="msd_ap" description="msd_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
+    <accesspoint processor="" name="msd_ap" internalname="msd_ap" displayname="msd_ap" description="msd_ap" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
         <container enableselectall="" name="attributes_root" displayname="Attributes" internalname="attributes_root" description="attributes_root" hide="false" maxcontainers="1" maxattributes="" independentquerying="">
           <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
