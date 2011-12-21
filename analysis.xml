@@ -484,7 +484,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="53357cd738225280250000cd62bd74c503445e6681c52946b93d17e1847bbfc2c80134a0c288a0e321ee032a4c4719a1" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="be09ca4c8b2b3dc53a21e368259b116b63945c3deb241021a3673d783f387d3d0f28cac23a7b10e7014a24e64c5052477c89f94ede0bf3e8627e25acd82fc97fa2e846f7dc63b4bf67cad183415274f8d82b32c10c9881b38fba10d8079bfdff45ca5dacf9a8f340afc69205803bdd84" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="45ca5dacf9a8f340afc69205803bdd84" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -850,25 +850,27 @@
       <analysis name="vega" plugin="chart" type="chart">
         <analysiscontainer name="vega">
           <analysiscontainer name="vega">
-            <analysiscontainer name="root">
-              <analysisparameter name="format" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="">
-                <option name="image/png" displayname="image/png" type="" attribute="" />
-                <option name="application/json" displayname="application/json" type="" attribute="" />
-              </analysisparameter>
-              <analysisparameter name="type" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="">
-                <option name="bar" displayname="bar" type="" attribute="" />
-                <option name="stackedbar" displayname="stackedbar" type="" attribute="" />
-                <option name="line" displayname="line" type="" attribute="" />
-              </analysisparameter>
-              <analysisparameter name="vAxisAttribute" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="hAxisAttribute" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="seriesAttribute" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="title" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="vAxisTitle" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="hAxisTitle" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="seriesTitle" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="width" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
-              <analysisparameter name="height" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+            <analysiscontainer name="vega">
+              <analysiscontainer name="root">
+                <analysisparameter name="format" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="">
+                  <option name="image/png" displayname="image/png" type="" attribute="" />
+                  <option name="application/json" displayname="application/json" type="" attribute="" />
+                </analysisparameter>
+                <analysisparameter name="type" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="">
+                  <option name="bar" displayname="bar" type="" attribute="" />
+                  <option name="stackedbar" displayname="stackedbar" type="" attribute="" />
+                  <option name="line" displayname="line" type="" attribute="" />
+                </analysisparameter>
+                <analysisparameter name="vAxisAttribute" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="hAxisAttribute" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="seriesAttribute" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="title" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="vAxisTitle" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="hAxisTitle" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="seriesTitle" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="width" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+                <analysisparameter name="height" arrange="" defaultvalue="" dependon="" displaytype="" multiselect="" multivalue="" parameterrange="" required="" type="" parametervalue="" />
+              </analysiscontainer>
             </analysiscontainer>
           </analysiscontainer>
         </analysiscontainer>
@@ -895,6 +897,8 @@
         <attribute name="canonical_transcript_stable_id" internalname="Canonical transcript stable ID" displayname="Canonical transcript stable ID" description="Canonical transcript stable ID" linkouturl="" />
         <attribute name="description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
         <attribute name="chromosome_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
+        <filter name="end" internalname="end" displayname="Base pair - Gene End (bp)" description="end" />
+        <filter name="start" internalname="start" displayname="Base pair - Gene Start (bp)" description="start" />
         <filter name="chromosome_name" internalname="chromosome_name" displayname="Chromosome" description="chromosome_name" />
       </container>
     </accesspoint>
