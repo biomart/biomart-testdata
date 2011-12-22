@@ -11,7 +11,9 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="dbo_dbo_ap" internalname="dbo_ap" displayname="dbo_ap" description="dbo_ap" mart="dbo" accesspoint="dbo_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -561,7 +563,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="vega_mart_58" schema="dbo" username="martadmin" password="00fa982287d9373ebfeb88c4b71cccb9" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="aef76f0282eea5cf74107c04dd469939" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="vega_mart_58" schema="dbo" username="martadmin" password="20bbe154968e31f9b22287dc891613ba" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="1ab1dc91f82b3b7fa4fe24b3ac6cef20" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>

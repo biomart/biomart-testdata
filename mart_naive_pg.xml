@@ -11,7 +11,9 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="public_public_ap" internalname="public_ap" displayname="public_ap" description="public_ap" mart="public" accesspoint="public_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -561,7 +563,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:postgresql://biomartdb-dev.res.oicr.on.ca:5432/" database="vega_mart_58" schema="public" username="martadmin" password="92d24e3b4a05c790df8d0d6b3c34d54e" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="4bf18b80dc403f6d27e5acef47251d36" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:postgresql://biomartdb-dev.res.oicr.on.ca:5432/" database="vega_mart_58" schema="public" username="martadmin" password="4c5fe993a64ec761405e66889f22d467" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="06967d42c4324f61e19e043e93a062f2" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>
