@@ -11,7 +11,9 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="msd_msd_ap" internalname="msd_ap" displayname="msd_ap" description="msd_ap" mart="msd" accesspoint="msd_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -220,7 +222,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="3a4cb245c7a8ab7dcf17cca6993f13f6" displayname="MSD Protein Structures" hide="false" version="0.7" key="aa7f6704e17b1b0b3c584850d18787fd" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="5cff865112353baa5d1918538a75d5f6" displayname="MSD Protein Structures" hide="false" version="0.7" key="231687f094bcd40d93ce3d337faebb48" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="msd">msd</row>
