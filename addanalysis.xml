@@ -484,7 +484,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="feb3af279d1318981d6538f29e3f093fc8b869730691fbb3e488588fe75ebab4891a49da69113d7ae6299dec1ba88288" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="03be7cce5b1436e3daeb1a9cbd035ae69524cf4d86e3193913456761393e48d16c6c04c1989428f2491bd555112ee296" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -862,8 +862,8 @@
           <analysisparameter name="xAxisAttribute" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="The attribute on the horizontal axis" min="" max="" />
           <analysisparameter name="seriesAttribute" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="The attribute that distinguishes different series" min="" max="" />
           <analysisparameter name="title" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
-          <analysisparameter name="vAxisTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
-          <analysisparameter name="hAxisTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
+          <analysisparameter name="yAxisTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
+          <analysisparameter name="xAxisTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
           <analysisparameter name="seriesTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
           <analysisparameter name="width" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="800" multivalue="" description="" min="" max="" />
           <analysisparameter name="height" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="800" multivalue="" description="" min="" max="" />
@@ -1232,7 +1232,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="feb3af279d1318981d6538f29e3f093fc8b869730691fbb3e488588fe75ebab4891a49da69113d7ae6299dec1ba88288" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="03be7cce5b1436e3daeb1a9cbd035ae69524cf4d86e3193913456761393e48d16c6c04c1989428f2491bd555112ee296" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -1850,7 +1850,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="feb3af279d1318981d6538f29e3f093fc8b869730691fbb3e488588fe75ebab4891a49da69113d7ae6299dec1ba88288" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="03be7cce5b1436e3daeb1a9cbd035ae69524cf4d86e3193913456761393e48d16c6c04c1989428f2491bd555112ee296" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="drerio_gene_vega">drerio_gene_vega|drer_marker_end|drer_marker_start|drerio_genomic_sequence</row>
