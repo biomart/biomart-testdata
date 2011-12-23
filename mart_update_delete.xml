@@ -11,7 +11,9 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="vega_mart_60_vega_mart_60_ap" internalname="vega_mart_60_ap" displayname="vega_mart_60_ap" description="vega_mart_60_ap" mart="vega_mart_60" accesspoint="vega_mart_60_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -600,8 +602,8 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_test_newcolumn" schema="vega_test_newcolumn" username="martadmin" password="c6a8a877995dea1362c64b1df026a9ca" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="3142621b6bad1fbb482bff2f4a220440" mdatabase="" mschema="" musername="" mpassword="" />
-      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_test_newcolumn" schema="vega_test_newcolumn" username="martadmin" password="c6a8a877995dea1362c64b1df026a9ca" displayname="mmusculus_gene_vega" hide="false" version="0.8" key="3142621b6bad1fbb482bff2f4a220440" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_test_newcolumn" schema="vega_test_newcolumn" username="martadmin" password="d469b791e5a311334541d12ddfb13fe8" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="503e093d426e19372edf974b71d933ed" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_test_newcolumn" schema="vega_test_newcolumn" username="martadmin" password="d469b791e5a311334541d12ddfb13fe8" displayname="mmusculus_gene_vega" hide="false" version="0.8" key="503e093d426e19372edf974b71d933ed" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>
