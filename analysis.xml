@@ -770,7 +770,7 @@
       </container>
     </config>
     <accesspoint processor="" name="vega" internalname="vega" displayname="vega" description="vega" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
-      <analysis name="vega" type="chart" plugin="org.scimart.query.ChartJob" mart="gene_vega">
+      <analysis name="vega" type="chart" plugin="org.biomart.query.ChartJob" mart="gene_vega">
         <analysiscontainer name="root" mart="gene_vega" config="vega">
           <analysisparameter name="format" mart="gene_vega" config="vega" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="" min="" max="">
             <analysisoption value="image/png" label="PNG" />
