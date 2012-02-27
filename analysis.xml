@@ -394,9 +394,9 @@
       </relations>
     </schema>
     <dataset>
-      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="245c5464baa15dbcf17493c6221c800753783510bc59a5fe558da26f34146b8b4c698c80560b336007b8089712ed88c3" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="4c698c80560b336007b8089712ed88c3" mdatabase="default" mschema="" musername="" mpassword="" />
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="245c5464baa15dbcf17493c6221c800753783510bc59a5fe558da26f34146b8b4c698c80560b336007b8089712ed88c3" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="4c698c80560b336007b8089712ed88c3" mdatabase="default" mschema="" musername="" mpassword="" />
-      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="245c5464baa15dbcf17493c6221c800753783510bc59a5fe558da26f34146b8b4c698c80560b336007b8089712ed88c3" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="4c698c80560b336007b8089712ed88c3" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="a723b98034760c491989b680a262e5bd982cbb97c29e61f5189711b08f54edf550108d1aecb3fce3423536ca4a4830746101f89a3230aa1ca0d1e6c5e1c78fc6c33f815e00b6528349c9c6b5d404197bc529cf2741b960fc274d4a7a8f0a9992d85521c07c147054f7b6ba820bd3dbba" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="d85521c07c147054f7b6ba820bd3dbba" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="a723b98034760c491989b680a262e5bd982cbb97c29e61f5189711b08f54edf550108d1aecb3fce3423536ca4a4830746101f89a3230aa1ca0d1e6c5e1c78fc6c33f815e00b6528349c9c6b5d404197bc529cf2741b960fc274d4a7a8f0a9992d85521c07c147054f7b6ba820bd3dbba" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="d85521c07c147054f7b6ba820bd3dbba" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="a723b98034760c491989b680a262e5bd982cbb97c29e61f5189711b08f54edf550108d1aecb3fce3423536ca4a4830746101f89a3230aa1ca0d1e6c5e1c78fc6c33f815e00b6528349c9c6b5d404197bc529cf2741b960fc274d4a7a8f0a9992d85521c07c147054f7b6ba820bd3dbba" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="d85521c07c147054f7b6ba820bd3dbba" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="drerio_gene_vega">drerio_gene_vega|Danio_rerio|drer||drerio</row>
@@ -820,6 +820,19 @@
           <attribute name="source" internalname="Source" displayname="Source" description="Source" linkouturl="" />
           <attribute name="status" internalname="Status (gene)" displayname="Status (gene)" description="Status (gene)" linkouturl="" />
           <attribute name="transcript_status" internalname="Status (transcript)" displayname="Status (transcript)" description="Status (transcript)" linkouturl="" />
+        </container>
+        <container enableselectall="" name="region__filters" displayname="REGION:" internalname="region__filters" description="region__filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
+          <filter name="chromosome_name" internalname="chromosome_name" displayname="Chromosome" description="chromosome_name" />
+          <filter name="start" internalname="start" displayname="Base pair - Gene Start (bp)" description="start" />
+          <filter name="end" internalname="end" displayname="Base pair - Gene End (bp)" description="end" />
+          <filter name="marker_start" internalname="marker_start" displayname="Marker - marker_start" description="marker_start" />
+          <filter name="marker_end" internalname="marker_end" displayname="Marker - marker_end" description="marker_end" />
+          <filter name="strand" internalname="strand" displayname="Strand" description="strand" />
+          <filter name="chromosomal_region" internalname="chromosomal_region" displayname="Multiple Chromosomal Regions (Chr:Start:End:Strand)" description="chromosomal_region" />
+          <filter name="band_start" internalname="band_start" displayname="Band - band_start" description="band_start" />
+          <filter name="band_end" internalname="band_end" displayname="Band - band_end" description="band_end" />
+          <filter name="hsapiens_encode_type" internalname="hsapiens_encode_type" displayname="Encode type" description="hsapiens_encode_type" />
+          <filter name="hsapiens_encode_encode_region" internalname="hsapiens_encode_encode_region" displayname="Encode region" description="hsapiens_encode_encode_region" />
         </container>
       </container>
     </accesspoint>
