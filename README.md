@@ -1,4 +1,4 @@
-SciMart test files
+BioMart test files
 ==================
 
-Test fixtures for running JUnit tests for [SciMart](https://github.com/oicr/SciMart).
+Test fixtures for running JUnit tests for [BioMart](https://github.com/biomart/biomart).
