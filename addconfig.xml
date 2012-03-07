@@ -4176,8 +4176,8 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="c282bc589bd82acf55965bb77fc5fd3f" displayname="Homo sapiens genes (GRCh37)" hide="false" version="0.7" key="d82033640e37db2f20052d30480bf696" mdatabase="" mschema="" musername="" mpassword="" />
-      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="c282bc589bd82acf55965bb77fc5fd3f" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="d82033640e37db2f20052d30480bf696" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="54412cd6bea445de30a98849adda596a" displayname="Homo sapiens genes (GRCh37)" hide="false" version="0.7" key="a0935986d2882aa176e73aaa33c6e7ae" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="54412cd6bea445de30a98849adda596a" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="a0935986d2882aa176e73aaa33c6e7ae" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|true|hsap|Homo sapiens||hsapiens||Homo_sapiens||GRCh37|GRCh37</row>
@@ -4279,7 +4279,7 @@
         </exportable>
       </annotations>
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="">
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="default" internalname="default" displayname="default" description="default" hide="false" defaultselected="" column="" table="" attributelist="" linkouturl="" value="(p0c1)" inusers="" datatype="" pointerinsource="" mart="gene_vega" config="gene_vega" pointer="false" />
           <attribute name="species4" internalname="species4" displayname="species4" description="species4" hide="false" defaultselected="" column="" table="" attributelist="" linkouturl="" value="(p0c2)" inusers="" datatype="" pointerinsource="" mart="gene_vega" config="gene_vega" pointer="false" />
           <attribute name="species1" internalname="species1" displayname="species1" description="species1" hide="false" defaultselected="" column="" table="" attributelist="" linkouturl="" value="(p0c3)" inusers="" datatype="" pointerinsource="" mart="gene_vega" config="gene_vega" pointer="false" />
