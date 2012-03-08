@@ -12,9 +12,9 @@
         <guiaccesspoint group="" name="gene_vega_gene_vega_ap" internalname="gene_vega_ap" displayname="gene_vega_ap" description="gene_vega_ap" mart="gene_vega" accesspoint="gene_vega_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
         <guiaccesspoint group="" name="gene_vega_public_test" internalname="" displayname="public_test" description="" mart="gene_vega" accesspoint="public_test" operation="" icon="" independentquerying="" inusers="" />
       </guicontainer>
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">

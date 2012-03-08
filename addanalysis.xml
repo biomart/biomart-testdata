@@ -11,9 +11,9 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="gene_vega_chart_analysis" internalname="" displayname="chart_analysis" description="" mart="gene_vega" accesspoint="chart_analysis" operation="" icon="" independentquerying="" inusers="" />
       </guicontainer>
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -484,7 +484,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="bde6506ff01a19cdc60677de86a9164d2cce7c4900f19ad1f2ae4e2152653c6b60d0f52cbc1b747e1d9475861869ddd7" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="50a8a843e2918f7b73f5d30b2d5ac1516815fe17ae81fc6c270525bd71e6047a1541f2bf8c76c724d1950e68748b6091" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -677,7 +677,7 @@
             </container>
           </container>
         </container>
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="This pseudoattribute is created by Backwards compatibility to allow linkOutURLs to function. Please manually check that the value is correct." hide="true" defaultselected="" column="" table="" attributelist="" linkouturl="" value="http://www.biomart.org" inusers="" datatype="" pointerinsource="" mart="gene_vega" config="gene_vega" pointer="false" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
@@ -1242,7 +1242,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="bde6506ff01a19cdc60677de86a9164d2cce7c4900f19ad1f2ae4e2152653c6b60d0f52cbc1b747e1d9475861869ddd7" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="50a8a843e2918f7b73f5d30b2d5ac1516815fe17ae81fc6c270525bd71e6047a1541f2bf8c76c724d1950e68748b6091" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -1430,7 +1430,7 @@
             </container>
           </container>
         </container>
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="This pseudoattribute is created by Backwards compatibility to allow linkOutURLs to function. Please manually check that the value is correct." hide="true" defaultselected="" column="" table="" attributelist="" linkouturl="" value="http://www.biomart.org" inusers="" datatype="" pointerinsource="" mart="gene_vega_1" config="gene_vega" pointer="false" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
@@ -1860,7 +1860,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="bde6506ff01a19cdc60677de86a9164d2cce7c4900f19ad1f2ae4e2152653c6b60d0f52cbc1b747e1d9475861869ddd7" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="50a8a843e2918f7b73f5d30b2d5ac1516815fe17ae81fc6c270525bd71e6047a1541f2bf8c76c724d1950e68748b6091" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="drerio_gene_vega">drerio_gene_vega|drer_marker_end|drer_marker_start|drerio_genomic_sequence</row>
@@ -2039,7 +2039,7 @@
             </container>
           </container>
         </container>
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="This pseudoattribute is created by Backwards compatibility to allow linkOutURLs to function. Please manually check that the value is correct." hide="true" defaultselected="" column="" table="" attributelist="" linkouturl="" value="http://www.biomart.org" inusers="" datatype="" pointerinsource="" mart="gene_vega_2" config="gene_vega" pointer="false" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">

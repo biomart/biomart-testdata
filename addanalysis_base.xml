@@ -9,9 +9,9 @@
     <linkindices />
     <guicontainer name="root" internalname="root" displayname="root" description="" hide="false" inusers="">
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform" />
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -675,7 +675,7 @@
             </container>
           </container>
         </container>
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="This pseudoattribute is created by Backwards compatibility to allow linkOutURLs to function. Please manually check that the value is correct." hide="true" defaultselected="" column="" table="" attributelist="" linkouturl="" value="http://www.biomart.org" inusers="" datatype="" pointerinsource="" mart="gene_vega" config="gene_vega" pointer="false" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
@@ -1393,7 +1393,7 @@
             </container>
           </container>
         </container>
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="This pseudoattribute is created by Backwards compatibility to allow linkOutURLs to function. Please manually check that the value is correct." hide="true" defaultselected="" column="" table="" attributelist="" linkouturl="" value="http://www.biomart.org" inusers="" datatype="" pointerinsource="" mart="gene_vega_1" config="gene_vega" pointer="false" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
@@ -2002,7 +2002,7 @@
             </container>
           </container>
         </container>
-        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in SciMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
+        <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="This container contains pseudoattributes derived from the Aliases in BioMart 0.7" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="This pseudoattribute is created by Backwards compatibility to allow linkOutURLs to function. Please manually check that the value is correct." hide="true" defaultselected="" column="" table="" attributelist="" linkouturl="" value="http://www.biomart.org" inusers="" datatype="" pointerinsource="" mart="gene_vega_2" config="gene_vega" pointer="false" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">

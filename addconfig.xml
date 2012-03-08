@@ -12,9 +12,9 @@
         <guiaccesspoint group="" name="gene_vega_gene_vega_ap" internalname="gene_vega_ap" displayname="gene_vega_ap" description="gene_vega_ap" mart="gene_vega" accesspoint="gene_vega_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
         <guiaccesspoint group="" name="gene_vega_gene_vega_config_1" internalname="gene_vega_config_1" displayname="gene_vega_config_1" description="gene_vega_config_1" mart="gene_vega" accesspoint="gene_vega_config_1" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -4176,8 +4176,8 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="54412cd6bea445de30a98849adda596a" displayname="Homo sapiens genes (GRCh37)" hide="false" version="0.7" key="a0935986d2882aa176e73aaa33c6e7ae" mdatabase="" mschema="" musername="" mpassword="" />
-      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="54412cd6bea445de30a98849adda596a" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="a0935986d2882aa176e73aaa33c6e7ae" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="c282bc589bd82acf55965bb77fc5fd3f" displayname="Homo sapiens genes (GRCh37)" hide="false" version="0.7" key="d82033640e37db2f20052d30480bf696" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="c282bc589bd82acf55965bb77fc5fd3f" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="d82033640e37db2f20052d30480bf696" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|true|hsap|Homo sapiens||hsapiens||Homo_sapiens||GRCh37|GRCh37</row>
