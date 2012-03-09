@@ -484,7 +484,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="50a8a843e2918f7b73f5d30b2d5ac1516815fe17ae81fc6c270525bd71e6047a1541f2bf8c76c724d1950e68748b6091" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="bf04e080db0297072457a7030197813d3a29249a3d2b2d45c18cd2e5fc76d47bf78e17233fbf811f35af52e67e9f1795" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -877,6 +877,8 @@
             <analysisoption value="counting" label="Counting data preparer" />
           </analysisparameter>
           <analysisparameter name="additionalAttributes" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
+          <analysisparameter name="limit" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="20" multivalue="" description="Limit the amount of data points to return" min="" max="" />
+          <analysisparameter name="sorted" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="false" multivalue="" description="Whether to sort the results based on the y values" min="" max="" />
         </analysiscontainer>
       </analysis>
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="" />
@@ -1242,7 +1244,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="50a8a843e2918f7b73f5d30b2d5ac1516815fe17ae81fc6c270525bd71e6047a1541f2bf8c76c724d1950e68748b6091" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="bf04e080db0297072457a7030197813d3a29249a3d2b2d45c18cd2e5fc76d47bf78e17233fbf811f35af52e67e9f1795" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -1860,7 +1862,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="50a8a843e2918f7b73f5d30b2d5ac1516815fe17ae81fc6c270525bd71e6047a1541f2bf8c76c724d1950e68748b6091" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="bf04e080db0297072457a7030197813d3a29249a3d2b2d45c18cd2e5fc76d47bf78e17233fbf811f35af52e67e9f1795" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="drerio_gene_vega">drerio_gene_vega|drer_marker_end|drer_marker_start|drerio_genomic_sequence</row>
