@@ -9,7 +9,7 @@
     <linkindices />
     <guicontainer name="root" internalname="root" displayname="root" description="" hide="false" inusers="">
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
-        <guiaccesspoint group="" name="dbo_dbo_ap" internalname="dbo_ap" displayname="dbo_ap" description="dbo_ap" mart="dbo" accesspoint="dbo_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
+        <guiaccesspoint group="" name="dbo_dbo_ap" internalname="dbo_ap" displayname="dbo_ap" description="dbo_ap" mart="dbo" accesspoint="dbo_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
       <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
       <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
@@ -563,7 +563,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="vega_mart_58" schema="dbo" username="martadmin" password="56c6771d252c9161b7591669048585de" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="d63df4ebd330fc444622f2661e63847d" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="vega_mart_58" schema="dbo" username="martadmin" password="acddf6199e173c8f9d11eb7e0eb3cf8c" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="93b5213fe87e99bca7bfedfc3d89c227" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>

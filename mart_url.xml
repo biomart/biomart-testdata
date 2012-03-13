@@ -9,12 +9,12 @@
     <linkindices />
     <guicontainer name="root" internalname="root" displayname="root" description="" hide="false" inusers="">
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
-        <guiaccesspoint group="" name="gene_vega_gene_vega_ap" internalname="gene_vega_ap" displayname="gene_vega_ap" description="gene_vega_ap" mart="gene_vega" accesspoint="gene_vega_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
-        <guiaccesspoint group="" name="gene_vega_1_gene_vega_1_ap" internalname="gene_vega_1_ap" displayname="gene_vega_1_ap" description="gene_vega_1_ap" mart="gene_vega_1" accesspoint="gene_vega_1_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
-        <guiaccesspoint group="" name="interaction_interaction_ap" internalname="interaction_ap" displayname="interaction_ap" description="interaction_ap" mart="interaction" accesspoint="interaction_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
-        <guiaccesspoint group="" name="complex_complex_ap" internalname="complex_ap" displayname="complex_ap" description="complex_ap" mart="complex" accesspoint="complex_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
-        <guiaccesspoint group="" name="reaction_reaction_ap" internalname="reaction_ap" displayname="reaction_ap" description="reaction_ap" mart="reaction" accesspoint="reaction_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
-        <guiaccesspoint group="" name="pathway_pathway_ap" internalname="pathway_ap" displayname="pathway_ap" description="pathway_ap" mart="pathway" accesspoint="pathway_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
+        <guiaccesspoint group="" name="gene_vega_gene_vega_ap" internalname="gene_vega_ap" displayname="gene_vega_ap" description="gene_vega_ap" mart="gene_vega" accesspoint="gene_vega_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+        <guiaccesspoint group="" name="gene_vega_1_gene_vega_1_ap" internalname="gene_vega_1_ap" displayname="gene_vega_1_ap" description="gene_vega_1_ap" mart="gene_vega_1" accesspoint="gene_vega_1_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+        <guiaccesspoint group="" name="interaction_interaction_ap" internalname="interaction_ap" displayname="interaction_ap" description="interaction_ap" mart="interaction" accesspoint="interaction_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+        <guiaccesspoint group="" name="complex_complex_ap" internalname="complex_ap" displayname="complex_ap" description="complex_ap" mart="complex" accesspoint="complex_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+        <guiaccesspoint group="" name="reaction_reaction_ap" internalname="reaction_ap" displayname="reaction_ap" description="reaction_ap" mart="reaction" accesspoint="reaction_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+        <guiaccesspoint group="" name="pathway_pathway_ap" internalname="pathway_ap" displayname="pathway_ap" description="pathway_ap" mart="pathway" accesspoint="pathway_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
       <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
       <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
@@ -461,7 +461,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="6408b704d9dea5033336a0a13bd4eb46" displayname="Homo sapiens genes (GRCh37.p2)" hide="false" version="0.7" key="6408b704d9dea5033336a0a13bd4eb46" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="Homo sapiens genes (GRCh37.p2)" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -1468,7 +1468,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="6408b704d9dea5033336a0a13bd4eb46" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="6408b704d9dea5033336a0a13bd4eb46" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -2192,7 +2192,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="interaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="6408b704d9dea5033336a0a13bd4eb46" displayname="interaction" hide="false" version="0.7" key="6408b704d9dea5033336a0a13bd4eb46" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="interaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="interaction" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="interaction">interaction</row>
@@ -2474,7 +2474,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="complex" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="6408b704d9dea5033336a0a13bd4eb46" displayname="complex" hide="false" version="0.7" key="6408b704d9dea5033336a0a13bd4eb46" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="complex" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="complex" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="complex">complex</row>
@@ -2761,7 +2761,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="reaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="6408b704d9dea5033336a0a13bd4eb46" displayname="reaction" hide="false" version="0.7" key="6408b704d9dea5033336a0a13bd4eb46" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="reaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="reaction" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="reaction">reaction</row>
@@ -3083,7 +3083,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="pathway" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="6408b704d9dea5033336a0a13bd4eb46" displayname="pathway" hide="false" version="0.7" key="6408b704d9dea5033336a0a13bd4eb46" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="pathway" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="pathway" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="pathway">pathway</row>
