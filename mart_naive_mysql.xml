@@ -9,7 +9,7 @@
     <linkindices />
     <guicontainer name="root" internalname="root" displayname="root" description="" hide="false" inusers="">
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
-        <guiaccesspoint group="" name="vega_mart_58_vega_mart_58_ap" internalname="vega_mart_58_ap" displayname="vega_mart_58_ap" description="vega_mart_58_ap" mart="vega_mart_58" accesspoint="vega_mart_58_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
+        <guiaccesspoint group="" name="vega_mart_58_vega_mart_58_ap" internalname="vega_mart_58_ap" displayname="vega_mart_58_ap" description="vega_mart_58_ap" mart="vega_mart_58" accesspoint="vega_mart_58_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" metainfo="" />
       </guicontainer>
       <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
       <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
@@ -563,7 +563,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="04c66e9baf530a64e1254b25a0ee8210" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="c46f248ca384a5b43279dde1c8d9c3da" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="vega_mart_58" schema="vega_mart_58" username="martadmin" password="0ec65f49ab374d24b4b1c754608630f7" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="289853150b1c364598325d0b00c6f20f" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>

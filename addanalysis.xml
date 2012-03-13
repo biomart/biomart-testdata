@@ -9,7 +9,7 @@
     <linkindices />
     <guicontainer name="root" internalname="root" displayname="root" description="" hide="false" inusers="">
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
-        <guiaccesspoint group="" name="gene_vega_chart_analysis" internalname="" displayname="chart_analysis" description="" mart="gene_vega" accesspoint="chart_analysis" operation="" icon="" independentquerying="" inusers="" />
+        <guiaccesspoint group="" name="gene_vega_chart_analysis" internalname="" displayname="chart_analysis" description="" mart="gene_vega" accesspoint="chart_analysis" operation="" icon="" independentquerying="" inusers="" metainfo="" />
       </guicontainer>
       <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
       <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
@@ -484,7 +484,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="6d560caf96a7ee4412dd607b897efb074812a2649a477fee24a7db23007c334f55ce9ec3e045e17e7813af70bb5a2acb" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="e6b32f171339ca920ceea52aaf5e2447548008c6e76e8d9a79077cf11ae327992613808c16362e10bfb747669c81b0ba" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -1244,7 +1244,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="6d560caf96a7ee4412dd607b897efb074812a2649a477fee24a7db23007c334f55ce9ec3e045e17e7813af70bb5a2acb" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="e6b32f171339ca920ceea52aaf5e2447548008c6e76e8d9a79077cf11ae327992613808c16362e10bfb747669c81b0ba" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -1862,7 +1862,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="6d560caf96a7ee4412dd607b897efb074812a2649a477fee24a7db23007c334f55ce9ec3e045e17e7813af70bb5a2acb" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="e6b32f171339ca920ceea52aaf5e2447548008c6e76e8d9a79077cf11ae327992613808c16362e10bfb747669c81b0ba" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="drerio_gene_vega">drerio_gene_vega|drer_marker_end|drer_marker_start|drerio_genomic_sequence</row>
