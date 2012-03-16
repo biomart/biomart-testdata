@@ -849,7 +849,7 @@
     <accesspoint processor="" name="chart_analysis" internalname="chart_analysis" displayname="chart_analysis" description="chart_analysis" hide="false" default="" metainfo="" datasethidevalue="" datasetdisplayname="" master="" readonly="" password="">
       <analysis name="chart_analysis" type="chart" plugin="org.biomart.query.ChartJob" mart="gene_vega">
         <analysiscontainer name="root" mart="gene_vega" config="chart_analysis">
-          <analysisparameter name="format" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="" min="" max="">
+          <analysisparameter name="format" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="image/png" multivalue="" description="" min="" max="">
             <analysisoption value="image/png" label="PNG" />
             <analysisoption value="image/jpeg" label="JPEG" />
             <analysisoption value="image/eps" label="EPS" />
@@ -866,17 +866,17 @@
           <analysisparameter name="yAxisAttribute" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="The attribute on the vertical axis" min="" max="" />
           <analysisparameter name="xAxisAttribute" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="The attribute on the horizontal axis" min="" max="" />
           <analysisparameter name="seriesAttribute" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="The attribute that distinguishes different series" min="" max="" />
-          <analysisparameter name="title" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
+          <analysisparameter name="title" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="" min="" max="" />
           <analysisparameter name="yAxisTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="The display name for yAxis" min="" max="" />
           <analysisparameter name="xAxisTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="The display name for xAxis" min="" max="" />
           <analysisparameter name="seriesTitle" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="" min="" max="" />
-          <analysisparameter name="width" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="800" multivalue="" description="" min="" max="" />
-          <analysisparameter name="height" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="800" multivalue="" description="" min="" max="" />
+          <analysisparameter name="width" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="1000" multivalue="" description="" min="" max="" />
+          <analysisparameter name="height" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="1000" multivalue="" description="" min="" max="" />
           <analysisparameter name="datapreparer" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="none" multivalue="" description="" min="" max="">
             <analysisoption value="none" label="No data preparer" />
             <analysisoption value="counting" label="Counting data preparer" />
           </analysisparameter>
-          <analysisparameter name="additionalAttributes" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="" min="" max="" />
+          <analysisparameter name="additionalAttributes" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="__none__" multivalue="" description="" min="" max="" />
           <analysisparameter name="limit" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="20" multivalue="" description="Limit the amount of data points to return" min="" max="" />
           <analysisparameter name="sorted" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="false" multivalue="" description="Whether to sort the results based on the y values" min="" max="" />
         </analysiscontainer>
