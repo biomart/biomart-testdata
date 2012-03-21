@@ -222,7 +222,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="e9a2efef30f8fd56e967493183e3a880" displayname="MSD Protein Structures" hide="false" version="0.7" key="203bc081c4eb588cc593107417d0cbc5" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="deb683ab25af517adcede25b6dae8e30" displayname="MSD Protein Structures" hide="false" version="0.7" key="adc9b8cc3dbd338359993aeca80c36b8" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="msd">msd</row>
@@ -323,52 +323,52 @@
           <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="entry__features__naive_attributes" displayname="MSD ENTRY DATA:" internalname="entry__features__naive_attributes" description="entry__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="pdb_id" internalname="PDB ID(s)" displayname="PDB ID(s)" description="PDB ID(s)" linkouturl="" />
-                <attribute name="title" internalname="Title" displayname="Title" description="Title" linkouturl="" />
-                <attribute name="experiment_type" internalname="Experiment Type" displayname="Experiment Type" description="Experiment Type" linkouturl="" />
-                <attribute name="header" internalname="Header" displayname="Header" description="Header" linkouturl="" />
-                <attribute name="authors" internalname="Authors" displayname="Authors" description="Authors" linkouturl="" />
-                <attribute name="keywords_concat" internalname="Keywords" displayname="Keywords" description="Keywords" linkouturl="" />
-                <attribute name="submission_date" internalname="Submission Date" displayname="Submission Date" description="Submission Date" linkouturl="" />
-                <attribute name="release_date" internalname="Release Date" displayname="Release Date" description="Release Date" linkouturl="" />
-                <attribute name="resolution" internalname="Resolution" displayname="Resolution" description="Resolution" linkouturl="" />
-                <attribute name="space_group" internalname="Space Group" displayname="Space Group" description="Space Group" linkouturl="" />
-                <attribute name="r_work" internalname="R Work" displayname="R Work" description="R Work" linkouturl="" />
+                <attribute name="pdb_id" internalname="pdb_id" displayname="PDB ID(s)" description="pdb_id" linkouturl="" />
+                <attribute name="title" internalname="title" displayname="Title" description="title" linkouturl="" />
+                <attribute name="experiment_type" internalname="experiment_type" displayname="Experiment Type" description="experiment_type" linkouturl="" />
+                <attribute name="header" internalname="header" displayname="Header" description="header" linkouturl="" />
+                <attribute name="authors" internalname="authors" displayname="Authors" description="authors" linkouturl="" />
+                <attribute name="keywords_concat" internalname="keywords_concat" displayname="Keywords" description="keywords_concat" linkouturl="" />
+                <attribute name="submission_date" internalname="submission_date" displayname="Submission Date" description="submission_date" linkouturl="" />
+                <attribute name="release_date" internalname="release_date" displayname="Release Date" description="release_date" linkouturl="" />
+                <attribute name="resolution" internalname="resolution" displayname="Resolution" description="resolution" linkouturl="" />
+                <attribute name="space_group" internalname="space_group" displayname="Space Group" description="space_group" linkouturl="" />
+                <attribute name="r_work" internalname="r_work" displayname="R Work" description="r_work" linkouturl="" />
               </container>
               <container enableselectall="" name="assembly__features__naive_attributes" displayname="MSD ASSEMBLY DATA:" internalname="assembly__features__naive_attributes" description="assembly__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="assembly_code" internalname="Assembly code" displayname="Assembly code" description="Assembly code" linkouturl="" />
-                <attribute name="assembly_class" internalname="Assembly class" displayname="Assembly class" description="Assembly class" linkouturl="" />
-                <attribute name="assembly_type" internalname="Assembly type" displayname="Assembly type" description="Assembly type" linkouturl="" />
-                <attribute name="assembly_form" internalname="Assembly form" displayname="Assembly form" description="Assembly form" linkouturl="" />
+                <attribute name="assembly_code" internalname="assembly_code" displayname="Assembly code" description="assembly_code" linkouturl="" />
+                <attribute name="assembly_class" internalname="assembly_class" displayname="Assembly class" description="assembly_class" linkouturl="" />
+                <attribute name="assembly_type" internalname="assembly_type" displayname="Assembly type" description="assembly_type" linkouturl="" />
+                <attribute name="assembly_form" internalname="assembly_form" displayname="Assembly form" description="assembly_form" linkouturl="" />
               </container>
               <container enableselectall="" name="chain__features__naive_attributes" displayname="MSD CHAIN DATA:" internalname="chain__features__naive_attributes" description="chain__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="uniprot_id" internalname="UniProt ID(s)" displayname="UniProt ID(s)" description="UniProt ID(s)" linkouturl="" />
-                <attribute name="chain_code" internalname="Chain code" displayname="Chain code" description="Chain code" linkouturl="" />
-                <attribute name="chain_length" internalname="Chain length" displayname="Chain length" description="Chain length" linkouturl="" />
-                <attribute name="chain_ebi_code_1_letter" internalname="EBI Chain Code" displayname="EBI Chain Code" description="EBI Chain Code" linkouturl="" />
-                <attribute name="molecule_code" internalname="Molecule code" displayname="Molecule code" description="Molecule code" linkouturl="" />
-                <attribute name="molecule_name" internalname="Molecule name" displayname="Molecule name" description="Molecule name" linkouturl="" />
-                <attribute name="molecule_id" internalname="Molecule ID" displayname="Molecule ID" description="Molecule ID" linkouturl="" />
-                <attribute name="molecule_src_method" internalname="Molecule src method" displayname="Molecule src method" description="Molecule src method" linkouturl="" />
-                <attribute name="tax_concat" internalname="Tax concat" displayname="Tax concat" description="Tax concat" linkouturl="" />
-                <attribute name="scop_concat" internalname="Scop concat" displayname="Scop concat" description="Scop concat" linkouturl="" />
-                <attribute name="cath_concat" internalname="Cath concat" displayname="Cath concat" description="Cath concat" linkouturl="" />
-                <attribute name="uniprot_ac" internalname="UniProt Accession ID(s)" displayname="UniProt Accession ID(s)" description="UniProt Accession ID(s)" linkouturl="" />
-                <attribute name="sws_concat" internalname="Sws concat" displayname="Sws concat" description="Sws concat" linkouturl="" />
+                <attribute name="uniprot_id" internalname="uniprot_id" displayname="UniProt ID(s)" description="uniprot_id" linkouturl="" />
+                <attribute name="chain_code" internalname="chain_code" displayname="Chain code" description="chain_code" linkouturl="" />
+                <attribute name="chain_length" internalname="chain_length" displayname="Chain length" description="chain_length" linkouturl="" />
+                <attribute name="chain_ebi_code_1_letter" internalname="chain_ebi_code_1_letter" displayname="EBI Chain Code" description="chain_ebi_code_1_letter" linkouturl="" />
+                <attribute name="molecule_code" internalname="molecule_code" displayname="Molecule code" description="molecule_code" linkouturl="" />
+                <attribute name="molecule_name" internalname="molecule_name" displayname="Molecule name" description="molecule_name" linkouturl="" />
+                <attribute name="molecule_id" internalname="molecule_id" displayname="Molecule ID" description="molecule_id" linkouturl="" />
+                <attribute name="molecule_src_method" internalname="molecule_src_method" displayname="Molecule src method" description="molecule_src_method" linkouturl="" />
+                <attribute name="tax_concat" internalname="tax_concat" displayname="Tax concat" description="tax_concat" linkouturl="" />
+                <attribute name="scop_concat" internalname="scop_concat" displayname="Scop concat" description="scop_concat" linkouturl="" />
+                <attribute name="cath_concat" internalname="cath_concat" displayname="Cath concat" description="cath_concat" linkouturl="" />
+                <attribute name="uniprot_ac" internalname="uniprot_ac" displayname="UniProt Accession ID(s)" description="uniprot_ac" linkouturl="" />
+                <attribute name="sws_concat" internalname="sws_concat" displayname="Sws concat" description="sws_concat" linkouturl="" />
               </container>
               <container enableselectall="" name="journal__features__naive_attributes" displayname="JOURNAL:" internalname="journal__features__naive_attributes" description="journal__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="id" internalname="Id" displayname="Id" description="Id" linkouturl="" />
-                <attribute name="year" internalname="Year" displayname="Year" description="Year" linkouturl="" />
-                <attribute name="journal__dm_title" internalname="Title" displayname="Title" description="Title" linkouturl="" />
-                <attribute name="journal_full" internalname="Journal full" displayname="Journal full" description="Journal full" linkouturl="" />
-                <attribute name="journal_volume" internalname="Journal volume" displayname="Journal volume" description="Journal volume" linkouturl="" />
-                <attribute name="journal_issue" internalname="Journal issue" displayname="Journal issue" description="Journal issue" linkouturl="" />
-                <attribute name="ebi_journal_month" internalname="Month" displayname="Month" description="Month" linkouturl="" />
-                <attribute name="journal_id_issn" internalname="ISSN" displayname="ISSN" description="ISSN" linkouturl="" />
-                <attribute name="ebi_mesh_terms" internalname="Mesh terms" displayname="Mesh terms" description="Mesh terms" linkouturl="" />
-                <attribute name="range_pages" internalname="Range pages" displayname="Range pages" description="Range pages" linkouturl="" />
-                <attribute name="pubmed_id" internalname="Pubmed id" displayname="Pubmed id" description="Pubmed id" linkouturl="" />
-                <attribute name="author_list" internalname="Authors" displayname="Authors" description="Authors" linkouturl="" />
+                <attribute name="id" internalname="id" displayname="Id" description="id" linkouturl="" />
+                <attribute name="year" internalname="year" displayname="Year" description="year" linkouturl="" />
+                <attribute name="journal__dm_title" internalname="journal__dm_title" displayname="Title" description="journal__dm_title" linkouturl="" />
+                <attribute name="journal_full" internalname="journal_full" displayname="Journal full" description="journal_full" linkouturl="" />
+                <attribute name="journal_volume" internalname="journal_volume" displayname="Journal volume" description="journal_volume" linkouturl="" />
+                <attribute name="journal_issue" internalname="journal_issue" displayname="Journal issue" description="journal_issue" linkouturl="" />
+                <attribute name="ebi_journal_month" internalname="ebi_journal_month" displayname="Month" description="ebi_journal_month" linkouturl="" />
+                <attribute name="journal_id_issn" internalname="journal_id_issn" displayname="ISSN" description="journal_id_issn" linkouturl="" />
+                <attribute name="ebi_mesh_terms" internalname="ebi_mesh_terms" displayname="Mesh terms" description="ebi_mesh_terms" linkouturl="" />
+                <attribute name="range_pages" internalname="range_pages" displayname="Range pages" description="range_pages" linkouturl="" />
+                <attribute name="pubmed_id" internalname="pubmed_id" displayname="Pubmed id" description="pubmed_id" linkouturl="" />
+                <attribute name="author_list" internalname="author_list" displayname="Authors" description="author_list" linkouturl="" />
               </container>
             </container>
           </container>
@@ -394,12 +394,12 @@
           <filter name="with_has_scop" internalname="with_has_scop" displayname="with Has scop ID(s)" description="with_has_scop" />
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="with_has_ec_info" internalname="with Has ec info ID(s)" displayname="with Has ec info ID(s)" description="with Has ec info ID(s)" linkouturl="" />
-          <attribute name="with_has_interpro_info" internalname="with Has interpro info ID(s)" displayname="with Has interpro info ID(s)" description="with Has interpro info ID(s)" linkouturl="" />
-          <attribute name="with_has_go_info" internalname="with Has go info ID(s)" displayname="with Has go info ID(s)" description="with Has go info ID(s)" linkouturl="" />
-          <attribute name="with_has_pfam_info" internalname="with Has pfam info ID(s)" displayname="with Has pfam info ID(s)" description="with Has pfam info ID(s)" linkouturl="" />
-          <attribute name="with_has_cath" internalname="with Has cath ID(s)" displayname="with Has cath ID(s)" description="with Has cath ID(s)" linkouturl="" />
-          <attribute name="with_has_scop" internalname="with Has scop ID(s)" displayname="with Has scop ID(s)" description="with Has scop ID(s)" linkouturl="" />
+          <attribute name="with_has_ec_info" internalname="with_has_ec_info" displayname="with Has ec info ID(s)" description="with_has_ec_info" linkouturl="" />
+          <attribute name="with_has_interpro_info" internalname="with_has_interpro_info" displayname="with Has interpro info ID(s)" description="with_has_interpro_info" linkouturl="" />
+          <attribute name="with_has_go_info" internalname="with_has_go_info" displayname="with Has go info ID(s)" description="with_has_go_info" linkouturl="" />
+          <attribute name="with_has_pfam_info" internalname="with_has_pfam_info" displayname="with Has pfam info ID(s)" description="with_has_pfam_info" linkouturl="" />
+          <attribute name="with_has_cath" internalname="with_has_cath" displayname="with Has cath ID(s)" description="with_has_cath" linkouturl="" />
+          <attribute name="with_has_scop" internalname="with_has_scop" displayname="with Has scop ID(s)" description="with_has_scop" linkouturl="" />
         </container>
       </container>
     </accesspoint>
