@@ -461,7 +461,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="Homo sapiens genes (GRCh37.p2)" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="a2ee69bc63ec9553eb3fce844f5df692" displayname="Homo sapiens genes (GRCh37.p2)" hide="false" version="0.7" key="a2ee69bc63ec9553eb3fce844f5df692" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -816,90 +816,90 @@
           <container enableselectall="" name="feature_page" displayname="Features" internalname="feature_page" description="feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="gene__feature_page" displayname="GENE:" internalname="gene__feature_page" description="gene__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="vega_attributes__gene__feature_page" displayname="Vega" internalname="vega_attributes__gene__feature_page" description="vega_attributes__gene__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="vega_gene_id" internalname="VEGA gene ID" displayname="VEGA gene ID" description="VEGA gene ID" linkouturl="" />
-                <attribute name="vega_transcript_id" internalname="VEGA transcript ID" displayname="VEGA transcript ID" description="VEGA transcript ID" linkouturl="" />
-                <attribute name="vega_translation_id" internalname="VEGA protein ID" displayname="VEGA protein ID" description="VEGA protein ID" linkouturl="" />
-                <attribute name="canonical_transcript_stable_id" internalname="Canonical transcript stable ID" displayname="Canonical transcript stable ID" description="Canonical transcript stable ID" linkouturl="" />
-                <attribute name="description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
-                <attribute name="chromosome_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
-                <attribute name="start_position" internalname="Gene Start (bp)" displayname="Gene Start (bp)" description="Gene Start (bp)" linkouturl="" />
-                <attribute name="end_position" internalname="Gene End (bp)" displayname="Gene End (bp)" description="Gene End (bp)" linkouturl="" />
-                <attribute name="strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="band" internalname="Band" displayname="Band" description="Band" linkouturl="" />
-                <attribute name="transcript_start" internalname="Transcript Start (bp)" displayname="Transcript Start (bp)" description="Transcript Start (bp)" linkouturl="" />
-                <attribute name="transcript_end" internalname="Transcript End (bp)" displayname="Transcript End (bp)" description="Transcript End (bp)" linkouturl="" />
-                <attribute name="external_gene_id" internalname="External Gene ID" displayname="External Gene ID" description="External Gene ID" linkouturl="" />
-                <attribute name="external_transcript_id" internalname="External Transcript ID" displayname="External Transcript ID" description="External Transcript ID" linkouturl="" />
-                <attribute name="external_gene_db" internalname="External Gene DB" displayname="External Gene DB" description="External Gene DB" linkouturl="" />
-                <attribute name="transcript_db_name" internalname="External Transcript DB" displayname="External Transcript DB" description="External Transcript DB" linkouturl="" />
-                <attribute name="transcript_count" internalname="Transcript count" displayname="Transcript count" description="Transcript count" linkouturl="" />
-                <attribute name="gene_biotype" internalname="Gene Biotype" displayname="Gene Biotype" description="Gene Biotype" linkouturl="" />
-                <attribute name="transcript_biotype" internalname="Transcript Biotype" displayname="Transcript Biotype" description="Transcript Biotype" linkouturl="" />
-                <attribute name="source" internalname="Source" displayname="Source" description="Source" linkouturl="" />
-                <attribute name="status" internalname="Status (gene)" displayname="Status (gene)" description="Status (gene)" linkouturl="" />
-                <attribute name="transcript_status" internalname="Status (transcript)" displayname="Status (transcript)" description="Status (transcript)" linkouturl="" />
+                <attribute name="vega_gene_id" internalname="vega_gene_id" displayname="VEGA gene ID" description="vega_gene_id" linkouturl="" />
+                <attribute name="vega_transcript_id" internalname="vega_transcript_id" displayname="VEGA transcript ID" description="vega_transcript_id" linkouturl="" />
+                <attribute name="vega_translation_id" internalname="vega_translation_id" displayname="VEGA protein ID" description="vega_translation_id" linkouturl="" />
+                <attribute name="canonical_transcript_stable_id" internalname="canonical_transcript_stable_id" displayname="Canonical transcript stable ID" description="canonical_transcript_stable_id" linkouturl="" />
+                <attribute name="description" internalname="description" displayname="Description" description="description" linkouturl="" />
+                <attribute name="chromosome_name" internalname="chromosome_name" displayname="Chromosome Name" description="chromosome_name" linkouturl="" />
+                <attribute name="start_position" internalname="start_position" displayname="Gene Start (bp)" description="start_position" linkouturl="" />
+                <attribute name="end_position" internalname="end_position" displayname="Gene End (bp)" description="end_position" linkouturl="" />
+                <attribute name="strand" internalname="strand" displayname="Strand" description="strand" linkouturl="" />
+                <attribute name="band" internalname="band" displayname="Band" description="band" linkouturl="" />
+                <attribute name="transcript_start" internalname="transcript_start" displayname="Transcript Start (bp)" description="transcript_start" linkouturl="" />
+                <attribute name="transcript_end" internalname="transcript_end" displayname="Transcript End (bp)" description="transcript_end" linkouturl="" />
+                <attribute name="external_gene_id" internalname="external_gene_id" displayname="External Gene ID" description="external_gene_id" linkouturl="" />
+                <attribute name="external_transcript_id" internalname="external_transcript_id" displayname="External Transcript ID" description="external_transcript_id" linkouturl="" />
+                <attribute name="external_gene_db" internalname="external_gene_db" displayname="External Gene DB" description="external_gene_db" linkouturl="" />
+                <attribute name="transcript_db_name" internalname="transcript_db_name" displayname="External Transcript DB" description="transcript_db_name" linkouturl="" />
+                <attribute name="transcript_count" internalname="transcript_count" displayname="Transcript count" description="transcript_count" linkouturl="" />
+                <attribute name="gene_biotype" internalname="gene_biotype" displayname="Gene Biotype" description="gene_biotype" linkouturl="" />
+                <attribute name="transcript_biotype" internalname="transcript_biotype" displayname="Transcript Biotype" description="transcript_biotype" linkouturl="" />
+                <attribute name="source" internalname="source" displayname="Source" description="source" linkouturl="" />
+                <attribute name="status" internalname="status" displayname="Status (gene)" description="status" linkouturl="" />
+                <attribute name="transcript_status" internalname="transcript_status" displayname="Status (transcript)" description="transcript_status" linkouturl="" />
               </container>
             </container>
             <container enableselectall="" name="external__feature_page" displayname="EXTERNAL:" internalname="external__feature_page" description="external__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="xref__external__feature_page" displayname="External References (max 3)" internalname="xref__external__feature_page" description="xref__external__feature_page" hide="false" maxcontainers="" maxattributes="3" independentquerying="">
-                <attribute name="go_id" internalname="GO ID" displayname="GO ID" description="GO ID" linkouturl="" />
-                <attribute name="ccds" internalname="CCDS ID" displayname="CCDS ID" description="CCDS ID" linkouturl="" />
-                <attribute name="ens_hs_gene" internalname="Ensembl Human Gene" displayname="Ensembl Human Gene" description="Ensembl Human Gene" linkouturl="" />
-                <attribute name="enst_cds" internalname="ENST CDS ID" displayname="ENST CDS ID" description="ENST CDS ID" linkouturl="" />
-                <attribute name="enst_ident" internalname="ENST Identical ID" displayname="ENST Identical ID" description="ENST Identical ID" linkouturl="" />
-                <attribute name="hgnc_id" internalname="HGNC ID" displayname="HGNC ID" description="HGNC ID" linkouturl="" />
-                <attribute name="hgnc_symbol" internalname="HGNC symbol" displayname="HGNC symbol" description="HGNC symbol" linkouturl="" />
-                <attribute name="imgt_hla" internalname="IMGT HLA" displayname="IMGT HLA" description="IMGT HLA" linkouturl="" />
-                <attribute name="imgt_gene" internalname="IMGT Gene" displayname="IMGT Gene" description="IMGT Gene" linkouturl="" />
-                <attribute name="pubmed" internalname="Pubmed ID" displayname="Pubmed ID" description="Pubmed ID" linkouturl="" />
-                <attribute name="refseq_dna" internalname="RefSeq DNA ID" displayname="RefSeq DNA ID" description="RefSeq DNA ID" linkouturl="" />
-                <attribute name="refseq_dna_predicted" internalname="RefSeq predicted DNA ID" displayname="RefSeq predicted DNA ID" description="RefSeq predicted DNA ID" linkouturl="" />
-                <attribute name="refseq_rna" internalname="RefSeq RNA ID" displayname="RefSeq RNA ID" description="RefSeq RNA ID" linkouturl="" />
-                <attribute name="refseq_rna_predicted" internalname="RefSeq predicted RNA ID" displayname="RefSeq predicted RNA ID" description="RefSeq predicted RNA ID" linkouturl="" />
-                <attribute name="refseq_genomic" internalname="RefSeq Genomic ID" displayname="RefSeq Genomic ID" description="RefSeq Genomic ID" linkouturl="" />
-                <attribute name="entrezgene" internalname="EntrezGene ID" displayname="EntrezGene ID" description="EntrezGene ID" linkouturl="" />
-                <attribute name="mim_gene_id" internalname="MIM Gene ID" displayname="MIM Gene ID" description="MIM Gene ID" linkouturl="" />
-                <attribute name="uniprot_swissprot" internalname="UniProt/SwissProt Accession" displayname="UniProt/SwissProt Accession" description="UniProt/SwissProt Accession" linkouturl="" />
+                <attribute name="go_id" internalname="go_id" displayname="GO ID" description="go_id" linkouturl="" />
+                <attribute name="ccds" internalname="ccds" displayname="CCDS ID" description="ccds" linkouturl="" />
+                <attribute name="ens_hs_gene" internalname="ens_hs_gene" displayname="Ensembl Human Gene" description="ens_hs_gene" linkouturl="" />
+                <attribute name="enst_cds" internalname="enst_cds" displayname="ENST CDS ID" description="enst_cds" linkouturl="" />
+                <attribute name="enst_ident" internalname="enst_ident" displayname="ENST Identical ID" description="enst_ident" linkouturl="" />
+                <attribute name="hgnc_id" internalname="hgnc_id" displayname="HGNC ID" description="hgnc_id" linkouturl="" />
+                <attribute name="hgnc_symbol" internalname="hgnc_symbol" displayname="HGNC symbol" description="hgnc_symbol" linkouturl="" />
+                <attribute name="imgt_hla" internalname="imgt_hla" displayname="IMGT HLA" description="imgt_hla" linkouturl="" />
+                <attribute name="imgt_gene" internalname="imgt_gene" displayname="IMGT Gene" description="imgt_gene" linkouturl="" />
+                <attribute name="pubmed" internalname="pubmed" displayname="Pubmed ID" description="pubmed" linkouturl="" />
+                <attribute name="refseq_dna" internalname="refseq_dna" displayname="RefSeq DNA ID" description="refseq_dna" linkouturl="" />
+                <attribute name="refseq_dna_predicted" internalname="refseq_dna_predicted" displayname="RefSeq predicted DNA ID" description="refseq_dna_predicted" linkouturl="" />
+                <attribute name="refseq_rna" internalname="refseq_rna" displayname="RefSeq RNA ID" description="refseq_rna" linkouturl="" />
+                <attribute name="refseq_rna_predicted" internalname="refseq_rna_predicted" displayname="RefSeq predicted RNA ID" description="refseq_rna_predicted" linkouturl="" />
+                <attribute name="refseq_genomic" internalname="refseq_genomic" displayname="RefSeq Genomic ID" description="refseq_genomic" linkouturl="" />
+                <attribute name="entrezgene" internalname="entrezgene" displayname="EntrezGene ID" description="entrezgene" linkouturl="" />
+                <attribute name="mim_gene_id" internalname="mim_gene_id" displayname="MIM Gene ID" description="mim_gene_id" linkouturl="" />
+                <attribute name="uniprot_swissprot" internalname="uniprot_swissprot" displayname="UniProt/SwissProt Accession" description="uniprot_swissprot" linkouturl="" />
               </container>
             </container>
             <container enableselectall="" name="protein__feature_page" displayname="PROTEIN:" internalname="protein__feature_page" description="protein__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="prot_interpro__protein__feature_page" displayname="InterPro" internalname="prot_interpro__protein__feature_page" description="prot_interpro__protein__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="interpro" internalname="Interpro ID" displayname="Interpro ID" description="Interpro ID" linkouturl="" />
-                <attribute name="interpro_short_description" internalname="Interpro Short Description" displayname="Interpro Short Description" description="Interpro Short Description" linkouturl="" />
-                <attribute name="interpro_description" internalname="Interpro Description" displayname="Interpro Description" description="Interpro Description" linkouturl="" />
+                <attribute name="interpro" internalname="interpro" displayname="Interpro ID" description="interpro" linkouturl="" />
+                <attribute name="interpro_short_description" internalname="interpro_short_description" displayname="Interpro Short Description" description="interpro_short_description" linkouturl="" />
+                <attribute name="interpro_description" internalname="interpro_description" displayname="Interpro Description" description="interpro_description" linkouturl="" />
               </container>
               <container enableselectall="" name="prot_domain__protein__feature_page" displayname="Domains (max 2)" internalname="prot_domain__protein__feature_page" description="prot_domain__protein__feature_page" hide="false" maxcontainers="" maxattributes="2" independentquerying="">
-                <attribute name="profile" internalname="Profile ID" displayname="Profile ID" description="Profile ID" linkouturl="" />
-                <attribute name="prints" internalname="Prints ID" displayname="Prints ID" description="Prints ID" linkouturl="" />
-                <attribute name="pfam" internalname="Pfam ID" displayname="Pfam ID" description="Pfam ID" linkouturl="" />
+                <attribute name="profile" internalname="profile" displayname="Profile ID" description="profile" linkouturl="" />
+                <attribute name="prints" internalname="prints" displayname="Prints ID" description="prints" linkouturl="" />
+                <attribute name="pfam" internalname="pfam" displayname="Pfam ID" description="pfam" linkouturl="" />
               </container>
             </container>
           </container>
           <container enableselectall="" name="structure" displayname="Structures" internalname="structure" description="structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="gene__structure" displayname="GENE:" internalname="gene__structure" description="gene__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="vega_attributes_structure__gene__structure" displayname="Vega" internalname="vega_attributes_structure__gene__structure" description="vega_attributes_structure__gene__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="structure_gene_stable_id" internalname="VEGA gene ID" displayname="VEGA gene ID" description="VEGA gene ID" linkouturl="" />
-                <attribute name="structure_transcript_stable_id" internalname="VEGA transcript ID" displayname="VEGA transcript ID" description="VEGA transcript ID" linkouturl="" />
-                <attribute name="structure_chrom_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
-                <attribute name="structure_gene_chrom_start" internalname="Gene Start (bp)" displayname="Gene Start (bp)" description="Gene Start (bp)" linkouturl="" />
-                <attribute name="structure_gene_chrom_end" internalname="Gene End (bp)" displayname="Gene End (bp)" description="Gene End (bp)" linkouturl="" />
-                <attribute name="structure_transcript_chrom_start" internalname="Transcript Start (bp)" displayname="Transcript Start (bp)" description="Transcript Start (bp)" linkouturl="" />
-                <attribute name="structure_transcript_chrom_end" internalname="Transcript End (bp)" displayname="Transcript End (bp)" description="Transcript End (bp)" linkouturl="" />
-                <attribute name="structure_transcript_chrom_strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="structure_external_gene_id" internalname="External Gene ID" displayname="External Gene ID" description="External Gene ID" linkouturl="" />
-                <attribute name="structure_external_db_name" internalname="External Gene DB" displayname="External Gene DB" description="External Gene DB" linkouturl="" />
-                <attribute name="struct_transcript_count" internalname="Transcript count" displayname="Transcript count" description="Transcript count" linkouturl="" />
-                <attribute name="structure_description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
-                <attribute name="structure_biotype" internalname="Gene Biotype" displayname="Gene Biotype" description="Gene Biotype" linkouturl="" />
+                <attribute name="structure_gene_stable_id" internalname="structure_gene_stable_id" displayname="VEGA gene ID" description="structure_gene_stable_id" linkouturl="" />
+                <attribute name="structure_transcript_stable_id" internalname="structure_transcript_stable_id" displayname="VEGA transcript ID" description="structure_transcript_stable_id" linkouturl="" />
+                <attribute name="structure_chrom_name" internalname="structure_chrom_name" displayname="Chromosome Name" description="structure_chrom_name" linkouturl="" />
+                <attribute name="structure_gene_chrom_start" internalname="structure_gene_chrom_start" displayname="Gene Start (bp)" description="structure_gene_chrom_start" linkouturl="" />
+                <attribute name="structure_gene_chrom_end" internalname="structure_gene_chrom_end" displayname="Gene End (bp)" description="structure_gene_chrom_end" linkouturl="" />
+                <attribute name="structure_transcript_chrom_start" internalname="structure_transcript_chrom_start" displayname="Transcript Start (bp)" description="structure_transcript_chrom_start" linkouturl="" />
+                <attribute name="structure_transcript_chrom_end" internalname="structure_transcript_chrom_end" displayname="Transcript End (bp)" description="structure_transcript_chrom_end" linkouturl="" />
+                <attribute name="structure_transcript_chrom_strand" internalname="structure_transcript_chrom_strand" displayname="Strand" description="structure_transcript_chrom_strand" linkouturl="" />
+                <attribute name="structure_external_gene_id" internalname="structure_external_gene_id" displayname="External Gene ID" description="structure_external_gene_id" linkouturl="" />
+                <attribute name="structure_external_db_name" internalname="structure_external_db_name" displayname="External Gene DB" description="structure_external_db_name" linkouturl="" />
+                <attribute name="struct_transcript_count" internalname="struct_transcript_count" displayname="Transcript count" description="struct_transcript_count" linkouturl="" />
+                <attribute name="structure_description" internalname="structure_description" displayname="Description" description="structure_description" linkouturl="" />
+                <attribute name="structure_biotype" internalname="structure_biotype" displayname="Gene Biotype" description="structure_biotype" linkouturl="" />
               </container>
             </container>
             <container enableselectall="" name="exon__structure" displayname="EXON:" internalname="exon__structure" description="exon__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="exon_atts__exon__structure" displayname="Exon Information" internalname="exon_atts__exon__structure" description="exon_atts__exon__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="vega_exon_id" internalname="Vega Exon ID" displayname="Vega Exon ID" description="Vega Exon ID" linkouturl="" />
-                <attribute name="exon_chrom_start" internalname="Exon Chr Start (bp)" displayname="Exon Chr Start (bp)" description="Exon Chr Start (bp)" linkouturl="" />
-                <attribute name="exon_chrom_end" internalname="Exon Chr End (bp)" displayname="Exon Chr End (bp)" description="Exon Chr End (bp)" linkouturl="" />
-                <attribute name="is_constitutive" internalname="Constitutive Exon" displayname="Constitutive Exon" description="Constitutive Exon" linkouturl="" />
-                <attribute name="rank" internalname="Exon Rank in Transcript" displayname="Exon Rank in Transcript" description="Exon Rank in Transcript" linkouturl="" />
+                <attribute name="vega_exon_id" internalname="vega_exon_id" displayname="Vega Exon ID" description="vega_exon_id" linkouturl="" />
+                <attribute name="exon_chrom_start" internalname="exon_chrom_start" displayname="Exon Chr Start (bp)" description="exon_chrom_start" linkouturl="" />
+                <attribute name="exon_chrom_end" internalname="exon_chrom_end" displayname="Exon Chr End (bp)" description="exon_chrom_end" linkouturl="" />
+                <attribute name="is_constitutive" internalname="is_constitutive" displayname="Constitutive Exon" description="is_constitutive" linkouturl="" />
+                <attribute name="rank" internalname="rank" displayname="Exon Rank in Transcript" description="rank" linkouturl="" />
                 <attribute name="phase" internalname="phase" displayname="phase" description="phase" linkouturl="" />
               </container>
             </container>
@@ -923,26 +923,26 @@
             </container>
             <container enableselectall="" name="header_info__sequences" displayname="Header Information" internalname="header_info__sequences" description="header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="gene__header_info__sequences" displayname="Gene Information" internalname="gene__header_info__sequences" description="gene__header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="sequence_gene_stable_id" internalname="VEGA gene ID" displayname="VEGA gene ID" description="VEGA gene ID" linkouturl="" />
-                <attribute name="sequence_description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
-                <attribute name="sequence_external_gene_id" internalname="External Gene ID" displayname="External Gene ID" description="External Gene ID" linkouturl="" />
-                <attribute name="sequence_external_db_name" internalname="External Gene DB" displayname="External Gene DB" description="External Gene DB" linkouturl="" />
-                <attribute name="sequence_str_chrom_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
-                <attribute name="sequence_gene_chrom_start" internalname="Gene Start (bp)" displayname="Gene Start (bp)" description="Gene Start (bp)" linkouturl="" />
-                <attribute name="sequence_gene_chrom_end" internalname="Gene End (bp)" displayname="Gene End (bp)" description="Gene End (bp)" linkouturl="" />
+                <attribute name="sequence_gene_stable_id" internalname="sequence_gene_stable_id" displayname="VEGA gene ID" description="sequence_gene_stable_id" linkouturl="" />
+                <attribute name="sequence_description" internalname="sequence_description" displayname="Description" description="sequence_description" linkouturl="" />
+                <attribute name="sequence_external_gene_id" internalname="sequence_external_gene_id" displayname="External Gene ID" description="sequence_external_gene_id" linkouturl="" />
+                <attribute name="sequence_external_db_name" internalname="sequence_external_db_name" displayname="External Gene DB" description="sequence_external_db_name" linkouturl="" />
+                <attribute name="sequence_str_chrom_name" internalname="sequence_str_chrom_name" displayname="Chromosome Name" description="sequence_str_chrom_name" linkouturl="" />
+                <attribute name="sequence_gene_chrom_start" internalname="sequence_gene_chrom_start" displayname="Gene Start (bp)" description="sequence_gene_chrom_start" linkouturl="" />
+                <attribute name="sequence_gene_chrom_end" internalname="sequence_gene_chrom_end" displayname="Gene End (bp)" description="sequence_gene_chrom_end" linkouturl="" />
               </container>
               <container enableselectall="" name="transcript__header_info__sequences" displayname="Transcript Information" internalname="transcript__header_info__sequences" description="transcript__header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="sequence_transcript_stable_id" internalname="VEGA transcript ID" displayname="VEGA transcript ID" description="VEGA transcript ID" linkouturl="" />
-                <attribute name="sequence_transcript_chrom_strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="sequence_transcript_chrom_start" internalname="Transcript Start (bp)" displayname="Transcript Start (bp)" description="Transcript Start (bp)" linkouturl="" />
-                <attribute name="sequence_transcript_chrom_end" internalname="Transcript End (bp)" displayname="Transcript End (bp)" description="Transcript End (bp)" linkouturl="" />
+                <attribute name="sequence_transcript_stable_id" internalname="sequence_transcript_stable_id" displayname="VEGA transcript ID" description="sequence_transcript_stable_id" linkouturl="" />
+                <attribute name="sequence_transcript_chrom_strand" internalname="sequence_transcript_chrom_strand" displayname="Strand" description="sequence_transcript_chrom_strand" linkouturl="" />
+                <attribute name="sequence_transcript_chrom_start" internalname="sequence_transcript_chrom_start" displayname="Transcript Start (bp)" description="sequence_transcript_chrom_start" linkouturl="" />
+                <attribute name="sequence_transcript_chrom_end" internalname="sequence_transcript_chrom_end" displayname="Transcript End (bp)" description="sequence_transcript_chrom_end" linkouturl="" />
               </container>
               <container enableselectall="" name="exon__header_info__sequences" displayname="Exon Information" internalname="exon__header_info__sequences" description="exon__header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="sequence_exon_stable_id" internalname="Vega Exon ID" displayname="Vega Exon ID" description="Vega Exon ID" linkouturl="" />
-                <attribute name="sequence_exon_chrom_start" internalname="Exon Chr Start (bp)" displayname="Exon Chr Start (bp)" description="Exon Chr Start (bp)" linkouturl="" />
-                <attribute name="sequence_exon_chrom_end" internalname="Exon Chr End (bp)" displayname="Exon Chr End (bp)" description="Exon Chr End (bp)" linkouturl="" />
-                <attribute name="sequence_exon_chrom_strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="sequence_rank" internalname="Exon Rank in Transcript" displayname="Exon Rank in Transcript" description="Exon Rank in Transcript" linkouturl="" />
+                <attribute name="sequence_exon_stable_id" internalname="sequence_exon_stable_id" displayname="Vega Exon ID" description="sequence_exon_stable_id" linkouturl="" />
+                <attribute name="sequence_exon_chrom_start" internalname="sequence_exon_chrom_start" displayname="Exon Chr Start (bp)" description="sequence_exon_chrom_start" linkouturl="" />
+                <attribute name="sequence_exon_chrom_end" internalname="sequence_exon_chrom_end" displayname="Exon Chr End (bp)" description="sequence_exon_chrom_end" linkouturl="" />
+                <attribute name="sequence_exon_chrom_strand" internalname="sequence_exon_chrom_strand" displayname="Strand" description="sequence_exon_chrom_strand" linkouturl="" />
+                <attribute name="sequence_rank" internalname="sequence_rank" displayname="Exon Rank in Transcript" description="sequence_rank" linkouturl="" />
               </container>
             </container>
           </container>
@@ -951,19 +951,19 @@
               <container enableselectall="" name="link_attributes__link_attributes__link_attributes" displayname="link_attributes" internalname="link_attributes__link_attributes__link_attributes" description="link_attributes__link_attributes__link_attributes" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
                 <attribute name="seq_edits" internalname="seq_edits" displayname="seq_edits" description="seq_edits" linkouturl="" />
                 <attribute name="codon_table_id" internalname="codon_table_id" displayname="codon_table_id" description="codon_table_id" linkouturl="" />
-                <attribute name="end_exon_id" internalname="End exon id" displayname="End exon id" description="End exon id" linkouturl="" />
-                <attribute name="start_exon_id" internalname="Start exon id" displayname="Start exon id" description="Start exon id" linkouturl="" />
+                <attribute name="end_exon_id" internalname="end_exon_id" displayname="End exon id" description="end_exon_id" linkouturl="" />
+                <attribute name="start_exon_id" internalname="start_exon_id" displayname="Start exon id" description="start_exon_id" linkouturl="" />
                 <attribute name="exon_id" internalname="exon_id" displayname="exon_id" description="exon_id" linkouturl="" />
-                <attribute name="coding_end_offset" internalname="Coding End Offset" displayname="Coding End Offset" description="Coding End Offset" linkouturl="" />
-                <attribute name="coding_start_offset" internalname="Coding Start Offset" displayname="Coding Start Offset" description="Coding Start Offset" linkouturl="" />
+                <attribute name="coding_end_offset" internalname="coding_end_offset" displayname="Coding End Offset" description="coding_end_offset" linkouturl="" />
+                <attribute name="coding_start_offset" internalname="coding_start_offset" displayname="Coding Start Offset" description="coding_start_offset" linkouturl="" />
                 <attribute name="transcript_id_key" internalname="transcript_id_key" displayname="transcript_id_key" description="transcript_id_key" linkouturl="" />
-                <attribute name="structure_rank" internalname="Exon Rank in Transcript" displayname="Exon Rank in Transcript" description="Exon Rank in Transcript" linkouturl="" />
+                <attribute name="structure_rank" internalname="structure_rank" displayname="Exon Rank in Transcript" description="structure_rank" linkouturl="" />
               </container>
             </container>
           </container>
         </container>
         <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="aliases_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="exturl" internalname="External URL prefix" displayname="External URL prefix" description="External URL prefix" linkouturl="" />
+          <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="exturl" linkouturl="" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
           <container enableselectall="" name="link_filters__filters" displayname="link_filters" internalname="link_filters__filters" description="link_filters__filters" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
@@ -1003,60 +1003,60 @@
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="gene_id" internalname="gene_id" displayname="gene_id" description="gene_id" linkouturl="" />
-          <attribute name="with_vega_gene" internalname="with VEGA gene ID(s)" displayname="with VEGA gene ID(s)" description="with VEGA gene ID(s)" linkouturl="" />
-          <attribute name="with_vega_transcript" internalname="with VEGA transcript ID(s)" displayname="with VEGA transcript ID(s)" description="with VEGA transcript ID(s)" linkouturl="" />
-          <attribute name="with_vega_translation" internalname="with VEGA protein ID(s)" displayname="with VEGA protein ID(s)" description="with VEGA protein ID(s)" linkouturl="" />
-          <attribute name="with_ccds" internalname="with CCDS ID(s)" displayname="with CCDS ID(s)" description="with CCDS ID(s)" linkouturl="" />
-          <attribute name="with_ens_hs_gene" internalname="with Ensembl Human gene ID(s)" displayname="with Ensembl Human gene ID(s)" description="with Ensembl Human gene ID(s)" linkouturl="" />
-          <attribute name="with_enst_cds" internalname="with ENST CDS ID(s)" displayname="with ENST CDS ID(s)" description="with ENST CDS ID(s)" linkouturl="" />
-          <attribute name="with_enst_ident" internalname="with ENST Identical ID(s)" displayname="with ENST Identical ID(s)" description="with ENST Identical ID(s)" linkouturl="" />
-          <attribute name="with_entrezgene" internalname="with EntrezGene ID(s)" displayname="with EntrezGene ID(s)" description="with EntrezGene ID(s)" linkouturl="" />
-          <attribute name="with_exon_transcript" internalname="with Exon transcript ID(s)" displayname="with Exon transcript ID(s)" description="with Exon transcript ID(s)" linkouturl="" />
-          <attribute name="with_go_id" internalname="with GO ID(s)" displayname="with GO ID(s)" description="with GO ID(s)" linkouturl="" />
-          <attribute name="with_hgnc" internalname="with HGNC ID(s)" displayname="with HGNC ID(s)" description="with HGNC ID(s)" linkouturl="" />
-          <attribute name="with_imgtgene_db" internalname="with IMGT gene db ID(s)" displayname="with IMGT gene db ID(s)" description="with IMGT gene db ID(s)" linkouturl="" />
-          <attribute name="with_imgt_hla" internalname="with IMGT hla ID(s)" displayname="with IMGT hla ID(s)" description="with IMGT hla ID(s)" linkouturl="" />
-          <attribute name="with_mim_gene" internalname="with MIM gene ID(s)" displayname="with MIM gene ID(s)" description="with MIM gene ID(s)" linkouturl="" />
-          <attribute name="with_pubmed" internalname="with Pubmed ID(s)" displayname="with Pubmed ID(s)" description="with Pubmed ID(s)" linkouturl="" />
-          <attribute name="with_refseq_dna" internalname="with RefSeq DNA ID(s)" displayname="with RefSeq DNA ID(s)" description="with RefSeq DNA ID(s)" linkouturl="" />
-          <attribute name="with_refseq_dna_predicted" internalname="with RefSeq DNA predicted ID(s)" displayname="with RefSeq DNA predicted ID(s)" description="with RefSeq DNA predicted ID(s)" linkouturl="" />
-          <attribute name="with_refseq_rna" internalname="with RefSeq RNA ID(s)" displayname="with RefSeq RNA ID(s)" description="with RefSeq RNA ID(s)" linkouturl="" />
-          <attribute name="with_refseq_rna_predicted" internalname="with RefSeq RNA predicted ID(s)" displayname="with RefSeq RNA predicted ID(s)" description="with RefSeq RNA predicted ID(s)" linkouturl="" />
-          <attribute name="with_refseq_genomic" internalname="with RefSeq Genomic ID(s)" displayname="with RefSeq Genomic ID(s)" description="with RefSeq Genomic ID(s)" linkouturl="" />
-          <attribute name="with_uniprotswissprot" internalname="with UniProt/Swissprot Accession(s)" displayname="with UniProt/Swissprot Accession(s)" description="with UniProt/Swissprot Accession(s)" linkouturl="" />
-          <attribute name="vega_gene_id_1" internalname="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" displayname="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" description="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" linkouturl="" />
-          <attribute name="vega_transcript_id_1" internalname="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" displayname="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" description="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" linkouturl="" />
-          <attribute name="vega_translation_id_1" internalname="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" displayname="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" description="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" linkouturl="" />
-          <attribute name="ens_hs_gene_1" internalname="Ensembl Human gene ID(s) [e.g. ENSG00000177693]" displayname="Ensembl Human gene ID(s) [e.g. ENSG00000177693]" description="Ensembl Human gene ID(s) [e.g. ENSG00000177693]" linkouturl="" />
-          <attribute name="ccds_1" internalname="CCDS ID(s) [e.g. CCDS30547]" displayname="CCDS ID(s) [e.g. CCDS30547]" description="CCDS ID(s) [e.g. CCDS30547]" linkouturl="" />
-          <attribute name="go_id_1" internalname="GO ID(s) [e.g. GO:0050896]" displayname="GO ID(s) [e.g. GO:0050896]" description="GO ID(s) [e.g. GO:0050896]" linkouturl="" />
-          <attribute name="entrezgene_1" internalname="EntrezGene ID(s) [e.g. 79501]" displayname="EntrezGene ID(s) [e.g. 79501]" description="EntrezGene ID(s) [e.g. 79501]" linkouturl="" />
-          <attribute name="enst_cds_1" internalname="ENST CDS ID(s) [e.g. ENST00000326183]" displayname="ENST CDS ID(s) [e.g. ENST00000326183]" description="ENST CDS ID(s) [e.g. ENST00000326183]" linkouturl="" />
-          <attribute name="enst_ident_1" internalname="ENST Identical ID(s) [e.g. ENST00000492842]" displayname="ENST Identical ID(s) [e.g. ENST00000492842]" description="ENST Identical ID(s) [e.g. ENST00000492842]" linkouturl="" />
-          <attribute name="hgnc_id_1" internalname="HGNC ID [e.g. HGNC:32334]" displayname="HGNC ID [e.g. HGNC:32334]" description="HGNC ID [e.g. HGNC:32334]" linkouturl="" />
-          <attribute name="hgnc_symbol_1" internalname="HGNC symbol [e.g. FAM138A]" displayname="HGNC symbol [e.g. FAM138A]" description="HGNC symbol [e.g. FAM138A]" linkouturl="" />
-          <attribute name="mim_gene_id_1" internalname="MIM gene ID [e.g. 610770]" displayname="MIM gene ID [e.g. 610770]" description="MIM gene ID [e.g. 610770]" linkouturl="" />
-          <attribute name="imgt_hla_1" internalname="IMGT HLA ID(s) [e.g. F_01030101]" displayname="IMGT HLA ID(s) [e.g. F_01030101]" description="IMGT HLA ID(s) [e.g. F_01030101]" linkouturl="" />
-          <attribute name="imgt_gene_1" internalname="IMGT Gene ID(s) [e.g. IGKC]" displayname="IMGT Gene ID(s) [e.g. IGKC]" description="IMGT Gene ID(s) [e.g. IGKC]" linkouturl="" />
-          <attribute name="pubmed_1" internalname="Pubmed ID(s) [e.g. 11779631]" displayname="Pubmed ID(s) [e.g. 11779631]" description="Pubmed ID(s) [e.g. 11779631]" linkouturl="" />
-          <attribute name="refseq_dna_1" internalname="RefSeq DNA ID(s) [e.g. NM_001005484]" displayname="RefSeq DNA ID(s) [e.g. NM_001005484]" description="RefSeq DNA ID(s) [e.g. NM_001005484]" linkouturl="" />
-          <attribute name="refseq_dna_predicted_1" internalname="RefSeq predicted DNA ID(s) [e.g. XM_001717036]" displayname="RefSeq predicted DNA ID(s) [e.g. XM_001717036]" description="RefSeq predicted DNA ID(s) [e.g. XM_001717036]" linkouturl="" />
-          <attribute name="refseq_rna_1" internalname="RefSeq RNA ID(s) [e.g. NR_026818]" displayname="RefSeq RNA ID(s) [e.g. NR_026818]" description="RefSeq RNA ID(s) [e.g. NR_026818]" linkouturl="" />
-          <attribute name="refseq_rna_predicted_1" internalname="RefSeq predicted RNA ID(s) [e.g. XR_078896]" displayname="RefSeq predicted RNA ID(s) [e.g. XR_078896]" description="RefSeq predicted RNA ID(s) [e.g. XR_078896]" linkouturl="" />
-          <attribute name="refseq_genomic_1" internalname="Refseq Genomic ID(s) [e.g. NG_002419]" displayname="Refseq Genomic ID(s) [e.g. NG_002419]" description="Refseq Genomic ID(s) [e.g. NG_002419]" linkouturl="" />
-          <attribute name="uniprot_swissprot_1" internalname="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" displayname="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" description="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" linkouturl="" />
-          <attribute name="with_profile" internalname="with Protein feature pfscan ID(s)" displayname="with Protein feature pfscan ID(s)" description="with Protein feature pfscan ID(s)" linkouturl="" />
-          <attribute name="with_tmhmm" internalname="with Protein feature tmhmm ID(s)" displayname="with Protein feature tmhmm ID(s)" description="with Protein feature tmhmm ID(s)" linkouturl="" />
-          <attribute name="with_signalp" internalname="with Protein feature signalp ID(s)" displayname="with Protein feature signalp ID(s)" description="with Protein feature signalp ID(s)" linkouturl="" />
-          <attribute name="with_low_complexity" internalname="with Protein feature seg ID(s)" displayname="with Protein feature seg ID(s)" description="with Protein feature seg ID(s)" linkouturl="" />
-          <attribute name="with_coil" internalname="with Protein feature ncoils ID(s)" displayname="with Protein feature ncoils ID(s)" description="with Protein feature ncoils ID(s)" linkouturl="" />
-          <attribute name="with_pfam" internalname="with PFAM ID(s)" displayname="with PFAM ID(s)" description="with PFAM ID(s)" linkouturl="" />
-          <attribute name="with_prints" internalname="with PRINTS ID(s)" displayname="with PRINTS ID(s)" description="with PRINTS ID(s)" linkouturl="" />
-          <attribute name="with_interpro" internalname="with InterPro ID(s)" displayname="with InterPro ID(s)" description="with InterPro ID(s)" linkouturl="" />
-          <attribute name="pfam_1" internalname="PFAM ID(s) [e.g. PF00001]" displayname="PFAM ID(s) [e.g. PF00001]" description="PFAM ID(s) [e.g. PF00001]" linkouturl="" />
-          <attribute name="prints_1" internalname="PRINTS ID(s) [e.g. PR00245]" displayname="PRINTS ID(s) [e.g. PR00245]" description="PRINTS ID(s) [e.g. PR00245]" linkouturl="" />
-          <attribute name="profile_1" internalname="PROFILE ID(s) [e.g. PS50262]" displayname="PROFILE ID(s) [e.g. PS50262]" description="PROFILE ID(s) [e.g. PS50262]" linkouturl="" />
-          <attribute name="interpro_1" internalname="InterPro ID(s) [e.g. IPR000276]" displayname="InterPro ID(s) [e.g. IPR000276]" description="InterPro ID(s) [e.g. IPR000276]" linkouturl="" />
+          <attribute name="with_vega_gene" internalname="with_vega_gene" displayname="with VEGA gene ID(s)" description="with_vega_gene" linkouturl="" />
+          <attribute name="with_vega_transcript" internalname="with_vega_transcript" displayname="with VEGA transcript ID(s)" description="with_vega_transcript" linkouturl="" />
+          <attribute name="with_vega_translation" internalname="with_vega_translation" displayname="with VEGA protein ID(s)" description="with_vega_translation" linkouturl="" />
+          <attribute name="with_ccds" internalname="with_ccds" displayname="with CCDS ID(s)" description="with_ccds" linkouturl="" />
+          <attribute name="with_ens_hs_gene" internalname="with_ens_hs_gene" displayname="with Ensembl Human gene ID(s)" description="with_ens_hs_gene" linkouturl="" />
+          <attribute name="with_enst_cds" internalname="with_enst_cds" displayname="with ENST CDS ID(s)" description="with_enst_cds" linkouturl="" />
+          <attribute name="with_enst_ident" internalname="with_enst_ident" displayname="with ENST Identical ID(s)" description="with_enst_ident" linkouturl="" />
+          <attribute name="with_entrezgene" internalname="with_entrezgene" displayname="with EntrezGene ID(s)" description="with_entrezgene" linkouturl="" />
+          <attribute name="with_exon_transcript" internalname="with_exon_transcript" displayname="with Exon transcript ID(s)" description="with_exon_transcript" linkouturl="" />
+          <attribute name="with_go_id" internalname="with_go_id" displayname="with GO ID(s)" description="with_go_id" linkouturl="" />
+          <attribute name="with_hgnc" internalname="with_hgnc" displayname="with HGNC ID(s)" description="with_hgnc" linkouturl="" />
+          <attribute name="with_imgtgene_db" internalname="with_imgtgene_db" displayname="with IMGT gene db ID(s)" description="with_imgtgene_db" linkouturl="" />
+          <attribute name="with_imgt_hla" internalname="with_imgt_hla" displayname="with IMGT hla ID(s)" description="with_imgt_hla" linkouturl="" />
+          <attribute name="with_mim_gene" internalname="with_mim_gene" displayname="with MIM gene ID(s)" description="with_mim_gene" linkouturl="" />
+          <attribute name="with_pubmed" internalname="with_pubmed" displayname="with Pubmed ID(s)" description="with_pubmed" linkouturl="" />
+          <attribute name="with_refseq_dna" internalname="with_refseq_dna" displayname="with RefSeq DNA ID(s)" description="with_refseq_dna" linkouturl="" />
+          <attribute name="with_refseq_dna_predicted" internalname="with_refseq_dna_predicted" displayname="with RefSeq DNA predicted ID(s)" description="with_refseq_dna_predicted" linkouturl="" />
+          <attribute name="with_refseq_rna" internalname="with_refseq_rna" displayname="with RefSeq RNA ID(s)" description="with_refseq_rna" linkouturl="" />
+          <attribute name="with_refseq_rna_predicted" internalname="with_refseq_rna_predicted" displayname="with RefSeq RNA predicted ID(s)" description="with_refseq_rna_predicted" linkouturl="" />
+          <attribute name="with_refseq_genomic" internalname="with_refseq_genomic" displayname="with RefSeq Genomic ID(s)" description="with_refseq_genomic" linkouturl="" />
+          <attribute name="with_uniprotswissprot" internalname="with_uniprotswissprot" displayname="with UniProt/Swissprot Accession(s)" description="with_uniprotswissprot" linkouturl="" />
+          <attribute name="vega_gene_id_1" internalname="vega_gene_id_1" displayname="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" description="vega_gene_id_1" linkouturl="" />
+          <attribute name="vega_transcript_id_1" internalname="vega_transcript_id_1" displayname="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" description="vega_transcript_id_1" linkouturl="" />
+          <attribute name="vega_translation_id_1" internalname="vega_translation_id_1" displayname="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" description="vega_translation_id_1" linkouturl="" />
+          <attribute name="ens_hs_gene_1" internalname="ens_hs_gene_1" displayname="Ensembl Human gene ID(s) [e.g. ENSG00000177693]" description="ens_hs_gene_1" linkouturl="" />
+          <attribute name="ccds_1" internalname="ccds_1" displayname="CCDS ID(s) [e.g. CCDS30547]" description="ccds_1" linkouturl="" />
+          <attribute name="go_id_1" internalname="go_id_1" displayname="GO ID(s) [e.g. GO:0050896]" description="go_id_1" linkouturl="" />
+          <attribute name="entrezgene_1" internalname="entrezgene_1" displayname="EntrezGene ID(s) [e.g. 79501]" description="entrezgene_1" linkouturl="" />
+          <attribute name="enst_cds_1" internalname="enst_cds_1" displayname="ENST CDS ID(s) [e.g. ENST00000326183]" description="enst_cds_1" linkouturl="" />
+          <attribute name="enst_ident_1" internalname="enst_ident_1" displayname="ENST Identical ID(s) [e.g. ENST00000492842]" description="enst_ident_1" linkouturl="" />
+          <attribute name="hgnc_id_1" internalname="hgnc_id_1" displayname="HGNC ID [e.g. HGNC:32334]" description="hgnc_id_1" linkouturl="" />
+          <attribute name="hgnc_symbol_1" internalname="hgnc_symbol_1" displayname="HGNC symbol [e.g. FAM138A]" description="hgnc_symbol_1" linkouturl="" />
+          <attribute name="mim_gene_id_1" internalname="mim_gene_id_1" displayname="MIM gene ID [e.g. 610770]" description="mim_gene_id_1" linkouturl="" />
+          <attribute name="imgt_hla_1" internalname="imgt_hla_1" displayname="IMGT HLA ID(s) [e.g. F_01030101]" description="imgt_hla_1" linkouturl="" />
+          <attribute name="imgt_gene_1" internalname="imgt_gene_1" displayname="IMGT Gene ID(s) [e.g. IGKC]" description="imgt_gene_1" linkouturl="" />
+          <attribute name="pubmed_1" internalname="pubmed_1" displayname="Pubmed ID(s) [e.g. 11779631]" description="pubmed_1" linkouturl="" />
+          <attribute name="refseq_dna_1" internalname="refseq_dna_1" displayname="RefSeq DNA ID(s) [e.g. NM_001005484]" description="refseq_dna_1" linkouturl="" />
+          <attribute name="refseq_dna_predicted_1" internalname="refseq_dna_predicted_1" displayname="RefSeq predicted DNA ID(s) [e.g. XM_001717036]" description="refseq_dna_predicted_1" linkouturl="" />
+          <attribute name="refseq_rna_1" internalname="refseq_rna_1" displayname="RefSeq RNA ID(s) [e.g. NR_026818]" description="refseq_rna_1" linkouturl="" />
+          <attribute name="refseq_rna_predicted_1" internalname="refseq_rna_predicted_1" displayname="RefSeq predicted RNA ID(s) [e.g. XR_078896]" description="refseq_rna_predicted_1" linkouturl="" />
+          <attribute name="refseq_genomic_1" internalname="refseq_genomic_1" displayname="Refseq Genomic ID(s) [e.g. NG_002419]" description="refseq_genomic_1" linkouturl="" />
+          <attribute name="uniprot_swissprot_1" internalname="uniprot_swissprot_1" displayname="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" description="uniprot_swissprot_1" linkouturl="" />
+          <attribute name="with_profile" internalname="with_profile" displayname="with Protein feature pfscan ID(s)" description="with_profile" linkouturl="" />
+          <attribute name="with_tmhmm" internalname="with_tmhmm" displayname="with Protein feature tmhmm ID(s)" description="with_tmhmm" linkouturl="" />
+          <attribute name="with_signalp" internalname="with_signalp" displayname="with Protein feature signalp ID(s)" description="with_signalp" linkouturl="" />
+          <attribute name="with_low_complexity" internalname="with_low_complexity" displayname="with Protein feature seg ID(s)" description="with_low_complexity" linkouturl="" />
+          <attribute name="with_coil" internalname="with_coil" displayname="with Protein feature ncoils ID(s)" description="with_coil" linkouturl="" />
+          <attribute name="with_pfam" internalname="with_pfam" displayname="with PFAM ID(s)" description="with_pfam" linkouturl="" />
+          <attribute name="with_prints" internalname="with_prints" displayname="with PRINTS ID(s)" description="with_prints" linkouturl="" />
+          <attribute name="with_interpro" internalname="with_interpro" displayname="with InterPro ID(s)" description="with_interpro" linkouturl="" />
+          <attribute name="pfam_1" internalname="pfam_1" displayname="PFAM ID(s) [e.g. PF00001]" description="pfam_1" linkouturl="" />
+          <attribute name="prints_1" internalname="prints_1" displayname="PRINTS ID(s) [e.g. PR00245]" description="prints_1" linkouturl="" />
+          <attribute name="profile_1" internalname="profile_1" displayname="PROFILE ID(s) [e.g. PS50262]" description="profile_1" linkouturl="" />
+          <attribute name="interpro_1" internalname="interpro_1" displayname="InterPro ID(s) [e.g. IPR000276]" description="interpro_1" linkouturl="" />
         </container>
         <container enableselectall="" name="new_id_list_filters_list_container" displayname="new_id_list_filters_list_container" internalname="new_id_list_filters_list_container" description="new_id_list_filters_list_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <filter name="with_vega_gene" internalname="with_vega_gene" displayname="with VEGA gene ID(s)" description="with_vega_gene" />
@@ -1468,7 +1468,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="a2ee69bc63ec9553eb3fce844f5df692" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="a2ee69bc63ec9553eb3fce844f5df692" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -1793,84 +1793,84 @@
           <container enableselectall="" name="feature_page" displayname="Features" internalname="feature_page" description="feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="gene__feature_page" displayname="GENE:" internalname="gene__feature_page" description="gene__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="vega_attributes__gene__feature_page" displayname="Vega" internalname="vega_attributes__gene__feature_page" description="vega_attributes__gene__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="vega_gene_id" internalname="VEGA gene ID" displayname="VEGA gene ID" description="VEGA gene ID" linkouturl="" />
-                <attribute name="vega_transcript_id" internalname="VEGA transcript ID" displayname="VEGA transcript ID" description="VEGA transcript ID" linkouturl="" />
-                <attribute name="vega_translation_id" internalname="VEGA protein ID" displayname="VEGA protein ID" description="VEGA protein ID" linkouturl="" />
-                <attribute name="canonical_transcript_stable_id" internalname="Canonical transcript stable ID" displayname="Canonical transcript stable ID" description="Canonical transcript stable ID" linkouturl="" />
-                <attribute name="description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
-                <attribute name="chromosome_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
-                <attribute name="start_position" internalname="Gene Start (bp)" displayname="Gene Start (bp)" description="Gene Start (bp)" linkouturl="" />
-                <attribute name="end_position" internalname="Gene End (bp)" displayname="Gene End (bp)" description="Gene End (bp)" linkouturl="" />
-                <attribute name="strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="band" internalname="Band" displayname="Band" description="Band" linkouturl="" />
-                <attribute name="transcript_start" internalname="Transcript Start (bp)" displayname="Transcript Start (bp)" description="Transcript Start (bp)" linkouturl="" />
-                <attribute name="transcript_end" internalname="Transcript End (bp)" displayname="Transcript End (bp)" description="Transcript End (bp)" linkouturl="" />
-                <attribute name="external_gene_id" internalname="External Gene ID" displayname="External Gene ID" description="External Gene ID" linkouturl="" />
-                <attribute name="external_transcript_id" internalname="External Transcript ID" displayname="External Transcript ID" description="External Transcript ID" linkouturl="" />
-                <attribute name="external_gene_db" internalname="External Gene DB" displayname="External Gene DB" description="External Gene DB" linkouturl="" />
-                <attribute name="transcript_db_name" internalname="External Transcript DB" displayname="External Transcript DB" description="External Transcript DB" linkouturl="" />
-                <attribute name="transcript_count" internalname="Transcript count" displayname="Transcript count" description="Transcript count" linkouturl="" />
-                <attribute name="gene_biotype" internalname="Gene Biotype" displayname="Gene Biotype" description="Gene Biotype" linkouturl="" />
-                <attribute name="transcript_biotype" internalname="Transcript Biotype" displayname="Transcript Biotype" description="Transcript Biotype" linkouturl="" />
-                <attribute name="source" internalname="Source" displayname="Source" description="Source" linkouturl="" />
-                <attribute name="status" internalname="Status (gene)" displayname="Status (gene)" description="Status (gene)" linkouturl="" />
-                <attribute name="transcript_status" internalname="Status (transcript)" displayname="Status (transcript)" description="Status (transcript)" linkouturl="" />
+                <attribute name="vega_gene_id" internalname="vega_gene_id" displayname="VEGA gene ID" description="vega_gene_id" linkouturl="" />
+                <attribute name="vega_transcript_id" internalname="vega_transcript_id" displayname="VEGA transcript ID" description="vega_transcript_id" linkouturl="" />
+                <attribute name="vega_translation_id" internalname="vega_translation_id" displayname="VEGA protein ID" description="vega_translation_id" linkouturl="" />
+                <attribute name="canonical_transcript_stable_id" internalname="canonical_transcript_stable_id" displayname="Canonical transcript stable ID" description="canonical_transcript_stable_id" linkouturl="" />
+                <attribute name="description" internalname="description" displayname="Description" description="description" linkouturl="" />
+                <attribute name="chromosome_name" internalname="chromosome_name" displayname="Chromosome Name" description="chromosome_name" linkouturl="" />
+                <attribute name="start_position" internalname="start_position" displayname="Gene Start (bp)" description="start_position" linkouturl="" />
+                <attribute name="end_position" internalname="end_position" displayname="Gene End (bp)" description="end_position" linkouturl="" />
+                <attribute name="strand" internalname="strand" displayname="Strand" description="strand" linkouturl="" />
+                <attribute name="band" internalname="band" displayname="Band" description="band" linkouturl="" />
+                <attribute name="transcript_start" internalname="transcript_start" displayname="Transcript Start (bp)" description="transcript_start" linkouturl="" />
+                <attribute name="transcript_end" internalname="transcript_end" displayname="Transcript End (bp)" description="transcript_end" linkouturl="" />
+                <attribute name="external_gene_id" internalname="external_gene_id" displayname="External Gene ID" description="external_gene_id" linkouturl="" />
+                <attribute name="external_transcript_id" internalname="external_transcript_id" displayname="External Transcript ID" description="external_transcript_id" linkouturl="" />
+                <attribute name="external_gene_db" internalname="external_gene_db" displayname="External Gene DB" description="external_gene_db" linkouturl="" />
+                <attribute name="transcript_db_name" internalname="transcript_db_name" displayname="External Transcript DB" description="transcript_db_name" linkouturl="" />
+                <attribute name="transcript_count" internalname="transcript_count" displayname="Transcript count" description="transcript_count" linkouturl="" />
+                <attribute name="gene_biotype" internalname="gene_biotype" displayname="Gene Biotype" description="gene_biotype" linkouturl="" />
+                <attribute name="transcript_biotype" internalname="transcript_biotype" displayname="Transcript Biotype" description="transcript_biotype" linkouturl="" />
+                <attribute name="source" internalname="source" displayname="Source" description="source" linkouturl="" />
+                <attribute name="status" internalname="status" displayname="Status (gene)" description="status" linkouturl="" />
+                <attribute name="transcript_status" internalname="transcript_status" displayname="Status (transcript)" description="transcript_status" linkouturl="" />
               </container>
             </container>
             <container enableselectall="" name="external__feature_page" displayname="EXTERNAL:" internalname="external__feature_page" description="external__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="xref__external__feature_page" displayname="External References (max 3)" internalname="xref__external__feature_page" description="xref__external__feature_page" hide="false" maxcontainers="" maxattributes="3" independentquerying="">
-                <attribute name="go_id" internalname="GO ID" displayname="GO ID" description="GO ID" linkouturl="" />
-                <attribute name="ccds" internalname="CCDS ID" displayname="CCDS ID" description="CCDS ID" linkouturl="" />
-                <attribute name="ens_mm_gene" internalname="Ensembl Mouse Gene" displayname="Ensembl Mouse Gene" description="Ensembl Mouse Gene" linkouturl="" />
-                <attribute name="enst_cds" internalname="ENST CDS ID" displayname="ENST CDS ID" description="ENST CDS ID" linkouturl="" />
-                <attribute name="enst_ident" internalname="ENST Identical ID" displayname="ENST Identical ID" description="ENST Identical ID" linkouturl="" />
-                <attribute name="mgi_id" internalname="MGI ID" displayname="MGI ID" description="MGI ID" linkouturl="" />
-                <attribute name="mgi_symbol" internalname="MGI symbol" displayname="MGI symbol" description="MGI symbol" linkouturl="" />
-                <attribute name="refseq_dna" internalname="RefSeq DNA ID" displayname="RefSeq DNA ID" description="RefSeq DNA ID" linkouturl="" />
-                <attribute name="refseq_peptide" internalname="RefSeq protein ID" displayname="RefSeq protein ID" description="RefSeq protein ID" linkouturl="" />
-                <attribute name="entrezgene" internalname="EntrezGene ID" displayname="EntrezGene ID" description="EntrezGene ID" linkouturl="" />
-                <attribute name="uniprot_swissprot" internalname="UniProt/SwissProt Accession" displayname="UniProt/SwissProt Accession" description="UniProt/SwissProt Accession" linkouturl="" />
+                <attribute name="go_id" internalname="go_id" displayname="GO ID" description="go_id" linkouturl="" />
+                <attribute name="ccds" internalname="ccds" displayname="CCDS ID" description="ccds" linkouturl="" />
+                <attribute name="ens_mm_gene" internalname="ens_mm_gene" displayname="Ensembl Mouse Gene" description="ens_mm_gene" linkouturl="" />
+                <attribute name="enst_cds" internalname="enst_cds" displayname="ENST CDS ID" description="enst_cds" linkouturl="" />
+                <attribute name="enst_ident" internalname="enst_ident" displayname="ENST Identical ID" description="enst_ident" linkouturl="" />
+                <attribute name="mgi_id" internalname="mgi_id" displayname="MGI ID" description="mgi_id" linkouturl="" />
+                <attribute name="mgi_symbol" internalname="mgi_symbol" displayname="MGI symbol" description="mgi_symbol" linkouturl="" />
+                <attribute name="refseq_dna" internalname="refseq_dna" displayname="RefSeq DNA ID" description="refseq_dna" linkouturl="" />
+                <attribute name="refseq_peptide" internalname="refseq_peptide" displayname="RefSeq protein ID" description="refseq_peptide" linkouturl="" />
+                <attribute name="entrezgene" internalname="entrezgene" displayname="EntrezGene ID" description="entrezgene" linkouturl="" />
+                <attribute name="uniprot_swissprot" internalname="uniprot_swissprot" displayname="UniProt/SwissProt Accession" description="uniprot_swissprot" linkouturl="" />
               </container>
             </container>
             <container enableselectall="" name="protein__feature_page" displayname="PROTEIN:" internalname="protein__feature_page" description="protein__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="prot_interpro__protein__feature_page" displayname="InterPro" internalname="prot_interpro__protein__feature_page" description="prot_interpro__protein__feature_page" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="interpro" internalname="Interpro ID" displayname="Interpro ID" description="Interpro ID" linkouturl="" />
-                <attribute name="interpro_short_description" internalname="Interpro Short Description" displayname="Interpro Short Description" description="Interpro Short Description" linkouturl="" />
-                <attribute name="interpro_description" internalname="Interpro Description" displayname="Interpro Description" description="Interpro Description" linkouturl="" />
+                <attribute name="interpro" internalname="interpro" displayname="Interpro ID" description="interpro" linkouturl="" />
+                <attribute name="interpro_short_description" internalname="interpro_short_description" displayname="Interpro Short Description" description="interpro_short_description" linkouturl="" />
+                <attribute name="interpro_description" internalname="interpro_description" displayname="Interpro Description" description="interpro_description" linkouturl="" />
               </container>
               <container enableselectall="" name="prot_domain__protein__feature_page" displayname="Domains (max 2)" internalname="prot_domain__protein__feature_page" description="prot_domain__protein__feature_page" hide="false" maxcontainers="" maxattributes="2" independentquerying="">
-                <attribute name="profile" internalname="Profile ID" displayname="Profile ID" description="Profile ID" linkouturl="" />
-                <attribute name="prints" internalname="Prints ID" displayname="Prints ID" description="Prints ID" linkouturl="" />
-                <attribute name="pfam" internalname="Pfam ID" displayname="Pfam ID" description="Pfam ID" linkouturl="" />
-                <attribute name="prosite" internalname="Prosite ID" displayname="Prosite ID" description="Prosite ID" linkouturl="" />
+                <attribute name="profile" internalname="profile" displayname="Profile ID" description="profile" linkouturl="" />
+                <attribute name="prints" internalname="prints" displayname="Prints ID" description="prints" linkouturl="" />
+                <attribute name="pfam" internalname="pfam" displayname="Pfam ID" description="pfam" linkouturl="" />
+                <attribute name="prosite" internalname="prosite" displayname="Prosite ID" description="prosite" linkouturl="" />
               </container>
             </container>
           </container>
           <container enableselectall="" name="structure" displayname="Structures" internalname="structure" description="structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="gene__structure" displayname="GENE:" internalname="gene__structure" description="gene__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="vega_attributes_structure__gene__structure" displayname="Vega" internalname="vega_attributes_structure__gene__structure" description="vega_attributes_structure__gene__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="structure_gene_stable_id" internalname="VEGA gene ID" displayname="VEGA gene ID" description="VEGA gene ID" linkouturl="" />
-                <attribute name="structure_transcript_stable_id" internalname="VEGA transcript ID" displayname="VEGA transcript ID" description="VEGA transcript ID" linkouturl="" />
-                <attribute name="structure_chrom_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
-                <attribute name="structure_gene_chrom_start" internalname="Gene Start (bp)" displayname="Gene Start (bp)" description="Gene Start (bp)" linkouturl="" />
-                <attribute name="structure_gene_chrom_end" internalname="Gene End (bp)" displayname="Gene End (bp)" description="Gene End (bp)" linkouturl="" />
-                <attribute name="structure_transcript_chrom_start" internalname="Transcript Start (bp)" displayname="Transcript Start (bp)" description="Transcript Start (bp)" linkouturl="" />
-                <attribute name="structure_transcript_chrom_end" internalname="Transcript End (bp)" displayname="Transcript End (bp)" description="Transcript End (bp)" linkouturl="" />
-                <attribute name="structure_transcript_chrom_strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="structure_external_gene_id" internalname="External Gene ID" displayname="External Gene ID" description="External Gene ID" linkouturl="" />
-                <attribute name="structure_external_db_name" internalname="External Gene DB" displayname="External Gene DB" description="External Gene DB" linkouturl="" />
-                <attribute name="struct_transcript_count" internalname="Transcript count" displayname="Transcript count" description="Transcript count" linkouturl="" />
-                <attribute name="structure_description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
-                <attribute name="structure_biotype" internalname="Gene Biotype" displayname="Gene Biotype" description="Gene Biotype" linkouturl="" />
+                <attribute name="structure_gene_stable_id" internalname="structure_gene_stable_id" displayname="VEGA gene ID" description="structure_gene_stable_id" linkouturl="" />
+                <attribute name="structure_transcript_stable_id" internalname="structure_transcript_stable_id" displayname="VEGA transcript ID" description="structure_transcript_stable_id" linkouturl="" />
+                <attribute name="structure_chrom_name" internalname="structure_chrom_name" displayname="Chromosome Name" description="structure_chrom_name" linkouturl="" />
+                <attribute name="structure_gene_chrom_start" internalname="structure_gene_chrom_start" displayname="Gene Start (bp)" description="structure_gene_chrom_start" linkouturl="" />
+                <attribute name="structure_gene_chrom_end" internalname="structure_gene_chrom_end" displayname="Gene End (bp)" description="structure_gene_chrom_end" linkouturl="" />
+                <attribute name="structure_transcript_chrom_start" internalname="structure_transcript_chrom_start" displayname="Transcript Start (bp)" description="structure_transcript_chrom_start" linkouturl="" />
+                <attribute name="structure_transcript_chrom_end" internalname="structure_transcript_chrom_end" displayname="Transcript End (bp)" description="structure_transcript_chrom_end" linkouturl="" />
+                <attribute name="structure_transcript_chrom_strand" internalname="structure_transcript_chrom_strand" displayname="Strand" description="structure_transcript_chrom_strand" linkouturl="" />
+                <attribute name="structure_external_gene_id" internalname="structure_external_gene_id" displayname="External Gene ID" description="structure_external_gene_id" linkouturl="" />
+                <attribute name="structure_external_db_name" internalname="structure_external_db_name" displayname="External Gene DB" description="structure_external_db_name" linkouturl="" />
+                <attribute name="struct_transcript_count" internalname="struct_transcript_count" displayname="Transcript count" description="struct_transcript_count" linkouturl="" />
+                <attribute name="structure_description" internalname="structure_description" displayname="Description" description="structure_description" linkouturl="" />
+                <attribute name="structure_biotype" internalname="structure_biotype" displayname="Gene Biotype" description="structure_biotype" linkouturl="" />
               </container>
             </container>
             <container enableselectall="" name="exon__structure" displayname="EXON:" internalname="exon__structure" description="exon__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="exon_atts__exon__structure" displayname="Exon Information" internalname="exon_atts__exon__structure" description="exon_atts__exon__structure" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="vega_exon_id" internalname="Vega Exon ID" displayname="Vega Exon ID" description="Vega Exon ID" linkouturl="" />
-                <attribute name="exon_chrom_start" internalname="Exon Chr Start (bp)" displayname="Exon Chr Start (bp)" description="Exon Chr Start (bp)" linkouturl="" />
-                <attribute name="exon_chrom_end" internalname="Exon Chr End (bp)" displayname="Exon Chr End (bp)" description="Exon Chr End (bp)" linkouturl="" />
-                <attribute name="is_constitutive" internalname="Constitutive Exon" displayname="Constitutive Exon" description="Constitutive Exon" linkouturl="" />
-                <attribute name="rank" internalname="Exon Rank in Transcript" displayname="Exon Rank in Transcript" description="Exon Rank in Transcript" linkouturl="" />
+                <attribute name="vega_exon_id" internalname="vega_exon_id" displayname="Vega Exon ID" description="vega_exon_id" linkouturl="" />
+                <attribute name="exon_chrom_start" internalname="exon_chrom_start" displayname="Exon Chr Start (bp)" description="exon_chrom_start" linkouturl="" />
+                <attribute name="exon_chrom_end" internalname="exon_chrom_end" displayname="Exon Chr End (bp)" description="exon_chrom_end" linkouturl="" />
+                <attribute name="is_constitutive" internalname="is_constitutive" displayname="Constitutive Exon" description="is_constitutive" linkouturl="" />
+                <attribute name="rank" internalname="rank" displayname="Exon Rank in Transcript" description="rank" linkouturl="" />
                 <attribute name="phase" internalname="phase" displayname="phase" description="phase" linkouturl="" />
               </container>
             </container>
@@ -1894,26 +1894,26 @@
             </container>
             <container enableselectall="" name="header_info__sequences" displayname="Header Information" internalname="header_info__sequences" description="header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="gene__header_info__sequences" displayname="Gene Information" internalname="gene__header_info__sequences" description="gene__header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="sequence_gene_stable_id" internalname="VEGA gene ID" displayname="VEGA gene ID" description="VEGA gene ID" linkouturl="" />
-                <attribute name="sequence_description" internalname="Description" displayname="Description" description="Description" linkouturl="" />
-                <attribute name="sequence_external_gene_id" internalname="External Gene ID" displayname="External Gene ID" description="External Gene ID" linkouturl="" />
-                <attribute name="sequence_external_db_name" internalname="External Gene DB" displayname="External Gene DB" description="External Gene DB" linkouturl="" />
-                <attribute name="sequence_str_chrom_name" internalname="Chromosome Name" displayname="Chromosome Name" description="Chromosome Name" linkouturl="" />
-                <attribute name="sequence_gene_chrom_start" internalname="Gene Start (bp)" displayname="Gene Start (bp)" description="Gene Start (bp)" linkouturl="" />
-                <attribute name="sequence_gene_chrom_end" internalname="Gene End (bp)" displayname="Gene End (bp)" description="Gene End (bp)" linkouturl="" />
+                <attribute name="sequence_gene_stable_id" internalname="sequence_gene_stable_id" displayname="VEGA gene ID" description="sequence_gene_stable_id" linkouturl="" />
+                <attribute name="sequence_description" internalname="sequence_description" displayname="Description" description="sequence_description" linkouturl="" />
+                <attribute name="sequence_external_gene_id" internalname="sequence_external_gene_id" displayname="External Gene ID" description="sequence_external_gene_id" linkouturl="" />
+                <attribute name="sequence_external_db_name" internalname="sequence_external_db_name" displayname="External Gene DB" description="sequence_external_db_name" linkouturl="" />
+                <attribute name="sequence_str_chrom_name" internalname="sequence_str_chrom_name" displayname="Chromosome Name" description="sequence_str_chrom_name" linkouturl="" />
+                <attribute name="sequence_gene_chrom_start" internalname="sequence_gene_chrom_start" displayname="Gene Start (bp)" description="sequence_gene_chrom_start" linkouturl="" />
+                <attribute name="sequence_gene_chrom_end" internalname="sequence_gene_chrom_end" displayname="Gene End (bp)" description="sequence_gene_chrom_end" linkouturl="" />
               </container>
               <container enableselectall="" name="transcript__header_info__sequences" displayname="Transcript Information" internalname="transcript__header_info__sequences" description="transcript__header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="sequence_transcript_stable_id" internalname="VEGA transcript ID" displayname="VEGA transcript ID" description="VEGA transcript ID" linkouturl="" />
-                <attribute name="sequence_transcript_chrom_strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="sequence_transcript_chrom_start" internalname="Transcript Start (bp)" displayname="Transcript Start (bp)" description="Transcript Start (bp)" linkouturl="" />
-                <attribute name="sequence_transcript_chrom_end" internalname="Transcript End (bp)" displayname="Transcript End (bp)" description="Transcript End (bp)" linkouturl="" />
+                <attribute name="sequence_transcript_stable_id" internalname="sequence_transcript_stable_id" displayname="VEGA transcript ID" description="sequence_transcript_stable_id" linkouturl="" />
+                <attribute name="sequence_transcript_chrom_strand" internalname="sequence_transcript_chrom_strand" displayname="Strand" description="sequence_transcript_chrom_strand" linkouturl="" />
+                <attribute name="sequence_transcript_chrom_start" internalname="sequence_transcript_chrom_start" displayname="Transcript Start (bp)" description="sequence_transcript_chrom_start" linkouturl="" />
+                <attribute name="sequence_transcript_chrom_end" internalname="sequence_transcript_chrom_end" displayname="Transcript End (bp)" description="sequence_transcript_chrom_end" linkouturl="" />
               </container>
               <container enableselectall="" name="exon__header_info__sequences" displayname="Exon Information" internalname="exon__header_info__sequences" description="exon__header_info__sequences" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="sequence_exon_stable_id" internalname="Vega Exon ID" displayname="Vega Exon ID" description="Vega Exon ID" linkouturl="" />
-                <attribute name="sequence_exon_chrom_start" internalname="Exon Chr Start (bp)" displayname="Exon Chr Start (bp)" description="Exon Chr Start (bp)" linkouturl="" />
-                <attribute name="sequence_exon_chrom_end" internalname="Exon Chr End (bp)" displayname="Exon Chr End (bp)" description="Exon Chr End (bp)" linkouturl="" />
-                <attribute name="sequence_exon_chrom_strand" internalname="Strand" displayname="Strand" description="Strand" linkouturl="" />
-                <attribute name="sequence_rank" internalname="Exon Rank in Transcript" displayname="Exon Rank in Transcript" description="Exon Rank in Transcript" linkouturl="" />
+                <attribute name="sequence_exon_stable_id" internalname="sequence_exon_stable_id" displayname="Vega Exon ID" description="sequence_exon_stable_id" linkouturl="" />
+                <attribute name="sequence_exon_chrom_start" internalname="sequence_exon_chrom_start" displayname="Exon Chr Start (bp)" description="sequence_exon_chrom_start" linkouturl="" />
+                <attribute name="sequence_exon_chrom_end" internalname="sequence_exon_chrom_end" displayname="Exon Chr End (bp)" description="sequence_exon_chrom_end" linkouturl="" />
+                <attribute name="sequence_exon_chrom_strand" internalname="sequence_exon_chrom_strand" displayname="Strand" description="sequence_exon_chrom_strand" linkouturl="" />
+                <attribute name="sequence_rank" internalname="sequence_rank" displayname="Exon Rank in Transcript" description="sequence_rank" linkouturl="" />
               </container>
             </container>
           </container>
@@ -1922,19 +1922,19 @@
               <container enableselectall="" name="link_attributes__link_attributes__link_attributes" displayname="link_attributes" internalname="link_attributes__link_attributes__link_attributes" description="link_attributes__link_attributes__link_attributes" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
                 <attribute name="seq_edits" internalname="seq_edits" displayname="seq_edits" description="seq_edits" linkouturl="" />
                 <attribute name="codon_table_id" internalname="codon_table_id" displayname="codon_table_id" description="codon_table_id" linkouturl="" />
-                <attribute name="end_exon_id" internalname="End exon id" displayname="End exon id" description="End exon id" linkouturl="" />
-                <attribute name="start_exon_id" internalname="Start exon id" displayname="Start exon id" description="Start exon id" linkouturl="" />
+                <attribute name="end_exon_id" internalname="end_exon_id" displayname="End exon id" description="end_exon_id" linkouturl="" />
+                <attribute name="start_exon_id" internalname="start_exon_id" displayname="Start exon id" description="start_exon_id" linkouturl="" />
                 <attribute name="exon_id" internalname="exon_id" displayname="exon_id" description="exon_id" linkouturl="" />
-                <attribute name="coding_end_offset" internalname="Coding End Offset" displayname="Coding End Offset" description="Coding End Offset" linkouturl="" />
-                <attribute name="coding_start_offset" internalname="Coding Start Offset" displayname="Coding Start Offset" description="Coding Start Offset" linkouturl="" />
+                <attribute name="coding_end_offset" internalname="coding_end_offset" displayname="Coding End Offset" description="coding_end_offset" linkouturl="" />
+                <attribute name="coding_start_offset" internalname="coding_start_offset" displayname="Coding Start Offset" description="coding_start_offset" linkouturl="" />
                 <attribute name="transcript_id_key" internalname="transcript_id_key" displayname="transcript_id_key" description="transcript_id_key" linkouturl="" />
-                <attribute name="structure_rank" internalname="Exon Rank in Transcript" displayname="Exon Rank in Transcript" description="Exon Rank in Transcript" linkouturl="" />
+                <attribute name="structure_rank" internalname="structure_rank" displayname="Exon Rank in Transcript" description="structure_rank" linkouturl="" />
               </container>
             </container>
           </container>
         </container>
         <container enableselectall="" name="aliases_container" displayname="Aliases created by BC" internalname="aliases_container" description="aliases_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="exturl" internalname="External URL prefix" displayname="External URL prefix" description="External URL prefix" linkouturl="" />
+          <attribute name="exturl" internalname="exturl" displayname="External URL prefix" description="exturl" linkouturl="" />
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
           <container enableselectall="" name="link_filters__filters" displayname="link_filters" internalname="link_filters__filters" description="link_filters__filters" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
@@ -1972,48 +1972,48 @@
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="gene_id" internalname="gene_id" displayname="gene_id" description="gene_id" linkouturl="" />
-          <attribute name="with_vega_gene" internalname="with VEGA gene ID(s)" displayname="with VEGA gene ID(s)" description="with VEGA gene ID(s)" linkouturl="" />
-          <attribute name="with_vega_transcript" internalname="with VEGA transcript ID(s)" displayname="with VEGA transcript ID(s)" description="with VEGA transcript ID(s)" linkouturl="" />
-          <attribute name="with_vega_translation" internalname="with VEGA protein ID(s)" displayname="with VEGA protein ID(s)" description="with VEGA protein ID(s)" linkouturl="" />
-          <attribute name="with_ccds" internalname="with CCDS ID(s)" displayname="with CCDS ID(s)" description="with CCDS ID(s)" linkouturl="" />
-          <attribute name="with_ens_mm_gene" internalname="with Ensembl Mouse gene ID(s)" displayname="with Ensembl Mouse gene ID(s)" description="with Ensembl Mouse gene ID(s)" linkouturl="" />
-          <attribute name="with_enst_cds" internalname="with ENST CDS ID(s)" displayname="with ENST CDS ID(s)" description="with ENST CDS ID(s)" linkouturl="" />
-          <attribute name="with_enst_ident" internalname="with ENST Identical ID(s)" displayname="with ENST Identical ID(s)" description="with ENST Identical ID(s)" linkouturl="" />
-          <attribute name="with_entrezgene" internalname="with EntrezGene ID(s)" displayname="with EntrezGene ID(s)" description="with EntrezGene ID(s)" linkouturl="" />
-          <attribute name="with_exon_transcript" internalname="with Exon transcript ID(s)" displayname="with Exon transcript ID(s)" description="with Exon transcript ID(s)" linkouturl="" />
-          <attribute name="with_go_id" internalname="with GO ID(s)" displayname="with GO ID(s)" description="with GO ID(s)" linkouturl="" />
-          <attribute name="with_mgi" internalname="with MGI ID(s)" displayname="with MGI ID(s)" description="with MGI ID(s)" linkouturl="" />
-          <attribute name="with_refseq_dna" internalname="with RefSeq DNA ID(s)" displayname="with RefSeq DNA ID(s)" description="with RefSeq DNA ID(s)" linkouturl="" />
-          <attribute name="with_refseq_peptide" internalname="with RefSeq protein ID(s)" displayname="with RefSeq protein ID(s)" description="with RefSeq protein ID(s)" linkouturl="" />
-          <attribute name="with_uniprotswissprot" internalname="with UniProt/Swissprot Accession(s)" displayname="with UniProt/Swissprot Accession(s)" description="with UniProt/Swissprot Accession(s)" linkouturl="" />
-          <attribute name="vega_gene_id_1" internalname="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" displayname="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" description="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" linkouturl="" />
-          <attribute name="vega_transcript_id_1" internalname="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" displayname="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" description="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" linkouturl="" />
-          <attribute name="vega_translation_id_1" internalname="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" displayname="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" description="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" linkouturl="" />
-          <attribute name="ens_mm_gene_1" internalname="Ensembl Mouse gene ID(s) [e.g. ENSMUSG00000051951]" displayname="Ensembl Mouse gene ID(s) [e.g. ENSMUSG00000051951]" description="Ensembl Mouse gene ID(s) [e.g. ENSMUSG00000051951]" linkouturl="" />
-          <attribute name="ccds_1" internalname="CCDS ID(s) [e.g. CCDS30547]" displayname="CCDS ID(s) [e.g. CCDS30547]" description="CCDS ID(s) [e.g. CCDS30547]" linkouturl="" />
-          <attribute name="go_id_1" internalname="GO ID(s) [e.g. GO:0050896]" displayname="GO ID(s) [e.g. GO:0050896]" description="GO ID(s) [e.g. GO:0050896]" linkouturl="" />
-          <attribute name="entrezgene_1" internalname="EntrezGene ID(s) [e.g. 79501]" displayname="EntrezGene ID(s) [e.g. 79501]" description="EntrezGene ID(s) [e.g. 79501]" linkouturl="" />
-          <attribute name="enst_cds_1" internalname="ENST CDS ID(s) [e.g. ENST00000326183]" displayname="ENST CDS ID(s) [e.g. ENST00000326183]" description="ENST CDS ID(s) [e.g. ENST00000326183]" linkouturl="" />
-          <attribute name="enst_ident_1" internalname="ENST Identical ID(s) [e.g. ENST00000492842]" displayname="ENST Identical ID(s) [e.g. ENST00000492842]" description="ENST Identical ID(s) [e.g. ENST00000492842]" linkouturl="" />
-          <attribute name="mgi_id_1" internalname="MGI ID(s) [e.g. MGI:3528744]" displayname="MGI ID(s) [e.g. MGI:3528744]" description="MGI ID(s) [e.g. MGI:3528744]" linkouturl="" />
-          <attribute name="mgi_symbol_1" internalname="MGI symbol [e.g. Xkr4]" displayname="MGI symbol [e.g. Xkr4]" description="MGI symbol [e.g. Xkr4]" linkouturl="" />
-          <attribute name="refseq_dna_1" internalname="RefSeq DNA ID(s) [e.g. NM_001005484]" displayname="RefSeq DNA ID(s) [e.g. NM_001005484]" description="RefSeq DNA ID(s) [e.g. NM_001005484]" linkouturl="" />
-          <attribute name="refseq_peptide_1" internalname="Refseq protein ID(s) [e.g. NP_079576]" displayname="Refseq protein ID(s) [e.g. NP_079576]" description="Refseq protein ID(s) [e.g. NP_079576]" linkouturl="" />
-          <attribute name="uniprot_swissprot_1" internalname="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" displayname="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" description="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" linkouturl="" />
-          <attribute name="with_prosite" internalname="with Protein feature scan Prosite ID(s)" displayname="with Protein feature scan Prosite ID(s)" description="with Protein feature scan Prosite ID(s)" linkouturl="" />
-          <attribute name="with_profile" internalname="with Protein feature pfscan ID(s)" displayname="with Protein feature pfscan ID(s)" description="with Protein feature pfscan ID(s)" linkouturl="" />
-          <attribute name="with_tmhmm" internalname="with Protein feature tmhmm ID(s)" displayname="with Protein feature tmhmm ID(s)" description="with Protein feature tmhmm ID(s)" linkouturl="" />
-          <attribute name="with_signalp" internalname="with Protein feature signalp ID(s)" displayname="with Protein feature signalp ID(s)" description="with Protein feature signalp ID(s)" linkouturl="" />
-          <attribute name="with_low_complexity" internalname="with Protein feature seg ID(s)" displayname="with Protein feature seg ID(s)" description="with Protein feature seg ID(s)" linkouturl="" />
-          <attribute name="with_coil" internalname="with Protein feature ncoils ID(s)" displayname="with Protein feature ncoils ID(s)" description="with Protein feature ncoils ID(s)" linkouturl="" />
-          <attribute name="with_pfam" internalname="with PFAM ID(s)" displayname="with PFAM ID(s)" description="with PFAM ID(s)" linkouturl="" />
-          <attribute name="with_prints" internalname="with PRINTS ID(s)" displayname="with PRINTS ID(s)" description="with PRINTS ID(s)" linkouturl="" />
-          <attribute name="with_interpro" internalname="with InterPro ID(s)" displayname="with InterPro ID(s)" description="with InterPro ID(s)" linkouturl="" />
-          <attribute name="pfam_1" internalname="PFAM ID(s) [e.g. PF00001]" displayname="PFAM ID(s) [e.g. PF00001]" description="PFAM ID(s) [e.g. PF00001]" linkouturl="" />
-          <attribute name="prints_1" internalname="PRINTS ID(s) [e.g. PR00245]" displayname="PRINTS ID(s) [e.g. PR00245]" description="PRINTS ID(s) [e.g. PR00245]" linkouturl="" />
-          <attribute name="profile_1" internalname="PROFILE ID(s) [e.g. PS50262]" displayname="PROFILE ID(s) [e.g. PS50262]" description="PROFILE ID(s) [e.g. PS50262]" linkouturl="" />
-          <attribute name="prosite_1" internalname="PROSITE ID(s) [e.g. PS00237]" displayname="PROSITE ID(s) [e.g. PS00237]" description="PROSITE ID(s) [e.g. PS00237]" linkouturl="" />
-          <attribute name="interpro_1" internalname="InterPro ID(s) [e.g. IPR000276]" displayname="InterPro ID(s) [e.g. IPR000276]" description="InterPro ID(s) [e.g. IPR000276]" linkouturl="" />
+          <attribute name="with_vega_gene" internalname="with_vega_gene" displayname="with VEGA gene ID(s)" description="with_vega_gene" linkouturl="" />
+          <attribute name="with_vega_transcript" internalname="with_vega_transcript" displayname="with VEGA transcript ID(s)" description="with_vega_transcript" linkouturl="" />
+          <attribute name="with_vega_translation" internalname="with_vega_translation" displayname="with VEGA protein ID(s)" description="with_vega_translation" linkouturl="" />
+          <attribute name="with_ccds" internalname="with_ccds" displayname="with CCDS ID(s)" description="with_ccds" linkouturl="" />
+          <attribute name="with_ens_mm_gene" internalname="with_ens_mm_gene" displayname="with Ensembl Mouse gene ID(s)" description="with_ens_mm_gene" linkouturl="" />
+          <attribute name="with_enst_cds" internalname="with_enst_cds" displayname="with ENST CDS ID(s)" description="with_enst_cds" linkouturl="" />
+          <attribute name="with_enst_ident" internalname="with_enst_ident" displayname="with ENST Identical ID(s)" description="with_enst_ident" linkouturl="" />
+          <attribute name="with_entrezgene" internalname="with_entrezgene" displayname="with EntrezGene ID(s)" description="with_entrezgene" linkouturl="" />
+          <attribute name="with_exon_transcript" internalname="with_exon_transcript" displayname="with Exon transcript ID(s)" description="with_exon_transcript" linkouturl="" />
+          <attribute name="with_go_id" internalname="with_go_id" displayname="with GO ID(s)" description="with_go_id" linkouturl="" />
+          <attribute name="with_mgi" internalname="with_mgi" displayname="with MGI ID(s)" description="with_mgi" linkouturl="" />
+          <attribute name="with_refseq_dna" internalname="with_refseq_dna" displayname="with RefSeq DNA ID(s)" description="with_refseq_dna" linkouturl="" />
+          <attribute name="with_refseq_peptide" internalname="with_refseq_peptide" displayname="with RefSeq protein ID(s)" description="with_refseq_peptide" linkouturl="" />
+          <attribute name="with_uniprotswissprot" internalname="with_uniprotswissprot" displayname="with UniProt/Swissprot Accession(s)" description="with_uniprotswissprot" linkouturl="" />
+          <attribute name="vega_gene_id_1" internalname="vega_gene_id_1" displayname="VEGA gene ID(s) [e.g. OTTHUMG00000000960]" description="vega_gene_id_1" linkouturl="" />
+          <attribute name="vega_transcript_id_1" internalname="vega_transcript_id_1" displayname="VEGA transcript ID(s) [e.g. OTTHUMT00000002842]" description="vega_transcript_id_1" linkouturl="" />
+          <attribute name="vega_translation_id_1" internalname="vega_translation_id_1" displayname="VEGA protein ID(s) [e.g. OTTHUMP00000001143]" description="vega_translation_id_1" linkouturl="" />
+          <attribute name="ens_mm_gene_1" internalname="ens_mm_gene_1" displayname="Ensembl Mouse gene ID(s) [e.g. ENSMUSG00000051951]" description="ens_mm_gene_1" linkouturl="" />
+          <attribute name="ccds_1" internalname="ccds_1" displayname="CCDS ID(s) [e.g. CCDS30547]" description="ccds_1" linkouturl="" />
+          <attribute name="go_id_1" internalname="go_id_1" displayname="GO ID(s) [e.g. GO:0050896]" description="go_id_1" linkouturl="" />
+          <attribute name="entrezgene_1" internalname="entrezgene_1" displayname="EntrezGene ID(s) [e.g. 79501]" description="entrezgene_1" linkouturl="" />
+          <attribute name="enst_cds_1" internalname="enst_cds_1" displayname="ENST CDS ID(s) [e.g. ENST00000326183]" description="enst_cds_1" linkouturl="" />
+          <attribute name="enst_ident_1" internalname="enst_ident_1" displayname="ENST Identical ID(s) [e.g. ENST00000492842]" description="enst_ident_1" linkouturl="" />
+          <attribute name="mgi_id_1" internalname="mgi_id_1" displayname="MGI ID(s) [e.g. MGI:3528744]" description="mgi_id_1" linkouturl="" />
+          <attribute name="mgi_symbol_1" internalname="mgi_symbol_1" displayname="MGI symbol [e.g. Xkr4]" description="mgi_symbol_1" linkouturl="" />
+          <attribute name="refseq_dna_1" internalname="refseq_dna_1" displayname="RefSeq DNA ID(s) [e.g. NM_001005484]" description="refseq_dna_1" linkouturl="" />
+          <attribute name="refseq_peptide_1" internalname="refseq_peptide_1" displayname="Refseq protein ID(s) [e.g. NP_079576]" description="refseq_peptide_1" linkouturl="" />
+          <attribute name="uniprot_swissprot_1" internalname="uniprot_swissprot_1" displayname="UniProt/Swissprot Accession(s) [e.g. Q6VEP3]" description="uniprot_swissprot_1" linkouturl="" />
+          <attribute name="with_prosite" internalname="with_prosite" displayname="with Protein feature scan Prosite ID(s)" description="with_prosite" linkouturl="" />
+          <attribute name="with_profile" internalname="with_profile" displayname="with Protein feature pfscan ID(s)" description="with_profile" linkouturl="" />
+          <attribute name="with_tmhmm" internalname="with_tmhmm" displayname="with Protein feature tmhmm ID(s)" description="with_tmhmm" linkouturl="" />
+          <attribute name="with_signalp" internalname="with_signalp" displayname="with Protein feature signalp ID(s)" description="with_signalp" linkouturl="" />
+          <attribute name="with_low_complexity" internalname="with_low_complexity" displayname="with Protein feature seg ID(s)" description="with_low_complexity" linkouturl="" />
+          <attribute name="with_coil" internalname="with_coil" displayname="with Protein feature ncoils ID(s)" description="with_coil" linkouturl="" />
+          <attribute name="with_pfam" internalname="with_pfam" displayname="with PFAM ID(s)" description="with_pfam" linkouturl="" />
+          <attribute name="with_prints" internalname="with_prints" displayname="with PRINTS ID(s)" description="with_prints" linkouturl="" />
+          <attribute name="with_interpro" internalname="with_interpro" displayname="with InterPro ID(s)" description="with_interpro" linkouturl="" />
+          <attribute name="pfam_1" internalname="pfam_1" displayname="PFAM ID(s) [e.g. PF00001]" description="pfam_1" linkouturl="" />
+          <attribute name="prints_1" internalname="prints_1" displayname="PRINTS ID(s) [e.g. PR00245]" description="prints_1" linkouturl="" />
+          <attribute name="profile_1" internalname="profile_1" displayname="PROFILE ID(s) [e.g. PS50262]" description="profile_1" linkouturl="" />
+          <attribute name="prosite_1" internalname="prosite_1" displayname="PROSITE ID(s) [e.g. PS00237]" description="prosite_1" linkouturl="" />
+          <attribute name="interpro_1" internalname="interpro_1" displayname="InterPro ID(s) [e.g. IPR000276]" description="interpro_1" linkouturl="" />
         </container>
         <container enableselectall="" name="new_id_list_filters_list_container" displayname="new_id_list_filters_list_container" internalname="new_id_list_filters_list_container" description="new_id_list_filters_list_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <filter name="with_vega_gene" internalname="with_vega_gene" displayname="with VEGA gene ID(s)" description="with_vega_gene" />
@@ -2192,7 +2192,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="interaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="interaction" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="interaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="a2ee69bc63ec9553eb3fce844f5df692" displayname="interaction" hide="false" version="0.7" key="a2ee69bc63ec9553eb3fce844f5df692" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="interaction">interaction</row>
@@ -2311,51 +2311,51 @@
           <container enableselectall="" name="hidden" displayname="HIDDEN" internalname="hidden" description="hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="hidden__hidden" displayname="HIDDEN" internalname="hidden__hidden" description="hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="hidden__hidden__hidden" displayname="Hidden" internalname="hidden__hidden__hidden" description="hidden__hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="_species_displayname" internalname="Interaction_species" displayname="Interaction_species" description="Interaction_species" linkouturl="" />
+                <attribute name="_species_displayname" internalname="_species_displayname" displayname="Interaction_species" description="_species_displayname" linkouturl="" />
               </container>
             </container>
           </container>
           <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="interaction__features__naive_attributes" displayname="Interaction" internalname="interaction__features__naive_attributes" description="interaction__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="interaction_num_key" internalname="Interaction num" displayname="Interaction num" description="Interaction num" linkouturl="" />
-                <attribute name="protein1_concat" internalname="Interaction 1st protein ID" displayname="Interaction 1st protein ID" description="Interaction 1st protein ID" linkouturl="" />
-                <attribute name="protein2_concat" internalname="Interaction 2nd protein ID" displayname="Interaction 2nd protein ID" description="Interaction 2nd protein ID" linkouturl="" />
-                <attribute name="entrez1_concat" internalname="Interaction 1st Entrez ID" displayname="Interaction 1st Entrez ID" description="Interaction 1st Entrez ID" linkouturl="" />
-                <attribute name="entrez2_concat" internalname="Interaction 2nd Entrez ID" displayname="Interaction 2nd Entrez ID" description="Interaction 2nd Entrez ID" linkouturl="" />
-                <attribute name="gene1_concat" internalname="Interaction 1st gene ID" displayname="Interaction 1st gene ID" description="Interaction 1st gene ID" linkouturl="" />
-                <attribute name="gene2_concat" internalname="Interaction 2nd gene ID" displayname="Interaction 2nd gene ID" description="Interaction 2nd gene ID" linkouturl="" />
-                <attribute name="species_displayname" internalname="Interaction species" displayname="Interaction species" description="Interaction species" linkouturl="" />
-                <attribute name="type" internalname="Interaction type" displayname="Interaction type" description="Interaction type" linkouturl="" />
+                <attribute name="interaction_num_key" internalname="interaction_num_key" displayname="Interaction num" description="interaction_num_key" linkouturl="" />
+                <attribute name="protein1_concat" internalname="protein1_concat" displayname="Interaction 1st protein ID" description="protein1_concat" linkouturl="" />
+                <attribute name="protein2_concat" internalname="protein2_concat" displayname="Interaction 2nd protein ID" description="protein2_concat" linkouturl="" />
+                <attribute name="entrez1_concat" internalname="entrez1_concat" displayname="Interaction 1st Entrez ID" description="entrez1_concat" linkouturl="" />
+                <attribute name="entrez2_concat" internalname="entrez2_concat" displayname="Interaction 2nd Entrez ID" description="entrez2_concat" linkouturl="" />
+                <attribute name="gene1_concat" internalname="gene1_concat" displayname="Interaction 1st gene ID" description="gene1_concat" linkouturl="" />
+                <attribute name="gene2_concat" internalname="gene2_concat" displayname="Interaction 2nd gene ID" description="gene2_concat" linkouturl="" />
+                <attribute name="species_displayname" internalname="species_displayname" displayname="Interaction species" description="species_displayname" linkouturl="" />
+                <attribute name="type" internalname="type" displayname="Interaction type" description="type" linkouturl="" />
               </container>
               <container enableselectall="" name="complex__features__naive_attributes" displayname="Complex" internalname="complex__features__naive_attributes" description="complex__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="id_complex_db_id__dm_value" internalname="Complex DB_ID" displayname="Complex DB_ID" description="Complex DB_ID" linkouturl="" />
-                <attribute name="id_complex_stable_id__dm_value" internalname="Complex stable ID" displayname="Complex stable ID" description="Complex stable ID" linkouturl="" />
+                <attribute name="id_complex_db_id__dm_value" internalname="id_complex_db_id__dm_value" displayname="Complex DB_ID" description="id_complex_db_id__dm_value" linkouturl="" />
+                <attribute name="id_complex_stable_id__dm_value" internalname="id_complex_stable_id__dm_value" displayname="Complex stable ID" description="id_complex_stable_id__dm_value" linkouturl="" />
               </container>
               <container enableselectall="" name="reaction__features__naive_attributes" displayname="Reaction" internalname="reaction__features__naive_attributes" description="reaction__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="id_reaction_db_id__dm_value" internalname="Reaction DB_ID" displayname="Reaction DB_ID" description="Reaction DB_ID" linkouturl="" />
-                <attribute name="id_reaction_stable_id__dm_value" internalname="Reaction stable ID" displayname="Reaction stable ID" description="Reaction stable ID" linkouturl="" />
+                <attribute name="id_reaction_db_id__dm_value" internalname="id_reaction_db_id__dm_value" displayname="Reaction DB_ID" description="id_reaction_db_id__dm_value" linkouturl="" />
+                <attribute name="id_reaction_stable_id__dm_value" internalname="id_reaction_stable_id__dm_value" displayname="Reaction stable ID" description="id_reaction_stable_id__dm_value" linkouturl="" />
               </container>
               <container enableselectall="" name="pathway__features__naive_attributes" displayname="Pathway" internalname="pathway__features__naive_attributes" description="pathway__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="id_pathway_db_id__dm_value" internalname="Pathway DB_ID" displayname="Pathway DB_ID" description="Pathway DB_ID" linkouturl="" />
-                <attribute name="id_pathway_stable_id__dm_value" internalname="Pathway stable ID" displayname="Pathway stable ID" description="Pathway stable ID" linkouturl="" />
+                <attribute name="id_pathway_db_id__dm_value" internalname="id_pathway_db_id__dm_value" displayname="Pathway DB_ID" description="id_pathway_db_id__dm_value" linkouturl="" />
+                <attribute name="id_pathway_stable_id__dm_value" internalname="id_pathway_stable_id__dm_value" displayname="Pathway stable ID" description="id_pathway_stable_id__dm_value" linkouturl="" />
               </container>
               <container enableselectall="" name="gene__features__naive_attributes" displayname="Gene" internalname="gene__features__naive_attributes" description="gene__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="entrez__dm_value" internalname="Gene Entrez ID" displayname="Gene Entrez ID" description="Gene Entrez ID" linkouturl="" />
-                <attribute name="gene__dm_value" internalname="Gene ENSEMBL ID" displayname="Gene ENSEMBL ID" description="Gene ENSEMBL ID" linkouturl="" />
+                <attribute name="entrez__dm_value" internalname="entrez__dm_value" displayname="Gene Entrez ID" description="entrez__dm_value" linkouturl="" />
+                <attribute name="gene__dm_value" internalname="gene__dm_value" displayname="Gene ENSEMBL ID" description="gene__dm_value" linkouturl="" />
               </container>
               <container enableselectall="" name="protein__features__naive_attributes" displayname="Protein" internalname="protein__features__naive_attributes" description="protein__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="protein_cme_genome_project__dm_value" internalname="Protein CME genome project ID" displayname="Protein CME genome project ID" description="Protein CME genome project ID" linkouturl="" />
-                <attribute name="protein_dictybase__dm_value" internalname="Protein DictyBase ID" displayname="Protein DictyBase ID" description="Protein DictyBase ID" linkouturl="" />
-                <attribute name="protein_ensembl__dm_value" internalname="Protein ENSEMBL ID" displayname="Protein ENSEMBL ID" description="Protein ENSEMBL ID" linkouturl="" />
-                <attribute name="protein_flybase__dm_value" internalname="Protein FlyBase ID" displayname="Protein FlyBase ID" description="Protein FlyBase ID" linkouturl="" />
-                <attribute name="protein_tigr__dm_value" internalname="Protein TIGR ID" displayname="Protein TIGR ID" description="Protein TIGR ID" linkouturl="" />
-                <attribute name="protein_uniprot__dm_value" internalname="Protein UniProt ID" displayname="Protein UniProt ID" description="Protein UniProt ID" linkouturl="" />
-                <attribute name="protein_wormbase__dm_value" internalname="Protein Wormbase ID" displayname="Protein Wormbase ID" description="Protein Wormbase ID" linkouturl="" />
-                <attribute name="id_intact__dm_value" internalname="Protein IntAct ID" displayname="Protein IntAct ID" description="Protein IntAct ID" linkouturl="" />
+                <attribute name="protein_cme_genome_project__dm_value" internalname="protein_cme_genome_project__dm_value" displayname="Protein CME genome project ID" description="protein_cme_genome_project__dm_value" linkouturl="" />
+                <attribute name="protein_dictybase__dm_value" internalname="protein_dictybase__dm_value" displayname="Protein DictyBase ID" description="protein_dictybase__dm_value" linkouturl="" />
+                <attribute name="protein_ensembl__dm_value" internalname="protein_ensembl__dm_value" displayname="Protein ENSEMBL ID" description="protein_ensembl__dm_value" linkouturl="" />
+                <attribute name="protein_flybase__dm_value" internalname="protein_flybase__dm_value" displayname="Protein FlyBase ID" description="protein_flybase__dm_value" linkouturl="" />
+                <attribute name="protein_tigr__dm_value" internalname="protein_tigr__dm_value" displayname="Protein TIGR ID" description="protein_tigr__dm_value" linkouturl="" />
+                <attribute name="protein_uniprot__dm_value" internalname="protein_uniprot__dm_value" displayname="Protein UniProt ID" description="protein_uniprot__dm_value" linkouturl="" />
+                <attribute name="protein_wormbase__dm_value" internalname="protein_wormbase__dm_value" displayname="Protein Wormbase ID" description="protein_wormbase__dm_value" linkouturl="" />
+                <attribute name="id_intact__dm_value" internalname="id_intact__dm_value" displayname="Protein IntAct ID" description="id_intact__dm_value" linkouturl="" />
               </container>
               <container enableselectall="" name="literaturereference__features__naive_attributes" displayname="Literature reference" internalname="literaturereference__features__naive_attributes" description="literaturereference__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="pubmed_concat" internalname="Literature PubMed ID" displayname="Literature PubMed ID" description="Literature PubMed ID" linkouturl="" />
+                <attribute name="pubmed_concat" internalname="pubmed_concat" displayname="Literature PubMed ID" description="pubmed_concat" linkouturl="" />
               </container>
             </container>
           </container>
@@ -2387,7 +2387,7 @@
           <filter name="pubmed_id_list" internalname="pubmed_id_list" displayname="PubMed publication IDs (e.g.1249422)" description="pubmed_id_list" />
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="pubmed_id_list" internalname="PubMed publication IDs (e.g.1249422)" displayname="PubMed publication IDs (e.g.1249422)" description="PubMed publication IDs (e.g.1249422)" linkouturl="" />
+          <attribute name="pubmed_id_list" internalname="pubmed_id_list" displayname="PubMed publication IDs (e.g.1249422)" description="pubmed_id_list" linkouturl="" />
         </container>
       </container>
     </accesspoint>
@@ -2474,7 +2474,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="complex" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="complex" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="complex" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="a2ee69bc63ec9553eb3fce844f5df692" displayname="complex" hide="false" version="0.7" key="a2ee69bc63ec9553eb3fce844f5df692" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="complex">complex</row>
@@ -2591,53 +2591,53 @@
           <container enableselectall="" name="hidden" displayname="HIDDEN" internalname="hidden" description="hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="hidden__hidden" displayname="HIDDEN" internalname="hidden__hidden" description="hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="hidden__hidden__hidden" displayname="Hidden" internalname="hidden__hidden__hidden" description="hidden__hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="_species__displayname" internalname="Complex_Species_name" displayname="Complex_Species_name" description="Complex_Species_name" linkouturl="" />
+                <attribute name="_species__displayname" internalname="_species__displayname" displayname="Complex_Species_name" description="_species__displayname" linkouturl="" />
               </container>
             </container>
           </container>
           <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="complex__features__naive_attributes" displayname="Complex" internalname="complex__features__naive_attributes" description="complex__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="stableidentifier_identifier" internalname="Complex stable ID" displayname="Complex stable ID" description="Complex stable ID" linkouturl="" />
-                <attribute name="stableidentifier_identifierversion" internalname="Complex stable ID version" displayname="Complex stable ID version" description="Complex stable ID version" linkouturl="" />
-                <attribute name="complex_db_id_key" internalname="Complex DB_ID" displayname="Complex DB_ID" description="Complex DB_ID" linkouturl="" />
-                <attribute name="_displayname" internalname="Complex name" displayname="Complex name" description="Complex name" linkouturl="" />
-                <attribute name="species__displayname" internalname="Complex Species name" displayname="Complex Species name" description="Complex Species name" linkouturl="" />
+                <attribute name="stableidentifier_identifier" internalname="stableidentifier_identifier" displayname="Complex stable ID" description="stableidentifier_identifier" linkouturl="" />
+                <attribute name="stableidentifier_identifierversion" internalname="stableidentifier_identifierversion" displayname="Complex stable ID version" description="stableidentifier_identifierversion" linkouturl="" />
+                <attribute name="complex_db_id_key" internalname="complex_db_id_key" displayname="Complex DB_ID" description="complex_db_id_key" linkouturl="" />
+                <attribute name="_displayname" internalname="_displayname" displayname="Complex name" description="_displayname" linkouturl="" />
+                <attribute name="species__displayname" internalname="species__displayname" displayname="Complex Species name" description="species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencednasequence__features__naive_attributes" displayname="Gene" internalname="referencednasequence__features__naive_attributes" description="referencednasequence__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencedatabase_entrez_gene" internalname="Gene Entrez ID" displayname="Gene Entrez ID" description="Gene Entrez ID" linkouturl="" />
-                <attribute name="referencedatabase_ensembl" internalname="Gene ENSEMBL ID" displayname="Gene ENSEMBL ID" description="Gene ENSEMBL ID" linkouturl="" />
-                <attribute name="referencedatabase_kegg_gene" internalname="Gene KEGG ID" displayname="Gene KEGG ID" description="Gene KEGG ID" linkouturl="" />
-                <attribute name="referencedatabase_omim" internalname="Gene OMIM ID" displayname="Gene OMIM ID" description="Gene OMIM ID" linkouturl="" />
-                <attribute name="db_id" internalname="Gene DB_ID" displayname="Gene DB_ID" description="Gene DB_ID" linkouturl="" />
-                <attribute name="referencednasequence__dm__displayname" internalname="Gene name" displayname="Gene name" description="Gene name" linkouturl="" />
-                <attribute name="referencednasequence__dm_species__displayname" internalname="Gene Species name" displayname="Gene Species name" description="Gene Species name" linkouturl="" />
+                <attribute name="referencedatabase_entrez_gene" internalname="referencedatabase_entrez_gene" displayname="Gene Entrez ID" description="referencedatabase_entrez_gene" linkouturl="" />
+                <attribute name="referencedatabase_ensembl" internalname="referencedatabase_ensembl" displayname="Gene ENSEMBL ID" description="referencedatabase_ensembl" linkouturl="" />
+                <attribute name="referencedatabase_kegg_gene" internalname="referencedatabase_kegg_gene" displayname="Gene KEGG ID" description="referencedatabase_kegg_gene" linkouturl="" />
+                <attribute name="referencedatabase_omim" internalname="referencedatabase_omim" displayname="Gene OMIM ID" description="referencedatabase_omim" linkouturl="" />
+                <attribute name="db_id" internalname="db_id" displayname="Gene DB_ID" description="db_id" linkouturl="" />
+                <attribute name="referencednasequence__dm__displayname" internalname="referencednasequence__dm__displayname" displayname="Gene name" description="referencednasequence__dm__displayname" linkouturl="" />
+                <attribute name="referencednasequence__dm_species__displayname" internalname="referencednasequence__dm_species__displayname" displayname="Gene Species name" description="referencednasequence__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencepeptidesequence__features__naive_attributes" displayname="Protein" internalname="referencepeptidesequence__features__naive_attributes" description="referencepeptidesequence__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencepeptidesequence__dm_referencedatabase_ensembl" internalname="Protein ENSEMBL ID" displayname="Protein ENSEMBL ID" description="Protein ENSEMBL ID" linkouturl="" />
-                <attribute name="referencedatabase_uniprot" internalname="Protein UniProt ID" displayname="Protein UniProt ID" description="Protein UniProt ID" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_identifier" internalname="Protein Identifier" displayname="Protein Identifier" description="Protein Identifier" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_db_id" internalname="Protein DB_ID" displayname="Protein DB_ID" description="Protein DB_ID" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm__displayname" internalname="Protein name" displayname="Protein name" description="Protein name" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_species__displayname" internalname="Protein Species name" displayname="Protein Species name" description="Protein Species name" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_referencedatabase_ensembl" internalname="referencepeptidesequence__dm_referencedatabase_ensembl" displayname="Protein ENSEMBL ID" description="referencepeptidesequence__dm_referencedatabase_ensembl" linkouturl="" />
+                <attribute name="referencedatabase_uniprot" internalname="referencedatabase_uniprot" displayname="Protein UniProt ID" description="referencedatabase_uniprot" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_identifier" internalname="referencepeptidesequence__dm_identifier" displayname="Protein Identifier" description="referencepeptidesequence__dm_identifier" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_db_id" internalname="referencepeptidesequence__dm_db_id" displayname="Protein DB_ID" description="referencepeptidesequence__dm_db_id" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm__displayname" internalname="referencepeptidesequence__dm__displayname" displayname="Protein name" description="referencepeptidesequence__dm__displayname" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_species__displayname" internalname="referencepeptidesequence__dm_species__displayname" displayname="Protein Species name" description="referencepeptidesequence__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencemolecule__features__naive_attributes" displayname="Small Molecule" internalname="referencemolecule__features__naive_attributes" description="referencemolecule__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencedatabase_chebi" internalname="Molecule ChEBI ID" displayname="Molecule ChEBI ID" description="Molecule ChEBI ID" linkouturl="" />
-                <attribute name="referencemolecule__dm_db_id" internalname="Molecule DB_ID" displayname="Molecule DB_ID" description="Molecule DB_ID" linkouturl="" />
-                <attribute name="referencemolecule__dm__displayname" internalname="Molecule name" displayname="Molecule name" description="Molecule name" linkouturl="" />
-                <attribute name="formula" internalname="Molecular formula" displayname="Molecular formula" description="Molecular formula" linkouturl="" />
+                <attribute name="referencedatabase_chebi" internalname="referencedatabase_chebi" displayname="Molecule ChEBI ID" description="referencedatabase_chebi" linkouturl="" />
+                <attribute name="referencemolecule__dm_db_id" internalname="referencemolecule__dm_db_id" displayname="Molecule DB_ID" description="referencemolecule__dm_db_id" linkouturl="" />
+                <attribute name="referencemolecule__dm__displayname" internalname="referencemolecule__dm__displayname" displayname="Molecule name" description="referencemolecule__dm__displayname" linkouturl="" />
+                <attribute name="formula" internalname="formula" displayname="Molecular formula" description="formula" linkouturl="" />
               </container>
               <container enableselectall="" name="literaturereference__features__naive_attributes" displayname="Literature reference" internalname="literaturereference__features__naive_attributes" description="literaturereference__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="literaturereference__dm_db_id" internalname="Literature DB_ID" displayname="Literature DB_ID" description="Literature DB_ID" linkouturl="" />
-                <attribute name="literaturereference__dm_pubmedidentifier" internalname="Literature PubMed ID" displayname="Literature PubMed ID" description="Literature PubMed ID" linkouturl="" />
-                <attribute name="literaturereference__dm_author_surname" internalname="Literature author surname" displayname="Literature author surname" description="Literature author surname" linkouturl="" />
-                <attribute name="literaturereference__dm_author_initial" internalname="Literature author_initial" displayname="Literature author_initial" description="Literature author_initial" linkouturl="" />
-                <attribute name="literaturereference__dm_author_firstname" internalname="Literature author first name" displayname="Literature author first name" description="Literature author first name" linkouturl="" />
-                <attribute name="literaturereference__dm_journal" internalname="Literature journal" displayname="Literature journal" description="Literature journal" linkouturl="" />
-                <attribute name="literaturereference__dm_year" internalname="Literature year" displayname="Literature year" description="Literature year" linkouturl="" />
-                <attribute name="literaturereference__dm_volume" internalname="Literature volume" displayname="Literature volume" description="Literature volume" linkouturl="" />
-                <attribute name="literaturereference__dm_pages" internalname="Literature pages" displayname="Literature pages" description="Literature pages" linkouturl="" />
-                <attribute name="literaturereference__dm_title" internalname="Literature title" displayname="Literature title" description="Literature title" linkouturl="" />
+                <attribute name="literaturereference__dm_db_id" internalname="literaturereference__dm_db_id" displayname="Literature DB_ID" description="literaturereference__dm_db_id" linkouturl="" />
+                <attribute name="literaturereference__dm_pubmedidentifier" internalname="literaturereference__dm_pubmedidentifier" displayname="Literature PubMed ID" description="literaturereference__dm_pubmedidentifier" linkouturl="" />
+                <attribute name="literaturereference__dm_author_surname" internalname="literaturereference__dm_author_surname" displayname="Literature author surname" description="literaturereference__dm_author_surname" linkouturl="" />
+                <attribute name="literaturereference__dm_author_initial" internalname="literaturereference__dm_author_initial" displayname="Literature author_initial" description="literaturereference__dm_author_initial" linkouturl="" />
+                <attribute name="literaturereference__dm_author_firstname" internalname="literaturereference__dm_author_firstname" displayname="Literature author first name" description="literaturereference__dm_author_firstname" linkouturl="" />
+                <attribute name="literaturereference__dm_journal" internalname="literaturereference__dm_journal" displayname="Literature journal" description="literaturereference__dm_journal" linkouturl="" />
+                <attribute name="literaturereference__dm_year" internalname="literaturereference__dm_year" displayname="Literature year" description="literaturereference__dm_year" linkouturl="" />
+                <attribute name="literaturereference__dm_volume" internalname="literaturereference__dm_volume" displayname="Literature volume" description="literaturereference__dm_volume" linkouturl="" />
+                <attribute name="literaturereference__dm_pages" internalname="literaturereference__dm_pages" displayname="Literature pages" description="literaturereference__dm_pages" linkouturl="" />
+                <attribute name="literaturereference__dm_title" internalname="literaturereference__dm_title" displayname="Literature title" description="literaturereference__dm_title" linkouturl="" />
               </container>
             </container>
           </container>
@@ -2664,9 +2664,9 @@
           <filter name="complex_db_id_list" internalname="complex_db_id_list" displayname="Complex DB_ID(s) (e.g. 192005)" description="complex_db_id_list" />
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="referencepeptidesequence_tigr_id_list" internalname="TIGR protein ID(s) (e.g. At3g15290.1)" displayname="TIGR protein ID(s) (e.g. At3g15290.1)" description="TIGR protein ID(s) (e.g. At3g15290.1)" linkouturl="" />
-          <attribute name="_referencepeptidesequence_tigr_id_list" internalname="Arabidopsis TAIR locus ID(s) (e.g. At3g15290)" displayname="Arabidopsis TAIR locus ID(s) (e.g. At3g15290)" description="Arabidopsis TAIR locus ID(s) (e.g. At3g15290)" linkouturl="" />
-          <attribute name="referencepeptidesequence_wormbase_id_list" internalname="Wormbase protein ID(s) (e.g. F54C8.1)" displayname="Wormbase protein ID(s) (e.g. F54C8.1)" description="Wormbase protein ID(s) (e.g. F54C8.1)" linkouturl="" />
+          <attribute name="referencepeptidesequence_tigr_id_list" internalname="referencepeptidesequence_tigr_id_list" displayname="TIGR protein ID(s) (e.g. At3g15290.1)" description="referencepeptidesequence_tigr_id_list" linkouturl="" />
+          <attribute name="_referencepeptidesequence_tigr_id_list" internalname="_referencepeptidesequence_tigr_id_list" displayname="Arabidopsis TAIR locus ID(s) (e.g. At3g15290)" description="_referencepeptidesequence_tigr_id_list" linkouturl="" />
+          <attribute name="referencepeptidesequence_wormbase_id_list" internalname="referencepeptidesequence_wormbase_id_list" displayname="Wormbase protein ID(s) (e.g. F54C8.1)" description="referencepeptidesequence_wormbase_id_list" linkouturl="" />
         </container>
       </container>
     </accesspoint>
@@ -2761,7 +2761,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="reaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="reaction" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="reaction" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="a2ee69bc63ec9553eb3fce844f5df692" displayname="reaction" hide="false" version="0.7" key="a2ee69bc63ec9553eb3fce844f5df692" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="reaction">reaction</row>
@@ -2890,63 +2890,63 @@
           <container enableselectall="" name="hidden" displayname="HIDDEN" internalname="hidden" description="hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="hidden__hidden" displayname="HIDDEN" internalname="hidden__hidden" description="hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="hidden__hidden__hidden" displayname="Hidden" internalname="hidden__hidden__hidden" description="hidden__hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="_species__displayname" internalname="Reaction Species name" displayname="Reaction Species name" description="Reaction Species name" linkouturl="" />
+                <attribute name="_species__displayname" internalname="_species__displayname" displayname="Reaction Species name" description="_species__displayname" linkouturl="" />
               </container>
             </container>
           </container>
           <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="reaction__features__naive_attributes" displayname="Reaction" internalname="reaction__features__naive_attributes" description="reaction__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="stableidentifier_identifier" internalname="Reaction stable ID" displayname="Reaction stable ID" description="Reaction stable ID" linkouturl="" />
-                <attribute name="stableidentifier_identifierversion" internalname="Reaction stable ID version" displayname="Reaction stable ID version" description="Reaction stable ID version" linkouturl="" />
-                <attribute name="reaction_db_id" internalname="Reaction DB_ID" displayname="Reaction DB_ID" description="Reaction DB_ID" linkouturl="" />
-                <attribute name="_displayname" internalname="Reaction name" displayname="Reaction name" description="Reaction name" linkouturl="" />
-                <attribute name="evidencetype__displayname" internalname="Reaction Evidence type" displayname="Reaction Evidence type" description="Reaction Evidence type" linkouturl="" />
-                <attribute name="species__displayname" internalname="Reaction Species name" displayname="Reaction Species name" description="Reaction Species name" linkouturl="" />
-                <attribute name="catalystactivity__displayname" internalname="Reaction catalyst " displayname="Reaction catalyst " description="Reaction catalyst " linkouturl="" />
-                <attribute name="catalystactivity_activity_accession" internalname="Reaction catalyst GO accession" displayname="Reaction catalyst GO accession" description="Reaction catalyst GO accession" linkouturl="" />
+                <attribute name="stableidentifier_identifier" internalname="stableidentifier_identifier" displayname="Reaction stable ID" description="stableidentifier_identifier" linkouturl="" />
+                <attribute name="stableidentifier_identifierversion" internalname="stableidentifier_identifierversion" displayname="Reaction stable ID version" description="stableidentifier_identifierversion" linkouturl="" />
+                <attribute name="reaction_db_id" internalname="reaction_db_id" displayname="Reaction DB_ID" description="reaction_db_id" linkouturl="" />
+                <attribute name="_displayname" internalname="_displayname" displayname="Reaction name" description="_displayname" linkouturl="" />
+                <attribute name="evidencetype__displayname" internalname="evidencetype__displayname" displayname="Reaction Evidence type" description="evidencetype__displayname" linkouturl="" />
+                <attribute name="species__displayname" internalname="species__displayname" displayname="Reaction Species name" description="species__displayname" linkouturl="" />
+                <attribute name="catalystactivity__displayname" internalname="catalystactivity__displayname" displayname="Reaction catalyst " description="catalystactivity__displayname" linkouturl="" />
+                <attribute name="catalystactivity_activity_accession" internalname="catalystactivity_activity_accession" displayname="Reaction catalyst GO accession" description="catalystactivity_activity_accession" linkouturl="" />
               </container>
               <container enableselectall="" name="complex__features__naive_attributes" displayname="Complex" internalname="complex__features__naive_attributes" description="complex__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="complex__dm_stableidentifier_identifier" internalname="Complex stable ID" displayname="Complex stable ID" description="Complex stable ID" linkouturl="" />
-                <attribute name="complex__dm_stableidentifier_identifierversion" internalname="Complex stable ID version" displayname="Complex stable ID version" description="Complex stable ID version" linkouturl="" />
-                <attribute name="db_id" internalname="Complex DB_ID" displayname="Complex DB_ID" description="Complex DB_ID" linkouturl="" />
-                <attribute name="complex__dm__displayname" internalname="Complex name" displayname="Complex name" description="Complex name" linkouturl="" />
-                <attribute name="complex__dm_species__displayname" internalname="Complex Species name" displayname="Complex Species name" description="Complex Species name" linkouturl="" />
+                <attribute name="complex__dm_stableidentifier_identifier" internalname="complex__dm_stableidentifier_identifier" displayname="Complex stable ID" description="complex__dm_stableidentifier_identifier" linkouturl="" />
+                <attribute name="complex__dm_stableidentifier_identifierversion" internalname="complex__dm_stableidentifier_identifierversion" displayname="Complex stable ID version" description="complex__dm_stableidentifier_identifierversion" linkouturl="" />
+                <attribute name="db_id" internalname="db_id" displayname="Complex DB_ID" description="db_id" linkouturl="" />
+                <attribute name="complex__dm__displayname" internalname="complex__dm__displayname" displayname="Complex name" description="complex__dm__displayname" linkouturl="" />
+                <attribute name="complex__dm_species__displayname" internalname="complex__dm_species__displayname" displayname="Complex Species name" description="complex__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencednasequence__features__naive_attributes" displayname="Gene" internalname="referencednasequence__features__naive_attributes" description="referencednasequence__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencedatabase_entrez_gene" internalname="Gene Entrez ID" displayname="Gene Entrez ID" description="Gene Entrez ID" linkouturl="" />
-                <attribute name="referencedatabase_ensembl" internalname="Gene ENSEMBL ID" displayname="Gene ENSEMBL ID" description="Gene ENSEMBL ID" linkouturl="" />
-                <attribute name="referencedatabase_kegg_gene" internalname="Gene KEGG ID" displayname="Gene KEGG ID" description="Gene KEGG ID" linkouturl="" />
-                <attribute name="referencedatabase_omim" internalname="Gene OMIM ID" displayname="Gene OMIM ID" description="Gene OMIM ID" linkouturl="" />
-                <attribute name="referencednasequence__dm_db_id" internalname="Gene DB_ID" displayname="Gene DB_ID" description="Gene DB_ID" linkouturl="" />
-                <attribute name="referencednasequence__dm__displayname" internalname="Gene name" displayname="Gene name" description="Gene name" linkouturl="" />
-                <attribute name="referencednasequence__dm_species__displayname" internalname="Gene Species name" displayname="Gene Species name" description="Gene Species name" linkouturl="" />
+                <attribute name="referencedatabase_entrez_gene" internalname="referencedatabase_entrez_gene" displayname="Gene Entrez ID" description="referencedatabase_entrez_gene" linkouturl="" />
+                <attribute name="referencedatabase_ensembl" internalname="referencedatabase_ensembl" displayname="Gene ENSEMBL ID" description="referencedatabase_ensembl" linkouturl="" />
+                <attribute name="referencedatabase_kegg_gene" internalname="referencedatabase_kegg_gene" displayname="Gene KEGG ID" description="referencedatabase_kegg_gene" linkouturl="" />
+                <attribute name="referencedatabase_omim" internalname="referencedatabase_omim" displayname="Gene OMIM ID" description="referencedatabase_omim" linkouturl="" />
+                <attribute name="referencednasequence__dm_db_id" internalname="referencednasequence__dm_db_id" displayname="Gene DB_ID" description="referencednasequence__dm_db_id" linkouturl="" />
+                <attribute name="referencednasequence__dm__displayname" internalname="referencednasequence__dm__displayname" displayname="Gene name" description="referencednasequence__dm__displayname" linkouturl="" />
+                <attribute name="referencednasequence__dm_species__displayname" internalname="referencednasequence__dm_species__displayname" displayname="Gene Species name" description="referencednasequence__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencepeptidesequence__features__naive_attributes" displayname="Protein" internalname="referencepeptidesequence__features__naive_attributes" description="referencepeptidesequence__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencepeptidesequence__dm_referencedatabase_ensembl" internalname="Protein ENSEMBL ID" displayname="Protein ENSEMBL ID" description="Protein ENSEMBL ID" linkouturl="" />
-                <attribute name="referencedatabase_uniprot" internalname="Protein UniProt ID" displayname="Protein UniProt ID" description="Protein UniProt ID" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_identifier" internalname="Protein Identifier" displayname="Protein Identifier" description="Protein Identifier" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_db_id" internalname="Protein DB_ID" displayname="Protein DB_ID" description="Protein DB_ID" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm__displayname" internalname="Protein name" displayname="Protein name" description="Protein name" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_species__displayname" internalname="Protein Species name" displayname="Protein Species name" description="Protein Species name" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_referencedatabase_ensembl" internalname="referencepeptidesequence__dm_referencedatabase_ensembl" displayname="Protein ENSEMBL ID" description="referencepeptidesequence__dm_referencedatabase_ensembl" linkouturl="" />
+                <attribute name="referencedatabase_uniprot" internalname="referencedatabase_uniprot" displayname="Protein UniProt ID" description="referencedatabase_uniprot" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_identifier" internalname="referencepeptidesequence__dm_identifier" displayname="Protein Identifier" description="referencepeptidesequence__dm_identifier" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_db_id" internalname="referencepeptidesequence__dm_db_id" displayname="Protein DB_ID" description="referencepeptidesequence__dm_db_id" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm__displayname" internalname="referencepeptidesequence__dm__displayname" displayname="Protein name" description="referencepeptidesequence__dm__displayname" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_species__displayname" internalname="referencepeptidesequence__dm_species__displayname" displayname="Protein Species name" description="referencepeptidesequence__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencemolecule__features__naive_attributes" displayname="Small molecule" internalname="referencemolecule__features__naive_attributes" description="referencemolecule__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencemolecule__dm_db_id" internalname="Molecule DB_ID" displayname="Molecule DB_ID" description="Molecule DB_ID" linkouturl="" />
-                <attribute name="referencedatabase_chebi" internalname="Molecule ChEBI ID" displayname="Molecule ChEBI ID" description="Molecule ChEBI ID" linkouturl="" />
-                <attribute name="referencemolecule__dm__displayname" internalname="Molecule name" displayname="Molecule name" description="Molecule name" linkouturl="" />
-                <attribute name="formula" internalname="Molecule formula" displayname="Molecule formula" description="Molecule formula" linkouturl="" />
+                <attribute name="referencemolecule__dm_db_id" internalname="referencemolecule__dm_db_id" displayname="Molecule DB_ID" description="referencemolecule__dm_db_id" linkouturl="" />
+                <attribute name="referencedatabase_chebi" internalname="referencedatabase_chebi" displayname="Molecule ChEBI ID" description="referencedatabase_chebi" linkouturl="" />
+                <attribute name="referencemolecule__dm__displayname" internalname="referencemolecule__dm__displayname" displayname="Molecule name" description="referencemolecule__dm__displayname" linkouturl="" />
+                <attribute name="formula" internalname="formula" displayname="Molecule formula" description="formula" linkouturl="" />
               </container>
               <container enableselectall="" name="literaturereference__features__naive_attributes" displayname="Literature reference" internalname="literaturereference__features__naive_attributes" description="literaturereference__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="literaturereference__dm_db_id" internalname="Literature DB_ID" displayname="Literature DB_ID" description="Literature DB_ID" linkouturl="" />
-                <attribute name="literaturereference__dm_pubmedidentifier" internalname="Literature PubMed ID" displayname="Literature PubMed ID" description="Literature PubMed ID" linkouturl="" />
-                <attribute name="literaturereference__dm_author_surname" internalname="Literature author surname" displayname="Literature author surname" description="Literature author surname" linkouturl="" />
-                <attribute name="literaturereference__dm_author_initial" internalname="Literature author_initial" displayname="Literature author_initial" description="Literature author_initial" linkouturl="" />
-                <attribute name="literaturereference__dm_author_firstname" internalname="Literature author first name" displayname="Literature author first name" description="Literature author first name" linkouturl="" />
-                <attribute name="literaturereference__dm_journal" internalname="Literature journal" displayname="Literature journal" description="Literature journal" linkouturl="" />
-                <attribute name="literaturereference__dm_year" internalname="Literature year" displayname="Literature year" description="Literature year" linkouturl="" />
-                <attribute name="literaturereference__dm_volume" internalname="Literature volume" displayname="Literature volume" description="Literature volume" linkouturl="" />
-                <attribute name="literaturereference__dm_pages" internalname="Literature pages" displayname="Literature pages" description="Literature pages" linkouturl="" />
-                <attribute name="literaturereference__dm_title" internalname="Literature title" displayname="Literature title" description="Literature title" linkouturl="" />
+                <attribute name="literaturereference__dm_db_id" internalname="literaturereference__dm_db_id" displayname="Literature DB_ID" description="literaturereference__dm_db_id" linkouturl="" />
+                <attribute name="literaturereference__dm_pubmedidentifier" internalname="literaturereference__dm_pubmedidentifier" displayname="Literature PubMed ID" description="literaturereference__dm_pubmedidentifier" linkouturl="" />
+                <attribute name="literaturereference__dm_author_surname" internalname="literaturereference__dm_author_surname" displayname="Literature author surname" description="literaturereference__dm_author_surname" linkouturl="" />
+                <attribute name="literaturereference__dm_author_initial" internalname="literaturereference__dm_author_initial" displayname="Literature author_initial" description="literaturereference__dm_author_initial" linkouturl="" />
+                <attribute name="literaturereference__dm_author_firstname" internalname="literaturereference__dm_author_firstname" displayname="Literature author first name" description="literaturereference__dm_author_firstname" linkouturl="" />
+                <attribute name="literaturereference__dm_journal" internalname="literaturereference__dm_journal" displayname="Literature journal" description="literaturereference__dm_journal" linkouturl="" />
+                <attribute name="literaturereference__dm_year" internalname="literaturereference__dm_year" displayname="Literature year" description="literaturereference__dm_year" linkouturl="" />
+                <attribute name="literaturereference__dm_volume" internalname="literaturereference__dm_volume" displayname="Literature volume" description="literaturereference__dm_volume" linkouturl="" />
+                <attribute name="literaturereference__dm_pages" internalname="literaturereference__dm_pages" displayname="Literature pages" description="literaturereference__dm_pages" linkouturl="" />
+                <attribute name="literaturereference__dm_title" internalname="literaturereference__dm_title" displayname="Literature title" description="literaturereference__dm_title" linkouturl="" />
               </container>
             </container>
           </container>
@@ -2976,8 +2976,8 @@
           <filter name="complex_db_id_list" internalname="complex_db_id_list" displayname="Complex DB_ID(s) (e.g. 12345)" description="complex_db_id_list" />
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="referencepeptidesequence_tigr_id_list" internalname="TIGR protein ID(s) (e.g. At3g15290.1)" displayname="TIGR protein ID(s) (e.g. At3g15290.1)" description="TIGR protein ID(s) (e.g. At3g15290.1)" linkouturl="" />
-          <attribute name="referencepeptidesequence_wormbase_id_list" internalname="Wormbase protein ID(s) (e.g. F54C8.1)" displayname="Wormbase protein ID(s) (e.g. F54C8.1)" description="Wormbase protein ID(s) (e.g. F54C8.1)" linkouturl="" />
+          <attribute name="referencepeptidesequence_tigr_id_list" internalname="referencepeptidesequence_tigr_id_list" displayname="TIGR protein ID(s) (e.g. At3g15290.1)" description="referencepeptidesequence_tigr_id_list" linkouturl="" />
+          <attribute name="referencepeptidesequence_wormbase_id_list" internalname="referencepeptidesequence_wormbase_id_list" displayname="Wormbase protein ID(s) (e.g. F54C8.1)" description="referencepeptidesequence_wormbase_id_list" linkouturl="" />
         </container>
       </container>
     </accesspoint>
@@ -3083,7 +3083,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="pathway" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="670a78121caec77308d2750e753210c5" displayname="pathway" hide="false" version="0.7" key="670a78121caec77308d2750e753210c5" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="pathway" connection="http://bm-test.res.oicr.on.ca:9002/biomart/martservice" database="" schema="" username="" password="a2ee69bc63ec9553eb3fce844f5df692" displayname="pathway" hide="false" version="0.7" key="a2ee69bc63ec9553eb3fce844f5df692" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="pathway">pathway</row>
@@ -3226,73 +3226,73 @@
           <container enableselectall="" name="hidden" displayname="HIDDEN" internalname="hidden" description="hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="hidden__hidden" displayname="HIDDEN" internalname="hidden__hidden" description="hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="hidden__hidden__hidden" displayname="Hidden" internalname="hidden__hidden__hidden" description="hidden__hidden__hidden" hide="true" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="_species__displayname" internalname="Pathway Species name" displayname="Pathway Species name" description="Pathway Species name" linkouturl="" />
+                <attribute name="_species__displayname" internalname="_species__displayname" displayname="Pathway Species name" description="_species__displayname" linkouturl="" />
               </container>
             </container>
           </container>
           <container enableselectall="" name="naive_attributes" displayname="ATTRIBUTES" internalname="naive_attributes" description="naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
             <container enableselectall="" name="features__naive_attributes" displayname="FEATURES" internalname="features__naive_attributes" description="features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
               <container enableselectall="" name="pathway__features__naive_attributes" displayname="Pathway" internalname="pathway__features__naive_attributes" description="pathway__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="stableidentifier_identifier" internalname="Pathway stable ID" displayname="Pathway stable ID" description="Pathway stable ID" linkouturl="" />
-                <attribute name="stableidentifier_identifierversion" internalname="Pathway stable ID version" displayname="Pathway stable ID version" description="Pathway stable ID version" linkouturl="" />
-                <attribute name="pathway_db_id" internalname="Pathway DB_ID" displayname="Pathway DB_ID" description="Pathway DB_ID" linkouturl="" />
-                <attribute name="_displayname" internalname="Pathway name" displayname="Pathway name" description="Pathway name" linkouturl="" />
-                <attribute name="species__displayname" internalname="Pathway Species name" displayname="Pathway Species name" description="Pathway Species name" linkouturl="" />
-                <attribute name="evidencetype__displayname" internalname="Pathway Evidence type" displayname="Pathway Evidence type" description="Pathway Evidence type" linkouturl="" />
-                <attribute name="gobiologicalprocess_accession" internalname="Pathway GO accession" displayname="Pathway GO accession" description="Pathway GO accession" linkouturl="" />
-                <attribute name="is_canonical" internalname="Pathway canonical" displayname="Pathway canonical" description="Pathway canonical" linkouturl="" />
+                <attribute name="stableidentifier_identifier" internalname="stableidentifier_identifier" displayname="Pathway stable ID" description="stableidentifier_identifier" linkouturl="" />
+                <attribute name="stableidentifier_identifierversion" internalname="stableidentifier_identifierversion" displayname="Pathway stable ID version" description="stableidentifier_identifierversion" linkouturl="" />
+                <attribute name="pathway_db_id" internalname="pathway_db_id" displayname="Pathway DB_ID" description="pathway_db_id" linkouturl="" />
+                <attribute name="_displayname" internalname="_displayname" displayname="Pathway name" description="_displayname" linkouturl="" />
+                <attribute name="species__displayname" internalname="species__displayname" displayname="Pathway Species name" description="species__displayname" linkouturl="" />
+                <attribute name="evidencetype__displayname" internalname="evidencetype__displayname" displayname="Pathway Evidence type" description="evidencetype__displayname" linkouturl="" />
+                <attribute name="gobiologicalprocess_accession" internalname="gobiologicalprocess_accession" displayname="Pathway GO accession" description="gobiologicalprocess_accession" linkouturl="" />
+                <attribute name="is_canonical" internalname="is_canonical" displayname="Pathway canonical" description="is_canonical" linkouturl="" />
               </container>
               <container enableselectall="" name="complex__features__naive_attributes" displayname="Complex" internalname="complex__features__naive_attributes" description="complex__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="complex__dm_stableidentifier_identifier" internalname="Complex stable ID" displayname="Complex stable ID" description="Complex stable ID" linkouturl="" />
-                <attribute name="complex__dm_stableidentifier_identifierversion" internalname="Complex stable ID version" displayname="Complex stable ID version" description="Complex stable ID version" linkouturl="" />
-                <attribute name="db_id" internalname="Complex DB_ID" displayname="Complex DB_ID" description="Complex DB_ID" linkouturl="" />
-                <attribute name="complex__dm__displayname" internalname="Complex name" displayname="Complex name" description="Complex name" linkouturl="" />
-                <attribute name="complex__dm_species__displayname" internalname="Complex Species name" displayname="Complex Species name" description="Complex Species name" linkouturl="" />
+                <attribute name="complex__dm_stableidentifier_identifier" internalname="complex__dm_stableidentifier_identifier" displayname="Complex stable ID" description="complex__dm_stableidentifier_identifier" linkouturl="" />
+                <attribute name="complex__dm_stableidentifier_identifierversion" internalname="complex__dm_stableidentifier_identifierversion" displayname="Complex stable ID version" description="complex__dm_stableidentifier_identifierversion" linkouturl="" />
+                <attribute name="db_id" internalname="db_id" displayname="Complex DB_ID" description="db_id" linkouturl="" />
+                <attribute name="complex__dm__displayname" internalname="complex__dm__displayname" displayname="Complex name" description="complex__dm__displayname" linkouturl="" />
+                <attribute name="complex__dm_species__displayname" internalname="complex__dm_species__displayname" displayname="Complex Species name" description="complex__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="reaction__features__naive_attributes" displayname="Reaction" internalname="reaction__features__naive_attributes" description="reaction__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="reaction__dm_stableidentifier_identifier" internalname="Reaction stable ID" displayname="Reaction stable ID" description="Reaction stable ID" linkouturl="" />
-                <attribute name="reaction__dm_stableidentifier_identifierversion" internalname="Reaction stable ID version" displayname="Reaction stable ID version" description="Reaction stable ID version" linkouturl="" />
-                <attribute name="reaction__dm_db_id" internalname="Reaction DB_ID" displayname="Reaction DB_ID" description="Reaction DB_ID" linkouturl="" />
-                <attribute name="reaction__dm__displayname" internalname="Reaction name" displayname="Reaction name" description="Reaction name" linkouturl="" />
-                <attribute name="reaction__dm_species__displayname" internalname="Reaction Species name" displayname="Reaction Species name" description="Reaction Species name" linkouturl="" />
-                <attribute name="reaction__dm_evidencetype__displayname" internalname="Reaction Evidencetype" displayname="Reaction Evidencetype" description="Reaction Evidencetype" linkouturl="" />
-                <attribute name="reaction__dm_gobiologicalprocess_accession" internalname="Reaction GO accession" displayname="Reaction GO accession" description="Reaction GO accession" linkouturl="" />
-                <attribute name="catalystactivity__displayname" internalname="Reaction Catalyst activity" displayname="Reaction Catalyst activity" description="Reaction Catalyst activity" linkouturl="" />
+                <attribute name="reaction__dm_stableidentifier_identifier" internalname="reaction__dm_stableidentifier_identifier" displayname="Reaction stable ID" description="reaction__dm_stableidentifier_identifier" linkouturl="" />
+                <attribute name="reaction__dm_stableidentifier_identifierversion" internalname="reaction__dm_stableidentifier_identifierversion" displayname="Reaction stable ID version" description="reaction__dm_stableidentifier_identifierversion" linkouturl="" />
+                <attribute name="reaction__dm_db_id" internalname="reaction__dm_db_id" displayname="Reaction DB_ID" description="reaction__dm_db_id" linkouturl="" />
+                <attribute name="reaction__dm__displayname" internalname="reaction__dm__displayname" displayname="Reaction name" description="reaction__dm__displayname" linkouturl="" />
+                <attribute name="reaction__dm_species__displayname" internalname="reaction__dm_species__displayname" displayname="Reaction Species name" description="reaction__dm_species__displayname" linkouturl="" />
+                <attribute name="reaction__dm_evidencetype__displayname" internalname="reaction__dm_evidencetype__displayname" displayname="Reaction Evidencetype" description="reaction__dm_evidencetype__displayname" linkouturl="" />
+                <attribute name="reaction__dm_gobiologicalprocess_accession" internalname="reaction__dm_gobiologicalprocess_accession" displayname="Reaction GO accession" description="reaction__dm_gobiologicalprocess_accession" linkouturl="" />
+                <attribute name="catalystactivity__displayname" internalname="catalystactivity__displayname" displayname="Reaction Catalyst activity" description="catalystactivity__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencednasequence__features__naive_attributes" displayname="Gene" internalname="referencednasequence__features__naive_attributes" description="referencednasequence__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencedatabase_entrez_gene" internalname="Gene Entrez ID" displayname="Gene Entrez ID" description="Gene Entrez ID" linkouturl="" />
-                <attribute name="referencedatabase_ensembl" internalname="Gene ENSEMBL ID" displayname="Gene ENSEMBL ID" description="Gene ENSEMBL ID" linkouturl="" />
-                <attribute name="referencedatabase_kegg_gene" internalname="Gene KEGG ID" displayname="Gene KEGG ID" description="Gene KEGG ID" linkouturl="" />
-                <attribute name="referencedatabase_omim" internalname="Gene OMIM ID" displayname="Gene OMIM ID" description="Gene OMIM ID" linkouturl="" />
-                <attribute name="referencednasequence__dm_db_id" internalname="Gene DB_ID" displayname="Gene DB_ID" description="Gene DB_ID" linkouturl="" />
-                <attribute name="referencednasequence__dm__displayname" internalname="Gene name" displayname="Gene name" description="Gene name" linkouturl="" />
-                <attribute name="referencednasequence__dm_species__displayname" internalname="Gene Species name" displayname="Gene Species name" description="Gene Species name" linkouturl="" />
+                <attribute name="referencedatabase_entrez_gene" internalname="referencedatabase_entrez_gene" displayname="Gene Entrez ID" description="referencedatabase_entrez_gene" linkouturl="" />
+                <attribute name="referencedatabase_ensembl" internalname="referencedatabase_ensembl" displayname="Gene ENSEMBL ID" description="referencedatabase_ensembl" linkouturl="" />
+                <attribute name="referencedatabase_kegg_gene" internalname="referencedatabase_kegg_gene" displayname="Gene KEGG ID" description="referencedatabase_kegg_gene" linkouturl="" />
+                <attribute name="referencedatabase_omim" internalname="referencedatabase_omim" displayname="Gene OMIM ID" description="referencedatabase_omim" linkouturl="" />
+                <attribute name="referencednasequence__dm_db_id" internalname="referencednasequence__dm_db_id" displayname="Gene DB_ID" description="referencednasequence__dm_db_id" linkouturl="" />
+                <attribute name="referencednasequence__dm__displayname" internalname="referencednasequence__dm__displayname" displayname="Gene name" description="referencednasequence__dm__displayname" linkouturl="" />
+                <attribute name="referencednasequence__dm_species__displayname" internalname="referencednasequence__dm_species__displayname" displayname="Gene Species name" description="referencednasequence__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencepeptidesequence__features__naive_attributes" displayname="Protein" internalname="referencepeptidesequence__features__naive_attributes" description="referencepeptidesequence__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencepeptidesequence__dm_referencedatabase_ensembl" internalname="Protein ENSEMBL ID" displayname="Protein ENSEMBL ID" description="Protein ENSEMBL ID" linkouturl="" />
-                <attribute name="referencedatabase_uniprot" internalname="Protein UniProt ID" displayname="Protein UniProt ID" description="Protein UniProt ID" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_identifier" internalname="Protein Identifier" displayname="Protein Identifier" description="Protein Identifier" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_db_id" internalname="Protein DB_ID" displayname="Protein DB_ID" description="Protein DB_ID" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm__displayname" internalname="Protein name" displayname="Protein name" description="Protein name" linkouturl="" />
-                <attribute name="referencepeptidesequence__dm_species__displayname" internalname="Protein Species name" displayname="Protein Species name" description="Protein Species name" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_referencedatabase_ensembl" internalname="referencepeptidesequence__dm_referencedatabase_ensembl" displayname="Protein ENSEMBL ID" description="referencepeptidesequence__dm_referencedatabase_ensembl" linkouturl="" />
+                <attribute name="referencedatabase_uniprot" internalname="referencedatabase_uniprot" displayname="Protein UniProt ID" description="referencedatabase_uniprot" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_identifier" internalname="referencepeptidesequence__dm_identifier" displayname="Protein Identifier" description="referencepeptidesequence__dm_identifier" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_db_id" internalname="referencepeptidesequence__dm_db_id" displayname="Protein DB_ID" description="referencepeptidesequence__dm_db_id" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm__displayname" internalname="referencepeptidesequence__dm__displayname" displayname="Protein name" description="referencepeptidesequence__dm__displayname" linkouturl="" />
+                <attribute name="referencepeptidesequence__dm_species__displayname" internalname="referencepeptidesequence__dm_species__displayname" displayname="Protein Species name" description="referencepeptidesequence__dm_species__displayname" linkouturl="" />
               </container>
               <container enableselectall="" name="referencemolecule__features__naive_attributes" displayname="Small Molecule" internalname="referencemolecule__features__naive_attributes" description="referencemolecule__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="referencemolecule__dm_db_id" internalname="Molecule DB_ID" displayname="Molecule DB_ID" description="Molecule DB_ID" linkouturl="" />
-                <attribute name="referencedatabase_chebi" internalname="Molecule ChEBI ID" displayname="Molecule ChEBI ID" description="Molecule ChEBI ID" linkouturl="" />
-                <attribute name="referencemolecule__dm__displayname" internalname="Molecule name" displayname="Molecule name" description="Molecule name" linkouturl="" />
-                <attribute name="formula" internalname="Molecule formula" displayname="Molecule formula" description="Molecule formula" linkouturl="" />
+                <attribute name="referencemolecule__dm_db_id" internalname="referencemolecule__dm_db_id" displayname="Molecule DB_ID" description="referencemolecule__dm_db_id" linkouturl="" />
+                <attribute name="referencedatabase_chebi" internalname="referencedatabase_chebi" displayname="Molecule ChEBI ID" description="referencedatabase_chebi" linkouturl="" />
+                <attribute name="referencemolecule__dm__displayname" internalname="referencemolecule__dm__displayname" displayname="Molecule name" description="referencemolecule__dm__displayname" linkouturl="" />
+                <attribute name="formula" internalname="formula" displayname="Molecule formula" description="formula" linkouturl="" />
               </container>
               <container enableselectall="" name="literaturereference__features__naive_attributes" displayname="Literature reference" internalname="literaturereference__features__naive_attributes" description="literaturereference__features__naive_attributes" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-                <attribute name="literaturereference__dm_db_id" internalname="Literature DB_ID" displayname="Literature DB_ID" description="Literature DB_ID" linkouturl="" />
-                <attribute name="literaturereference__dm_pubmedidentifier" internalname="Literature PubMed ID" displayname="Literature PubMed ID" description="Literature PubMed ID" linkouturl="" />
-                <attribute name="literaturereference__dm_author_surname" internalname="Literature author surname" displayname="Literature author surname" description="Literature author surname" linkouturl="" />
-                <attribute name="literaturereference__dm_author_initial" internalname="Literature author_initial" displayname="Literature author_initial" description="Literature author_initial" linkouturl="" />
-                <attribute name="literaturereference__dm_author_firstname" internalname="Literature author first name" displayname="Literature author first name" description="Literature author first name" linkouturl="" />
-                <attribute name="literaturereference__dm_journal" internalname="Literature journal" displayname="Literature journal" description="Literature journal" linkouturl="" />
-                <attribute name="literaturereference__dm_year" internalname="Literature year" displayname="Literature year" description="Literature year" linkouturl="" />
-                <attribute name="literaturereference__dm_volume" internalname="Literature volume" displayname="Literature volume" description="Literature volume" linkouturl="" />
-                <attribute name="literaturereference__dm_pages" internalname="Literature pages" displayname="Literature pages" description="Literature pages" linkouturl="" />
-                <attribute name="literaturereference__dm_title" internalname="Literature title" displayname="Literature title" description="Literature title" linkouturl="" />
+                <attribute name="literaturereference__dm_db_id" internalname="literaturereference__dm_db_id" displayname="Literature DB_ID" description="literaturereference__dm_db_id" linkouturl="" />
+                <attribute name="literaturereference__dm_pubmedidentifier" internalname="literaturereference__dm_pubmedidentifier" displayname="Literature PubMed ID" description="literaturereference__dm_pubmedidentifier" linkouturl="" />
+                <attribute name="literaturereference__dm_author_surname" internalname="literaturereference__dm_author_surname" displayname="Literature author surname" description="literaturereference__dm_author_surname" linkouturl="" />
+                <attribute name="literaturereference__dm_author_initial" internalname="literaturereference__dm_author_initial" displayname="Literature author_initial" description="literaturereference__dm_author_initial" linkouturl="" />
+                <attribute name="literaturereference__dm_author_firstname" internalname="literaturereference__dm_author_firstname" displayname="Literature author first name" description="literaturereference__dm_author_firstname" linkouturl="" />
+                <attribute name="literaturereference__dm_journal" internalname="literaturereference__dm_journal" displayname="Literature journal" description="literaturereference__dm_journal" linkouturl="" />
+                <attribute name="literaturereference__dm_year" internalname="literaturereference__dm_year" displayname="Literature year" description="literaturereference__dm_year" linkouturl="" />
+                <attribute name="literaturereference__dm_volume" internalname="literaturereference__dm_volume" displayname="Literature volume" description="literaturereference__dm_volume" linkouturl="" />
+                <attribute name="literaturereference__dm_pages" internalname="literaturereference__dm_pages" displayname="Literature pages" description="literaturereference__dm_pages" linkouturl="" />
+                <attribute name="literaturereference__dm_title" internalname="literaturereference__dm_title" displayname="Literature title" description="literaturereference__dm_title" linkouturl="" />
               </container>
             </container>
           </container>
@@ -3324,8 +3324,8 @@
           <filter name="complex_db_id_list" internalname="complex_db_id_list" displayname="Complex DB_ID(s) (e.g. 54321)" description="complex_db_id_list" />
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <attribute name="referencepeptidesequence_tigr_id_list" internalname="TIGR protein ID(s) (e.g. At3g15290.1)" displayname="TIGR protein ID(s) (e.g. At3g15290.1)" description="TIGR protein ID(s) (e.g. At3g15290.1)" linkouturl="" />
-          <attribute name="referencepeptidesequence_wormbase_id_list" internalname="Wormbase protein ID(s) (e.g. F54C8.1)" displayname="Wormbase protein ID(s) (e.g. F54C8.1)" description="Wormbase protein ID(s) (e.g. F54C8.1)" linkouturl="" />
+          <attribute name="referencepeptidesequence_tigr_id_list" internalname="referencepeptidesequence_tigr_id_list" displayname="TIGR protein ID(s) (e.g. At3g15290.1)" description="referencepeptidesequence_tigr_id_list" linkouturl="" />
+          <attribute name="referencepeptidesequence_wormbase_id_list" internalname="referencepeptidesequence_wormbase_id_list" displayname="Wormbase protein ID(s) (e.g. F54C8.1)" description="referencepeptidesequence_wormbase_id_list" linkouturl="" />
         </container>
       </container>
     </accesspoint>
