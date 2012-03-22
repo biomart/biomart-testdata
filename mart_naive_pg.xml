@@ -11,8 +11,6 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="public_public_ap" internalname="public_ap" displayname="public_ap" description="public_ap" mart="public" accesspoint="public_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
       <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
     </guicontainer>
   </portal>
@@ -563,7 +561,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:postgresql://biomartdb-dev.res.oicr.on.ca:5432/" database="vega_mart_58" schema="public" username="martadmin" password="30ad57507cc087639f089103a28cc72a" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="0e87fb948944b69244a1f790d29c2041" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:postgresql://biomartdb-dev.res.oicr.on.ca:5432/" database="vega_mart_58" schema="public" username="martadmin" password="d6a54588823cb02698a4f049b9a9585b" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="5e6280de0e29cde8ff4c84d9b246b4b3" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>

@@ -11,8 +11,6 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="dbo_dbo_ap" internalname="dbo_ap" displayname="dbo_ap" description="dbo_ap" mart="dbo" accesspoint="dbo_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
       <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
     </guicontainer>
   </portal>
@@ -563,7 +561,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="vega_mart_58" schema="dbo" username="martadmin" password="3f17e1dcb9dfb594889ee447a69cba8c" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="f2bf4a31ca637e6bfdc35e78ed55b97e" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="vega_mart_58" schema="dbo" username="martadmin" password="d5ac1c6f255df5ae5b884d2998642c21" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="038ff3894cec631c467758d090d00df7" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega</row>

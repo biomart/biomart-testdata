@@ -484,7 +484,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="e1aca782efcd83e8547dbc696cb0bd5b146f4b28d175360273618316006d939ee43278cec72b272b6ace87616a6daddb" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="720caca693348f5a56449d3eb184195bcda0265dae7e9955eeacc1c4862f4183dee87ed5433730b684e037c2d301b3b0" displayname="Homo sapiens genes (GRCh37.p5)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">hsapiens_gene_vega|hsap_karyotype_start|hsap_encode|hsap_karyotype_end|hsap_marker_end|hsap_marker_start|hsapiens_genomic_sequence</row>
@@ -879,6 +879,7 @@
           <analysisparameter name="additionalAttributes" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="__none__" multivalue="" description="" min="" max="" />
           <analysisparameter name="limit" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="20" multivalue="" description="Limit the amount of data points to return" min="" max="" />
           <analysisparameter name="sorted" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="false" multivalue="" description="Whether to sort the results based on the y values" min="" max="" />
+          <analysisparameter name="tooltip" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="Rendering information for tooltips" min="" max="" />
         </analysiscontainer>
       </analysis>
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="" />
@@ -1244,7 +1245,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="e1aca782efcd83e8547dbc696cb0bd5b146f4b28d175360273618316006d939ee43278cec72b272b6ace87616a6daddb" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="mmusculus_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="720caca693348f5a56449d3eb184195bcda0265dae7e9955eeacc1c4862f4183dee87ed5433730b684e037c2d301b3b0" displayname="Mus musculus genes (NCBIM37)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="mmusculus_gene_vega">mmusculus_gene_vega|mmus_karyotype_start|mmus_karyotype_end|mmus_marker_end|mmus_marker_start|mmusculus_genomic_sequence</row>
@@ -1862,7 +1863,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="e1aca782efcd83e8547dbc696cb0bd5b146f4b28d175360273618316006d939ee43278cec72b272b6ace87616a6daddb" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
+      <row id="drerio_gene_vega" connection="http://www.biomart.org:80/biomart/martservice" database="" schema="" username="" password="720caca693348f5a56449d3eb184195bcda0265dae7e9955eeacc1c4862f4183dee87ed5433730b684e037c2d301b3b0" displayname="Danio rerio genes (Zv9)" hide="false" version="0.7" key="" mdatabase="default" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="drerio_gene_vega">drerio_gene_vega|drer_marker_end|drer_marker_start|drerio_genomic_sequence</row>
