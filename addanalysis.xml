@@ -879,7 +879,7 @@
           <analysisparameter name="additionalAttributes" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="__none__" multivalue="" description="" min="" max="" />
           <analysisparameter name="limit" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="20" multivalue="" description="Limit the amount of data points to return" min="" max="" />
           <analysisparameter name="sorted" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="false" multivalue="" description="Whether to sort the results based on the y values" min="" max="" />
-          <analysisparameter name="tooltip" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="Rendering information for tooltips" min="" max="" />
+          <analysisparameter name="tooltip" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="false" defaultvalue="" multivalue="" description="Rendering information for tooltips" min="" max="" />
         </analysiscontainer>
       </analysis>
       <container enableselectall="" name="root" displayname="root" internalname="root" description="root" hide="false" maxcontainers="" maxattributes="" independentquerying="" />
