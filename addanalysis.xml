@@ -880,6 +880,7 @@
           <analysisparameter name="limit" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="20" multivalue="" description="Limit the amount of data points to return" min="" max="" />
           <analysisparameter name="sorted" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="false" multivalue="" description="Whether to sort the results based on the y values" min="" max="" />
           <analysisparameter name="tooltip" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="Rendering information for tooltips" min="" max="" />
+          <analysisparameter name="popup" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="Attribute that should be used in annotation pop-ups" min="" max="" />
           <analysisparameter name="xAxisLabel" mart="gene_vega" config="chart_analysis" displayname="" parametervalue="" public="true" defaultvalue="" multivalue="" description="Rendering information for x axis label" min="" max="" />
         </analysiscontainer>
       </analysis>
