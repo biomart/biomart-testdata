@@ -19,7 +19,7 @@
   </sourcecontainers>
   <mart sourcecontainer="default" name="gene" internalname="gene" displayname="gene" description="gene" hide="false" id="" optimiser="NONE" indexoptimised="false" virtual="true" searchfromtarget="" centraltable="GENE" selectedtables="GENE,TRANSCRIPT,TRANSLATION">
     <dataset>
-      <row id="MARTADM" connection="jdbc:db2://biomartdb-dev.res.oicr.on.ca:50000/" database="vega58hs" schema="MARTADM" username="martadm" password="5a5ee8d5f6b07799aaaa8f0cd3843103" displayname="MARTADM" hide="false" version="0.8" key="" mdatabase="vega58hs" mschema="MARTADM" musername="martadm" mpassword="Bi0M4rt" />
+      <row id="MARTADM" connection="jdbc:db2://biomartdb-dev.res.oicr.on.ca:50000/" database="vega58hs" schema="MARTADM" username="martadm" password="1982ce48754f8d7bc8fd4949e59b1ea4" displayname="MARTADM" hide="false" version="0.8" key="" mdatabase="vega58hs" mschema="MARTADM" musername="martadm" mpassword="Bi0M4rt" />
     </dataset>
     <partitiontable>
       <row id="MARTADM" />

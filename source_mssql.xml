@@ -19,7 +19,7 @@
   </sourcecontainers>
   <mart sourcecontainer="default" name="gene" internalname="gene" displayname="gene" description="gene" hide="false" id="" optimiser="NONE" indexoptimised="false" virtual="true" searchfromtarget="" centraltable="gene" selectedtables="gene,transcript,translation">
     <dataset>
-      <row id="dbo" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="homo_sapiens_vega_58_37c" schema="dbo" username="martadmin" password="7bc0578d1b949e572bc2ab23f7705e9d" displayname="dbo" hide="false" version="0.8" key="" mdatabase="homo_sapiens_vega_58_37c" mschema="dbo" musername="martadmin" mpassword="Bi0M4rt" />
+      <row id="dbo" connection="jdbc:sqlserver://arektest.res.oicr.on.ca:1509" database="homo_sapiens_vega_58_37c" schema="dbo" username="martadmin" password="f4d51a6b08e7a0c97178831e235a5fef" displayname="dbo" hide="false" version="0.8" key="" mdatabase="homo_sapiens_vega_58_37c" mschema="dbo" musername="martadmin" mpassword="Bi0M4rt" />
     </dataset>
     <partitiontable>
       <row id="dbo" />

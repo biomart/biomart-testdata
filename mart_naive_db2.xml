@@ -11,9 +11,9 @@
       <guicontainer name="default" internalname="default" displayname="default" description="default" hide="false" inusers="anonymous" guitype="martform">
         <guiaccesspoint group="" name="martadm_martadm_ap" internalname="martadm_ap" displayname="martadm_ap" description="martadm_ap" mart="martadm" accesspoint="martadm_ap" operation="singleselect" icon="" independentquerying="false" inusers="anonymous" />
       </guicontainer>
-      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="martanalysis" />
-      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="martsearch" />
-      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="martreport" />
+      <guicontainer name="analysis" internalname="analysis" displayname="analysis" description="analysis" hide="false" inusers="anonymous" guitype="analysis" />
+      <guicontainer name="search" internalname="search" displayname="search" description="search" hide="false" inusers="anonymous" guitype="search" />
+      <guicontainer name="report" internalname="report" displayname="report" description="report" hide="false" inusers="anonymous" guitype="report" />
     </guicontainer>
   </portal>
   <sourcecontainers name="root" internalname="root" displayname="root" description="" hide="false">
@@ -563,7 +563,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="hsapiens_gene_vega" connection="jdbc:db2://biomartdb-dev.res.oicr.on.ca:50000/" database="vega_58" schema="MARTADM" username="martadm" password="4d04d14637d78ad321cf26486eff6688" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="9cc379e09c2b0c7fc7193d683e6d7c55" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="hsapiens_gene_vega" connection="jdbc:db2://biomartdb-dev.res.oicr.on.ca:50000/" database="vega_58" schema="MARTADM" username="martadm" password="a75df8a22fc505a61ea702178ad8e9c6" displayname="hsapiens_gene_vega" hide="false" version="0.8" key="8982474893850760fb8e8304dde366e7" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="hsapiens_gene_vega">HSAPIENS_GENE_VEGA</row>

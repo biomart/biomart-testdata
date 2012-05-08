@@ -19,7 +19,7 @@
   </sourcecontainers>
   <mart sourcecontainer="default" name="gene" internalname="gene" displayname="gene" description="gene" hide="false" id="" optimiser="NONE" indexoptimised="false" virtual="true" searchfromtarget="" centraltable="gene" selectedtables="gene,transcript,translation">
     <dataset>
-      <row id="homo_sapiens_core_59_37d" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="homo_sapiens_core_59_37d" schema="homo_sapiens_core_59_37d" username="martadmin" password="e0ffcfe6a14433a7ebfd9d28c50526fc" displayname="homo_sapiens_core_59_37d" hide="false" version="0.8" key="" mdatabase="homo_sapiens_core_59_37d" mschema="homo_sapiens_core_59_37d" musername="martadmin" mpassword="Bi0M4rt" />
+      <row id="homo_sapiens_core_59_37d" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="homo_sapiens_core_59_37d" schema="homo_sapiens_core_59_37d" username="martadmin" password="18ff02cff2f1226b9477712642f57f80" displayname="homo_sapiens_core_59_37d" hide="false" version="0.8" key="" mdatabase="homo_sapiens_core_59_37d" mschema="homo_sapiens_core_59_37d" musername="martadmin" mpassword="Bi0M4rt" />
     </dataset>
     <partitiontable>
       <row id="homo_sapiens_core_59_37d" />

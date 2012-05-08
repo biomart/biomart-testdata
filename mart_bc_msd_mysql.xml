@@ -220,7 +220,7 @@
       </relations>
     </schema>
     <dataset>
-      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="6ee28ecf7d44572280e0034a355ad3b6" displayname="MSD Protein Structures" hide="false" version="0.7" key="" mdatabase="" mschema="" musername="" mpassword="" />
+      <row id="msd" connection="jdbc:mysql://biomartdb-dev.res.oicr.on.ca:3306/" database="msd_mart_4" schema="msd_mart_4" username="martadmin" password="48693a4276d9b7440c635e1b0046fadf" displayname="MSD Protein Structures" hide="false" version="0.7" key="" mdatabase="" mschema="" musername="" mpassword="" />
     </dataset>
     <partitiontable>
       <row id="msd">msd</row>
@@ -373,23 +373,23 @@
         </container>
         <container enableselectall="" name="filters" displayname="Filters" internalname="filters" description="filters" hide="false" maxcontainers="" maxattributes="" independentquerying="">
           <container enableselectall="" name="filters__filters" displayname="FILTERS" internalname="filters__filters" description="filters__filters" hide="false" maxcontainers="" maxattributes="0" independentquerying="">
-            <filter name="pdb_id" internalname="pdb_id" displayname="PDB ID" description="pdb_id" />
-            <filter name="uniprot_ac" internalname="uniprot_ac" displayname="UniProt Accession ID(s)" description="uniprot_ac" />
-            <filter name="experiment_type" internalname="experiment_type" displayname="Experiment type" description="experiment_type" />
-            <filter name="assembly_code" internalname="assembly_code" displayname="Assembly code" description="assembly_code" />
-            <filter name="assembly_class" internalname="assembly_class" displayname="Assembly class" description="assembly_class" />
-            <filter name="assembly_type" internalname="assembly_type" displayname="Assembly type" description="assembly_type" />
-            <filter name="assembly_form" internalname="assembly_form" displayname="Assembly form" description="assembly_form" />
-            <filter name="naive_id_list_filters" internalname="naive_id_list_filters" displayname="ID LIST" description="naive_id_list_filters" />
+            <filter name="pdb_id" internalname="pdb_id" displayname="PDB ID" description="pdb_id" required="" />
+            <filter name="uniprot_ac" internalname="uniprot_ac" displayname="UniProt Accession ID(s)" description="uniprot_ac" required="" />
+            <filter name="experiment_type" internalname="experiment_type" displayname="Experiment type" description="experiment_type" required="" />
+            <filter name="assembly_code" internalname="assembly_code" displayname="Assembly code" description="assembly_code" required="" />
+            <filter name="assembly_class" internalname="assembly_class" displayname="Assembly class" description="assembly_class" required="" />
+            <filter name="assembly_type" internalname="assembly_type" displayname="Assembly type" description="assembly_type" required="" />
+            <filter name="assembly_form" internalname="assembly_form" displayname="Assembly form" description="assembly_form" required="" />
+            <filter name="naive_id_list_filters" internalname="naive_id_list_filters" displayname="ID LIST" description="naive_id_list_filters" required="" />
           </container>
         </container>
         <container enableselectall="" name="naive_id_list_filters_list_container" displayname="naive_id_list_filters_list_container" internalname="naive_id_list_filters_list_container" description="naive_id_list_filters_list_container" hide="true" maxcontainers="" maxattributes="" independentquerying="">
-          <filter name="with_has_ec_info" internalname="with_has_ec_info" displayname="with Has ec info ID(s)" description="with_has_ec_info" />
-          <filter name="with_has_interpro_info" internalname="with_has_interpro_info" displayname="with Has interpro info ID(s)" description="with_has_interpro_info" />
-          <filter name="with_has_go_info" internalname="with_has_go_info" displayname="with Has go info ID(s)" description="with_has_go_info" />
-          <filter name="with_has_pfam_info" internalname="with_has_pfam_info" displayname="with Has pfam info ID(s)" description="with_has_pfam_info" />
-          <filter name="with_has_cath" internalname="with_has_cath" displayname="with Has cath ID(s)" description="with_has_cath" />
-          <filter name="with_has_scop" internalname="with_has_scop" displayname="with Has scop ID(s)" description="with_has_scop" />
+          <filter name="with_has_ec_info" internalname="with_has_ec_info" displayname="with Has ec info ID(s)" description="with_has_ec_info" required="" />
+          <filter name="with_has_interpro_info" internalname="with_has_interpro_info" displayname="with Has interpro info ID(s)" description="with_has_interpro_info" required="" />
+          <filter name="with_has_go_info" internalname="with_has_go_info" displayname="with Has go info ID(s)" description="with_has_go_info" required="" />
+          <filter name="with_has_pfam_info" internalname="with_has_pfam_info" displayname="with Has pfam info ID(s)" description="with_has_pfam_info" required="" />
+          <filter name="with_has_cath" internalname="with_has_cath" displayname="with Has cath ID(s)" description="with_has_cath" required="" />
+          <filter name="with_has_scop" internalname="with_has_scop" displayname="with Has scop ID(s)" description="with_has_scop" required="" />
         </container>
         <container enableselectall="" name="attributes_created_by_bc" displayname="Attributes created by BC" internalname="attributes_created_by_bc" description="attributes_created_by_bc" hide="true" maxcontainers="" maxattributes="" independentquerying="">
           <attribute name="with_has_ec_info" internalname="with_has_ec_info" displayname="with Has ec info ID(s)" description="with_has_ec_info" defaultselected="" />
